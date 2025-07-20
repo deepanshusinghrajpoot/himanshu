@@ -1,0 +1,40 @@
+{
+  "account": [
+    {
+      "id": "1",
+      "amount": 100
+    },
+    {
+      "id": "51b0",
+      "amount": "76234",
+      "userId": 2
+    },
+    {
+      "id": "af9b",
+      "userId": 3,
+      "amount": "67253"
+    }
+  ],
+  "bonus": [
+    {
+      "id": "1",
+      "points": 1
+    },
+    {
+      "id": "2",
+      "points": 2
+    },
+    {
+      "id": "3",
+      "points": 3
+    },
+    {
+      "id": "4",
+      "points": 4
+    },
+    {
+      "id": "5",
+      "points": 5
+    }
+  ]
+}
