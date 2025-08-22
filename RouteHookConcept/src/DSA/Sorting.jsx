@@ -6,22 +6,26 @@ import React from 'react'
 
 
 
-Insertion Sort
+Selection Sort
 --------------
 
 #include <bits/stdc++.h> 
-void insertionSort(int n, vector<int> &arr){
+void selectionSort(vector<int>& arr, int n)
+{   
     // Write your code here.
     
-    for(int i=0; i<=n-1; i++){
-        int j = i;
-        while(j > 0){
-            if(arr[j-1] > arr[j]){
-                swap(arr[j], arr[j-1]);
-            }
-            j--;
-        }
-    }
+   for(int i=0; i<=n-1; i++){
+       int j=i;
+       while(j>0){
+           if(arr[j-1] > arr[j]){
+               int temp = arr[j];
+               arr[j] = arr[j-1];
+               arr[j-1] = temp;
+           }
+           j--;
+       }
+   }
+
 }
 
 T.C = O(n^2)
