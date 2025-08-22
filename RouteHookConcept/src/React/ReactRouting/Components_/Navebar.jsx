@@ -30,7 +30,8 @@ const Navebar = () => {
         </div>
         <div className='navbar'>
             <ul>
-                <Link to='/eventLoop' ><li>(1). Event Loop all question</li></Link>
+                <Link to='/eventLoop' ><li>(1). 1. What is JavaScript </li></Link>
+                <Link to='/eventLoop' ><li>2. GEC, Queue, Event Loop all question</li></Link>
             </ul>
             <ul>
                 <Link to='/this' ><li>(2). this concept</li></Link>
@@ -136,6 +137,19 @@ const Navebar = () => {
         <div className='navbar'>
             <ul>
                 <li><h1>NodeJs all interview question</h1></li>
+            </ul>
+        </div>
+
+
+
+        <div className='navbar'>
+            <ul>
+                <li><h1>SQL</h1></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='/AnkiBansal2hourComponent' ><li>(1). Ankit Bansal 2 hour concept.</li></Link>
             </ul>
         </div>
     </div>

@@ -38,10 +38,12 @@ Promise.all([p1, p2, p3])
        It never fails itself — we always get an array showing status of each promise.
 
 
+
 Promise.allSettled([p1, p2, p3])
   .then(res => {
     console.log(res);
   });
+
 
 🔎 Result looks like:
 [
@@ -57,6 +59,7 @@ Promise.allSettled([p1, p2, p3])
 
 
 
+       
 3️⃣ Promise.race()
        Use case: Run multiple promises in parallel, but only care about the first one to settle (resolve OR reject).
 

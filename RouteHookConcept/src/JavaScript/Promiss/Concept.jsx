@@ -8,7 +8,7 @@ lll when a function is pass as an argument to another function, it is called a c
 
 ✅ Importance of Callbacks
 Callbacks are a super powerful way of handling asynchronous operations in JavaScript.
-Asynchronous programming exists because callbacks exist.
+lll Asynchronous programming exists because callbacks exist.
 They allow JavaScript to continue running without blocking the main thread while waiting for operations like:
             Server requests
             File loading

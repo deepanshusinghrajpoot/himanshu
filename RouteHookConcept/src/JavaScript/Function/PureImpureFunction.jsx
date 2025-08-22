@@ -43,7 +43,7 @@ Why Impure?
 
 
 2️⃣ No Side Effects
-A pure function does not modify external state
+lll A pure function does not modify external state
 
 It doesn't alter global variables, DOM, files, database, etc.
 
@@ -103,14 +103,17 @@ API Calls	                           Depends on server response
 
 
 🎯 Summary: Pure vs Impure
-✅ Pure Function:
+lll ✅ Pure Function:
         Same output for same input
         No side effects
+
+        lll output does not depend on external state
 
 ❌ Impure Function:
         Output depends on external state
         Creates side effects
 
+        lll A pure function does modify external state
 
         
 

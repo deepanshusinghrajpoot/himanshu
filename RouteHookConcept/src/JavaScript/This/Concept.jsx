@@ -4,10 +4,10 @@ Question:- What is value of this in global scope?
 -------------------------------------------------
 
 lll✅ this in Global Space – Interview Notes
-
-   In JavaScript, when code runs in the global space, 
    
-lll   the value of this in blobal space refers to the global object.
+   The value of this in global space depend on the inviornment where javaScript is running.
+   
+lll  when javasScript code is execute in global space the value of this depend on the global object.
 
    The global object depends on the environment where the JavaScript is running:
    In browsers, the global object is window, so this === window.

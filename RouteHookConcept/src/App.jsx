@@ -99,6 +99,19 @@ const SpradAndRest = lazy(()=> wait(2000).then(()=> import('./JavaScript/BasicJa
 
 
 
+
+
+
+
+
+
+
+const AnkitBansal2HourConcept = lazy(()=> wait(2000).then(()=> import('./sql/AnkitBansal2HourConcept')));
+
+
+
+
+
 const wait = (time) => {
   return new Promise(resolve=> {
       setTimeout(()=>{
@@ -207,6 +220,25 @@ const App = () => {
             <Route path='/operator' element={<Operator />} />
             <Route path='/spradAndRest' element={<SpradAndRest />} />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <Route path='/AnkiBansal2hourComponent' element={<AnkitBansal2HourConcept />} />
 
          </Routes>
       </div>

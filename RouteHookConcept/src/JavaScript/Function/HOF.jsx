@@ -14,7 +14,7 @@ Returned from other functions
 
 
 
-✅ What is a Higher-Order Function (HOF)?
+lll ✅ What is a Higher-Order Function (HOF)?
 ✔ A Higher-Order Function is a function that does at least one of the following:
 
       ✅ Takes another function as an argument

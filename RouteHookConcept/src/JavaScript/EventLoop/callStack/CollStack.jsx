@@ -4,7 +4,7 @@ import React from 'react'
 const CollStack = () => {
 
 /*     
-      ✅ Interview-Ready: JavaScript Execution Context & Call Stack
+    lll ✅ Interview-Ready: JavaScript Execution Context & Call Stack
           🧠 "When any JavaScript code runs, the JavaScript engine first creates a Global Execution Context (GEC). 
            This GEC is then pushed onto the Call Stack."
 
@@ -127,7 +127,7 @@ const CollStack = () => {
    
         
 
-      ✅ Microtask Queue vs Callback Queue – Explained
+lll      ✅ Microtask Queue vs Callback Queue – Explained
          🧠 JavaScript uses two main queues to handle asynchronous operations:
 
           Callback Queue (Macrotask Queue) – for setTimeout, setInterval, DOM events, etc.
