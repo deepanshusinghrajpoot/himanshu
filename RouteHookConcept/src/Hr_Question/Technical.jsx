@@ -5,21 +5,18 @@ import React from 'react'
 /*
 
 
+
 Can you introduce yourself?
----------------------------
+------------------------------
 
-Sir, My name Deepanshu Singh, currently pursuing a B.Tech in Information Technology from 
-Dr. Ambedkar Institute of Technology for Handicapped, Kanpur, with a strong foundation in 
-full-stack software development with MERN technology. Which stand for M for MongoDB, 
-E for ExpressJs, R for React js, N for NodeJs. 
+Sir, My name Deepanshu Singh, currently pursuing a B.Tech in Information Technology from Dr. Ambedkar Institute of Technology for Handicapped, Kanpur.
 
-During my academic journey, I gained hands-on experience through projects and internships, 
-where I worked on real-life applications such as a Chat Application, Hospital Management System, 
-and a Learning Management System (LMS). 
+I have a strong foundation in Full Stack Software Development, particularly with the MERN stack — MongoDB, Express.js, React.js, and Node.js. Along with this, 
+I have strong programming skills in JavaScript and C++, which form the core of my problem-solving and development approach.
 
-One of my key accomplishments was building and deploying these full-stack projects from scratch, 
+During my academic journey, I gained hands-on experience through projects and internships, where I worked on real-life applications such as a Chat Application, 
+Hospital Management System, and a Learning Management System (LMS). One of my key accomplishments was building and deploying these full-stack projects from scratch,
 which helped me develop strong problem-solving skills, teamwork, and practical coding expertise.
-
 
 
 
@@ -45,16 +42,6 @@ Overall, HealthHub is scalable, secure, and built to reflect real hospital work
 
 
 
-
-
-Why Should I Hire You?
-----------------------
-
-You should hire me because I’m a quick learner, hardworking, and eager to grow. While I may be a fresher, 
-I bring strong technical skills, a solid academic background, and a 3-month web development internship experience.
-
-During my B.Tech in Computer Science, I worked on multiple projects that demonstrate my problem-solving ability, programming knowledge, and practical implementation of concepts. 
-I’m confident that my adaptability and dedication will allow me to contribute effectively to your team’s success.
 
 
 

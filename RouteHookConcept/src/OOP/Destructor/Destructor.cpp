@@ -10,7 +10,9 @@ Constructor :- Is used to allocate the memory
 Destructor  :- Is used to deallocate the memory  
 
 Note :- When we do not make a destructor to deallocate the object,  
-        then compiler automatically provides a default destructor.  
+        then compiler automatically provides a default destructor. 
+        
+        lll If we are not make destructor to compiler make a default destructor automatically
 
 Dynamic memory allocation and deallocation are done by our own implementation  
 of Constructor and Destructor.  

@@ -72,12 +72,14 @@ class Teacher {
          salary = 237645726;
     }
 
+
     // Parametrize constructor
     Teacher(string n, string d, string s){
          name = n;
          dept = d;
          subject = s;
     }
+    
 
      Teacher(string name, string dept, string subject, double salary){
          this->name = name;

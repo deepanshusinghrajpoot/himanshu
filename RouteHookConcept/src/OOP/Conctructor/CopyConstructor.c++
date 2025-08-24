@@ -38,6 +38,7 @@ this->prop is same as *(this).prop
 
 Copy Constructor
 ----------------
+👉 A constructor which creates a new object as a copy of an existing object is called a copy constructor.
 
 1. Shallow Copy
 2. Deep Copy

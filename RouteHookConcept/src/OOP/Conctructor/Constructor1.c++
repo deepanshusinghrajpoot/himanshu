@@ -15,10 +15,10 @@ Special method invoked automatically at time of object creation. Used for Initia
        properties
        ----------
 
-       1. Same name as class
+       1. Constructor have Same name as class
        2. Constructor doesn't have a return type
-       3. Only called once (automaticaly), at object creation
-            if we not make constructor, compiler make default constructor automaticaly.
+       3. Constructor is called only once (automaticaly), at object creation
+            if we are not make constructor, compiler make default constructor automaticaly.
        4. Memory allocation happens when constructor is called
           So,
             Memory allocation is happen for object not for class.
@@ -28,9 +28,25 @@ Special method invoked automatically at time of object creation. Used for Initia
        Type of Constructor
        -------------------
 
+       There are three type of constructor
+
        1. Non-parameterize constructor
        2. Parameterize constructor
        3. Copy Constructor
+
+
+
+
+
+       Non-Parameterized Constructor
+
+lll 👉 A constructor which does not take any parameter is called a non-parameterized constructor.
+It assigns default values to the object’s data members.
+
+Parameterized Constructor
+
+lll 👉 A constructor which takes parameters is called a parameterized constructor.
+It allows us to assign custom values to the object’s data members at the time of creation.
 
        
 

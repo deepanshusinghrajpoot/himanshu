@@ -23,9 +23,10 @@ class Student {
 
     Student (string name, double cgpa){
         this->name = name;
-        cgpaPtr = new double;
-        *cgpaPtr = cgpa;
+        cgpaPtr = new double;  // creates a new memory (say address 555)
+        *cgpaPtr = cgpa;       // store value (cgpa) in that memory
     }
+    
 
     Student (Student & orgObj){
         this->name = orgObj.name;

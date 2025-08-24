@@ -18,6 +18,14 @@ using namespace std;
 
     . Many objects can be created from one class.
 
+    
+    Real life example
+    -----------------
+
+    👉 “A class is like a blueprint, and an object is a real-world instance of it.
+        For example, consider a Teacher class. It has properties like name, dept, subject, and salary.
+        From this class, I can create objects like Teacher t1 (Deepanshu Singh, Computer Science, C++ teacher) or
+        Teacher t2 (Rahul Sharma, Mathematics, Algebra teacher).
 
 
     Access Modifiers
@@ -35,11 +43,11 @@ using namespace std;
 
 
 
-    what is setter and getter?
-    --------------------------
+    what is setter function and getter function?
+    -------------------------------------------
 
-    setter: A setter is use to set the value of a private property.
-    getter: A getter is use to get the value of a private property.
+    setter: A setter function is use to set the value of a private property.
+    getter: A getter function is use to get the value of a private property.
 
 
 */
@@ -107,6 +115,31 @@ int main () {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
