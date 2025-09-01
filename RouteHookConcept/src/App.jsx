@@ -106,9 +106,6 @@ const SpradAndRest = lazy(()=> wait(2000).then(()=> import('./JavaScript/BasicJa
 
 
 
-const AnkitBansal2HourConcept = lazy(()=> wait(2000).then(()=> import('./sql/AnkitBansal2HourConcept')));
-
-
 
 
 
@@ -238,7 +235,7 @@ const App = () => {
 
 
 
-            <Route path='/AnkiBansal2hourComponent' element={<AnkitBansal2HourConcept />} />
+            
 
          </Routes>
       </div>

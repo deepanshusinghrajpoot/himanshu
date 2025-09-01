@@ -31,12 +31,11 @@ using namespace std;
     Access Modifiers
     ----------------
 
-    private:  data & methods accessible inside class 
+    private:  data & member function accessible only inside class 
 
-    public:   data & methods accessible to everyone
+    protected: data & member function accessible inside base class & to its derived class
 
-    protected: data & methods accessible inside class & to its derived class
-
+    public:   data & member function accessible to everyone
 
     Note:- All properties and methods inside the class are private by default.
 

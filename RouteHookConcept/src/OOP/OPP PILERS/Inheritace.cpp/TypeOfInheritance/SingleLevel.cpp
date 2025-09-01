@@ -5,6 +5,10 @@
  Type Of Inheritance
  -------------------
 
+ (1) Single level inheritance
+ (2) Multiple inheritance
+ (3) Multi level inheritance
+
 
 
  Single Level Inheritance

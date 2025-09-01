@@ -7,9 +7,9 @@ Run Time Polymorphism
 
 (1). Function Overriding
 
-    Parent & Child both contain the same function with different implementation.
+    base class & derive class both contain the same function with different implementation.
 
-    The parent class function is said to be overridden.
+    The base class function is said to be overridden.
 
 
 */
@@ -44,3 +44,6 @@ int main(){
 
     return 0;
 }
+
+
+// output:- Child Class

@@ -19,7 +19,7 @@ using namespace std;
    Encapsulation
    -------------
 
-   Encapsulation is wrapping up of data & member function in a single unit called class.
+   Encapsulation is wrapping up of property & member function in a single unit called class.
 
            ------------------------------------------------------
            |  data/properties/attributes   |   member function  |

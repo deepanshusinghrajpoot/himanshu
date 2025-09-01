@@ -1,18 +1,5 @@
 /*
 
-(2). Static Keyword with Objects
---------------------------------
-
-. A static variable exists for the entire lifetime of the program.
-
-. Static members belong to the class, not to individual objects.
-
-. Only one copy is shared among all objects of the class.
-
-. They are declared inside the class but defined outside.
-
-. Can be accessed using object name or class name.
-
 
 
 

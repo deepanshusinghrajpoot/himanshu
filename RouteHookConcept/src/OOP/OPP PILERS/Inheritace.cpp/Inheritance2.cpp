@@ -76,7 +76,7 @@ If derived publicly, they remain protected in derived class.
 
 If derived privately, they become private in derived class.
 If derived protectedly, they become protected in derived class.
-If derived publicly, they stay public in derived class.
+If derived publicly, they remain public in derived class.
 
 👉 So public inheritance maintains the same access level, while private/protected inheritance restricts it.
 

@@ -6,16 +6,15 @@ Abstraction
 
 (Using Abstract Classes)
 
-. Abstraction is the process of hiding implementation details 
-  and showing only essential features to the user.
+(1). Hiding all unnecessary details & showing only the important parts.
 
-. Abstract classes are used to provide a base class 
-  from which other classes can be derived.
+(2). Abstract classes are used to provide a base class 
+     from which other classes can be derived.
 
-. They cannot be instantiated (objects of abstract classes 
-  cannot be created).
+(3). Abstract classes cannot be instantiated (objects of abstract classes 
+     cannot be created).
 
-. Abstract classes are created using at least one **pure virtual function**.
+(4). Abstract classes are created using at least one **pure virtual function**.
 
 . They are meant to be inherited by derived classes 
   which provide the actual implementation.

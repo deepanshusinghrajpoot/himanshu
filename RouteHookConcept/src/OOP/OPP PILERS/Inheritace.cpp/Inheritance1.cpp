@@ -5,7 +5,7 @@
         Inheritance
         -----------
 
-        When properties & member functions of base class are passed on to the derived class.
+       lll When properties & member functions of base class are passed on to the derived class.
 
             
             class A (Parent, Base)
@@ -39,6 +39,11 @@
 
        first deallocate memory of child class object
        then deallocate memory of parent class object
+
+
+
+       lll 👉 “In inheritance, the base class constructor is called first, then the derived class constructor. 
+       For destruction, it’s the opposite — derived class destructor first, then base class destructor.”
 
 
 */

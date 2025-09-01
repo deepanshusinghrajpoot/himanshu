@@ -23,6 +23,13 @@ const Navebar = () => {
 
         </div>
 
+
+
+
+
+
+
+
         <div className='navbar'>
             <ul>
                 <li><h1>JavaScript all interview question</h1></li>
@@ -76,10 +83,13 @@ const Navebar = () => {
                 <Link to='/capturing'><li>2. Capturing</li></Link>
                 <Link to='/eventDelegation'><li>3. Delegation</li></Link>
             </ul>
-
+        </div>
+        <div className='navbar'>
             <ul>
-                <Link><li><h4>...............................................................................Basic all interview question of JavaScript.................................................................................</h4></li></Link>
+                <li><h4>Basic all interview question of JavaScript</h4></li>
             </ul>
+        </div>
+        <div className='navbar'>
             <ul>
                 <Link to='/localStorage'><li>(1) Local Storage</li></Link>
             </ul>
@@ -91,6 +101,13 @@ const Navebar = () => {
                 <Link to='/spradAndRest'><li>2. Imp Sprad and Rest Operator</li></Link>
             </ul>
         </div>
+
+
+
+
+
+
+
 
 
 
@@ -134,11 +151,32 @@ const Navebar = () => {
             </ul>
         </div>
 
+
+
+
+
+
+
+
+
+
         <div className='navbar'>
             <ul>
                 <li><h1>NodeJs all interview question</h1></li>
             </ul>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -149,7 +187,95 @@ const Navebar = () => {
         </div>
         <div className='navbar'>
             <ul>
-                <Link to='/AnkiBansal2hourComponent' ><li>(1). Ankit Bansal 2 hour concept.</li></Link>
+                <li><h5>SQL Theoretical Question</h5></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='' ><li>(1). keys (Super key, Candidate key, Alternative key, Primary key, Foriegn key, Composite key)</li></Link>
+            </ul>
+            <ul>
+                <Link to='' ><li>(2). 1. Normal Form </li></Link>
+                <Link to='' ><li>2. Type of Normal Form :- (i) 1NF , (ii) 2NF , (iii) 3NF , (iV) BCNF </li></Link>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <li><h5>SQL Ankit Bansal</h5></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='' ><li>(1). Core Concept </li></Link>
+                <Link to='' ><li>1. Engine executes in logical order</li></Link>
+                <Link to='' ><li>2. SQL syntax order</li></Link>
+
+            </ul>
+            <ul>
+                <Link to='' ><li>(2). Operator :- </li></Link>
+                <Link to='' ><li>1. Comparison, 2. Logical, 3. Set&Range, 4. Patter match, 5. Arithmatic, 6. String, 7. join  </li></Link>
+            </ul>
+            <ul>
+                <Link to='' ><li>(3). Functionality of key ward :- </li></Link>
+                <Link to='' ><li>1. SELECT, 2. FROM, 3. WHERE, 4. GROUP BY, 5. HAVING, 6. ORDER BY, 7. LIMIT </li></Link>
+            </ul>
+            <ul>
+                <Link to='' ><li>(4).1 CASE Statement </li></Link>
+                <Link to='' ><li>2. String Functions </li></Link>
+                <Link to='' ><li>3. Date Functions </li></Link>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className='navbar'>
+            <ul>
+                <li><h1>OOP C++</h1></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='/OopC++' ><li>(1). 1. Class </li></Link>
+                <Link to=''><li>2. Object </li></Link>
+                <Link to='' ><li>3. Acess Modifire </li></Link>
+                <Link to='' ><li>4. Seter & Getter Function  </li></Link>
+            </ul>
+            <ul>
+                <Link to='/ConstructorC++' ><li>(2). 1. !Constructor (Properties) !Destructor</li></Link>
+                <Link to='' ><li>2. Type of constructor(non-parametarise, parametarise, Copy)</li></Link>
+                <Link to='' ><li>3. Copy Constructor(Shallow Copy, Deep Copy)</li></Link>
+            </ul>
+            <ul>
+                <Link to='/EncapsulationC++' ><li>(3). 1. Encapsulation </li></Link>
+                <Link to='' ><li>2. Data hiding  </li></Link>
+
+            </ul>
+            <ul>
+                <Link to='/InheritanceC++' ><li>(4). 1. Inheritance (In Inheritace which called first Constructor & Destructor ) </li></Link>
+                <Link to='' ><li>2. base class - Private member, base class - Protect member, base class - Public member </li></Link>
+                <Link to='' ><li>3. Type of inheritance(Single level, Multiple, Multi level, Hierarchical, Hybrid)   </li></Link>
+            </ul>
+            <ul>
+                <Link to='/PolymorphismC++' ><li>(5). 1. Polymorphism </li></Link>
+                <Link to='' ><li>2. Type of polymorphism (i) Compile time polymorphism (eg:- Constructor overloading,  Function overloading, Operator Overloading) (ii) Run time polymorphism (eg:- Function overriding with overtual function) </li></Link>
+            </ul>
+            <ul>
+                <Link to='/AbstractionC++' ><li>(5). 1. Abstraction </li></Link>
+                <Link to='' ><li>2. There are two way of performing abstraction (i) using access modifire (ii) Abstract classes </li></Link>
+                <Link to=''><li>Abstract classes</li></Link>
             </ul>
         </div>
     </div>
