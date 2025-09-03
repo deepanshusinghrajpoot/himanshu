@@ -11,6 +11,11 @@ import React from 'react'
 
 
 Search inputs (auto-suggestions)
+
+
+trottling example
+-----------------
+
 Window resizing
 Button click spamming prevention
 Scroll events
@@ -29,7 +34,8 @@ Scenario: You’re asked to build a Flipkart-style search bar with auto-suggesti
 lll Debouncing ensures that a function executes only after a specified delay has passed since the last event trigger.
 
 ✅ Throttling
-Throttling ensures that a function executes at most once in a specified time interval, even if it's triggered continuously
+lll Throttling ensures that a function executes at most once in a specified time interval, even if it's triggered continuously
+
 
 
 ✅ Debouncing Code Example in React

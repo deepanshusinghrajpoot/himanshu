@@ -6,7 +6,7 @@ import React from 'react'
 
 
 ✅ Debouncing vs. Throttling — Performance Optimization
-✔ Both Debouncing and Throttling are techniques to improve performance by limiting the rate of function execution, especially for high-frequency events like:
+✔lll Both Debouncing and Throttling are techniques used to improve performance of the application by limiting the rate at which function execution, especially for high-frequency events like:
 
 Search inputs
 Scroll events
@@ -59,6 +59,8 @@ Search Input	                     Debouncing
 Auto-Suggestions	                 Debouncing
 Scroll Performance	               Throttling
 Button Click Limiting	             Throttling
+
+
 */
 
 

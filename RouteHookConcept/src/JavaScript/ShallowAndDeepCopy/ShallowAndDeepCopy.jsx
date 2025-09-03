@@ -42,6 +42,7 @@ console.log(obj2.social.facebook); // changed@gmail.com
 
 
 Ways to Create Shallow Copy
+---------------------------
 
 ✔ Using Spread Operator:
 let copy = { ...originalObject };

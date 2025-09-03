@@ -22,7 +22,7 @@ file:- index.html
       <div> Throttling effect <span class="throttle_effect"></span></div>
 
 
-      <script src="./test.js"></script>
+      <script src="./test.js"></script>    // IT 
 </body>
 </html>
 

@@ -1,6 +1,6 @@
 import React from 'react' // imr
-import StudentFunctional from '../../ConceptRect/ClsaaAndFunctionalComponent/StudentFunctional' // imp
-import StudentClass from '../../ConceptRect/ClsaaAndFunctionalComponent/StudentClass'  // imp
+import StudentFunctional from './StudentFunctional' // imp
+import StudentClass from './StudentClass'  // imp
 
 
 const ReactComponent = () => {

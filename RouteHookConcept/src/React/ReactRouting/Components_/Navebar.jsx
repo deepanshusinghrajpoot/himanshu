@@ -37,11 +37,25 @@ const Navebar = () => {
         </div>
         <div className='navbar'>
             <ul>
-                <Link to='/eventLoop' ><li>(1). 1. What is JavaScript </li></Link>
-                <Link to='/eventLoop' ><li>2. GEC, Queue, Event Loop all question</li></Link>
+                <Link to='/eventLoop' >
+                        <li>(1). 1. What is JavaScript </li>
+                        <li>2. What is web API and Libuv</li>
+                </Link>
+                <Link to='/eventLoop' >
+                        <li>2. Global  Execution Context (GEC) :- There are two phase in GEC (1). Memory Creation Phase (2). Code Execution Phase</li>
+                        <li>3. Event Loop and Call Stack</li>
+                        <li>4. Queue :- There are two type of Queue in JS (1).  Macro Task Queue (Callback Queue) (2). Micro Task Queue</li>
+                </Link>
             </ul>
             <ul>
-                <Link to='/this' ><li>(2). this concept</li></Link>
+                <Link to='/this' >
+                         <li>(2). this concept</li>
+                         <li>1. What is value of this in global space</li>
+                         <li>2. What is value of this inside Regular function for Static & Non-Static Mode</li>
+                         <li>3. The value of this depend on how we call a function</li>
+                         <li>3. Call, Apply, Bind</li>
+                         <li>4. What is value of this inside arrow function</li>
+                </Link>
             </ul>
             <ul>
                 <Link to='/prototype' ><li>(3). 1. Prototype Inheritence (Prototype, Inheritance, Prototype chain)</li></Link>
@@ -52,7 +66,11 @@ const Navebar = () => {
             </ul>
             <ul>
                 <Link to='/callBackHell'><li>(4).  1. CallbackHell , Inversion of control</li></Link>
-                <Link to='/promis' ><li>2. Promis and All api</li></Link>
+                <Link to='/promis' >
+                       <li>2. Promise</li>
+                       <li>(i). Promise have some API to handle multiple promise:- (1). Promise.all([p1,p2,p3,...])  (2). Promise.allSettled([p1,p2,p3,...]) (3). Promise.Race([p1,p2,p3,...]) (4). Promise.any([p1,p2,p3,...])</li>
+                       <li>(ii). There are two way handling promise in JS (1). using dot_then dot_catch  (2). using async & await</li>
+                </Link>
                 <Link to='/async_await' ><li>3. async & await</li></Link>
             </ul>
             <ul>
@@ -63,23 +81,29 @@ const Navebar = () => {
                 <Link to='/scoping'><li>(6). All concept of scope(Scope, Lexical environment, Lexical Context, Scope Chaining) </li></Link>
             </ul>
             <ul>
-                <Link to='/closure'><li>(7). Closure</li></Link>
+                <Link to='/closure'><li>(7). Closure :- Famouse Example (1).Famous setTimeout Closure Interview Question (2). Nested Function </li></Link>
             </ul>
             <ul>
                 <Link to='/basicOfFunction'><li>(8). 1. Bsic Of Function((statement or declaration), expression, anonymous, first class citizens)</li></Link>
                 <Link to='/hof'><li>2. Cllback, HOF</li></Link>
                 <Link to='/pureAndImpure'><li>3. Pure and Impure</li></Link>
-                <Link to='/currying'><li>4. Currying</li></Link>
-                <Link to='/shallow_deep_copy'><li>5. Shallow & Deep Copy</li></Link>
+                <Link to='/currying'><li>4. Currying :- There are two way implement function curring (1). Using Bind method (2). Using Closure</li></Link>
                 <Link to='/map_filter_reduce'><li>6. map & filter & reduce</li></Link>
             </ul>
             <ul>
-                <Link to='/debouncing'><li>(9). 1. Debouncing</li></Link>
+                <Link to='/shallow_deep_copy'>
+                              <li>(9) Shallow & Deep Copy</li>
+                              <li>There are two way creating Shallow Copy (1). Sprade operator  (2). using Object.assign() method</li>
+                              <li>There are two way creating Deep Copy (1). using JSON.stringify() and JSON.parse() methods (2). Recursive way to create Deep Copy</li>
+                </Link>
+            </ul>
+            <ul>
+                <Link to='/debouncing'><li>(10). 1. Debouncing</li></Link>
                 <Link to='/throttlingVsDebouncing'><li>2. Throttling V/S Debouncing</li></Link>
                 <Link to='/throttling'><li>3. Throttling</li></Link>
             </ul>
             <ul>
-                <Link to='/bubbling'><li>(10). 1. Bubbling</li></Link>
+                <Link to='/bubbling'><li>(11). 1. Bubbling</li></Link>
                 <Link to='/capturing'><li>2. Capturing</li></Link>
                 <Link to='/eventDelegation'><li>3. Delegation</li></Link>
             </ul>
@@ -278,8 +302,87 @@ const Navebar = () => {
                 <Link to=''><li>Abstract classes</li></Link>
             </ul>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div className='navbar'>
+            <ul>
+                <li><h1>DSA C++</h1></li>
+            </ul>
+        </div>
+         <div className='navbar'>
+            <ul>
+                <li><h5>Number-based Problems</h5></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='' ><li>1. Print Fibonacci Series </li></Link>
+                <Link to='' ><li>2. Find Nth Fibonacci Number (loop + recursion)</li></Link>
+                <Link to='' ><li>3. Factorial (loop + recursion)</li></Link>
+                <Link to='' ><li>4. Prime Number check</li></Link>
+                <Link to='' ><li> </li></Link>
+                <Link to='' ><li>6. GCD & LCM (Euclidean Algorithm) </li></Link>
+                <Link to='' ><li> </li></Link>
+                <Link to='' ><li> </li></Link>
+                <Link to='' ><li> </li></Link>
+                <Link to='' ><li> </li></Link>
+                <Link to='' ><li> </li></Link>
+                <Link to='' ><li> </li></Link>
+            </ul>
+        </div>
+
     </div>
   )
 }
 
 export default Navebar
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+🔹 2. Number-based Problems
+----------------------------
+
+1. Print Fibonacci Series
+2. Find Nth Fibonacci Number (loop + recursion + DP)
+3. Factorial (loop + recursion)
+4. Prime Number check
+5. Print all primes up to N (Sieve of Eratosthenes – bonus)
+6. GCD & LCM (Euclidean Algorithm)
+7. Reverse a Number
+8. Palindrome Number
+9. Armstrong Number
+10. Strong Number (sum of factorial of digits = number)
+11. Perfect Number (sum of divisors = number)
+12. Sum of digits of a number
+13. Count digits of a number
+14. Swap two numbers without using 3rd variable
+15. Power of a number (a^b)
+16. Convert decimal ↔ binary
+
+
+
+
+
+
+
+
+*/
