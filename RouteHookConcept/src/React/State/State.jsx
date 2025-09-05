@@ -1,6 +1,6 @@
 import React from 'react'
-import StudentState from '../../ConceptRect/State/Student'
-import TeacherState from '../../ConceptRect/State/Teacher'
+import StudentState from './Student'
+import TeacherState from './Teacher'
 
 
 

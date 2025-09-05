@@ -4,7 +4,7 @@ Perfect Number
 
 ✅ Definition
 
-A Perfect Number is a number that is equal to the sum of its proper divisors (excluding the number itself).
+A Number is called perfect number if sum of its proper divisors is equal to the (excluding the number itself).
 
 ✅ Examples
       6 → 1 + 2 + 3 = 6 ✅ Perfect Number

@@ -23,7 +23,7 @@ Real DOM: This is the actual Document Object Model rendered in the browser.
 It's more complex and includes numerous properties and methods, making direct manipulation more resource-intensive.
 
 
-🧠 Understanding the Virtual DOM
+lll 🧠 Understanding the Virtual DOM
 
 The Virtual DOM is like a lightweight blueprint of the actual web page.
 Instead of updating the real page directly every time something changes, React first updates this blueprint.
@@ -83,7 +83,7 @@ This would look like:
 
 
 ✅ In Interview, If Asked:
-Q: What is Virtual DOM? Why does React use it?
+lll Q: What is Virtual DOM? Why does React use it?
 
 The Virtual DOM is like a lightweight blueprint of the actual web page.
 Instead of updating the real page directly every time something changes, React first updates this blueprint.
@@ -119,15 +119,15 @@ Browser Paints UI
 ✅ React avoids unnecessary DOM manipulations by comparing the Virtual DOMs.
 
 
-🔍 Diffing Algorithm
-     When something changes (state/props), React:
-     Creates a new Virtual DOM.
-     Compares it with the old one (diffing).
-     Finds minimal changes.
+lll 🔍 Diffing Algorithm
+     When something changes (state/props) of component, 
+     React: Creates a new Virtual DOM.
+     Compares it with the old one (using diffing algorithum).
+     And Finds minimal changes.
      Updates only changed nodes in the Real DOM.
 
 
-🔁 Reconciliation
+lll 🔁 Reconciliation
     After identifying the differences through diffing, React proceeds to the reconciliation phase. 
     Here, it updates only the parts of the actual DOM that have changed, rather than re-rendering the entire page.
     ​
@@ -136,6 +136,7 @@ Browser Paints UI
 
 
 🧵 React Fiber (introduced in React 16)
+
 React Fiber is the new reconciliation engine that:
 
 Allows React to split rendering work into small units (called "fibers").
@@ -156,13 +157,20 @@ e.g., animations get higher priority than logging in background.
 
 
 
-Q: What is React Fiber?
+lll Q: What is React Fiber?
+
 React Fiber is the reimplementation of React's core reconciliation algorithm introduced in React 16.
 It enhances the reconciliation process by enabling incremental rendering, prioritizing updates, and 
 improving responsiveness. 
 
 Fiber breaks down rendering work into units that can be paused,
 resumed, or aborted, allowing React to handle complex updates more efficiently.
+
+
+
+
+
+
 
 
 
@@ -184,6 +192,7 @@ Once the update is complete, the WIP tree is committed and becomes the current t
 
 
 🧵 2. Fiber as a Linked List Tree
+
    Each Fiber node is connected to:
    child → first child
    sibling → next sibling

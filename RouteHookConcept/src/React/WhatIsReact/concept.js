@@ -40,7 +40,7 @@ Angular is a full-fledged framework with built-in solutions for routing, state m
 React is a library focused only on the view layer, giving developers the flexibility to choose other tools as needed.
 
 
-"A Library gives me specific tools that I control, but a Framework provides the entire development structure and controls when my code runs — that's called Inversion of Control."
+lll "A Library gives me specific tools that I control, but a Framework provides the entire development structure and controls when my code runs — that's called Inversion of Control."
 
 💬 Tip for speaking:
 Say it slowly, with confidence. If needed, pause after “component-based architecture” or “Virtual DOM” to let it sink in.
@@ -64,18 +64,28 @@ Say it slowly, with confidence. If needed, pause after “component-based archit
 
 
 ✅ React Performance Optimization Techniques
-1. List Virtualization / Windowing
-Problem: Rendering large lists slows down performance.
+---------------------------------------------
 
+
+1. List Virtualization / Windowing
+----------------------------------
+
+Problem: Rendering large lists slows down performance.
 Solution: Render only visible elements, recycle components.
+
+
 
 Popular Libraries:
 
 react-window
-
 react-virtualized
 
+
+
+
 2. Lazy Loading Images
+----------------------
+
 Benefit: Reduces initial page load time by loading images only when they enter the viewport.
 
 Popular Library:
@@ -86,14 +96,12 @@ npm i react-lazyload
 
 
 
-
-
-
 3. Memoization Techniques
-Tool	       Purpose
-React.memo	  Memoizes entire component to avoid re-rendering
-useMemo	Memoizes expensive calculations
-useCallback	Memoizes functions to avoid re-creating functions unnecessarily
+-------------------------
+Tool	                       Purpose
+React.memo	                 Memoizes entire component to avoid re-rendering
+useMemo	                     Memoizes expensive calculations
+useCallback	                 Memoizes functions to avoid re-creating functions unnecessarily
 
 
 
@@ -102,6 +110,8 @@ useCallback	Memoizes functions to avoid re-creating functions unnecessarily
 
 
 4. Throttling and Debouncing Events
+-----------------------------------
+
 Throttling: Limit the frequency of function execution.
 Debouncing: Delay function execution until no further events occur.
 
@@ -112,11 +122,8 @@ Debouncing: Delay function execution until no further events occur.
 
 
 
-
-
-
-
 5. Code Splitting
+-----------------
 Goal: Split code into smaller chunks to reduce initial load.
 
 Tools:
@@ -131,6 +138,8 @@ Dynamic imports
 
 
 6. React Fragments
+-------------------
+
 ✅ Avoid adding extra DOM nodes by using:
 <>
   <ChildComponent />
@@ -143,11 +152,22 @@ This helps keep the DOM light.
 
 
 7. Web Workers
+--------------
+
 ✅ Offload heavy computations to background threads using Web Workers without blocking the main thread.
 
+
+
+
+
+
 8. useTransition Hook (React 18+)
+---------------------------------
 ✅ Allows deferring non-urgent UI updates.
 
 ✅ Keeps the app responsive during complex updates like filtering or search.
+
+
+
 
 */

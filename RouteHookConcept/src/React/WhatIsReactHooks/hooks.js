@@ -2,14 +2,14 @@
       
      =================== What is Hooks ===================
 
-     Hooks are *special functions , that allow us to use *state and *other React Feature in *functional components.
+    lll  Hooks are *special functions , that allow us to use *state and *other React Feature in *functional components.
      
-     Earlier, When we used to create react app using *Fuctional component then we didn't have access to the state management and *lifecycle methods.
-     To access these features we had to add *class components.
+    lll Earlier, When we used to create react app using *Fuctional component then we didn't have access to the state management and *lifecycle methods.
+        To access these features we had to add *class components.
 
-     So this was the problem with * functional component.
+    lll So this was the problem with * functional component.
 
-     But after introducing React Hooks from version 16.8, we can now use *state management and *other react features without writing *class components.
+    lll But after introducing React Hooks from version 16.8, we can now use *state management and *other react features without writing *class components.
 
 
      

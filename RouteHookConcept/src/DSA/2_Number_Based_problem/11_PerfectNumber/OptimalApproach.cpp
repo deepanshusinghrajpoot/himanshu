@@ -14,6 +14,7 @@ Instead of looping till n-1, loop till √n and add divisors in pairs.
 #include <iostream>
 using namespace std;
 
+
 bool isPerfect(int n) {
     if (n <= 1) return false;  // No perfect numbers ≤ 1
 
@@ -26,6 +27,7 @@ bool isPerfect(int n) {
     }
     return sum == n;
 }
+
 
 int main() {
     int n;

@@ -3,6 +3,8 @@ import UseMemoExample1 from './UseMemoExample1'
 
 const UseMemo = () => {
   /*
+
+  
      =================== useMemo ===================
 
      useMemo react Hook return a memoized value.(it's like caching a value that It doesn't need to be recalculated.)
@@ -16,6 +18,7 @@ const UseMemo = () => {
      - useMemo return a memoized value.
      - useCallback return a memoized function. 
      
+
   */
  
 

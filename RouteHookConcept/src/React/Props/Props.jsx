@@ -1,6 +1,6 @@
 import React from 'react'
-import StudentPropsFunctional from '../../ConceptRect/Props/StudenPropsFunctional'
-import StudentPropsClass from '../../ConceptRect/Props/StudentPropsClass'
+import StudentPropsFunctional from './StudenPropsFunctional'
+import StudentPropsClass from './StudentPropsClass'
 
 const Props = () => {
   return (

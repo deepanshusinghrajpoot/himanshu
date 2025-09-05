@@ -34,7 +34,7 @@ bool isPalindromeEfficient(int n) {
         n /= 10;
     }
 
-    return (n == rev || n == rev / 10);
+    return (n == rev || n == rev / 10);  // number contain odd digit
 }
 
 

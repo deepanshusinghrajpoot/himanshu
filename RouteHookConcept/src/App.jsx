@@ -1,5 +1,5 @@
 import React, { lazy } from 'react'
-import Navebar from './React/ReactRouting/Components_/Navebar'
+import Navebar from './Navebar'
 import { Route, Routes } from 'react-router-dom'
 
 
@@ -29,7 +29,9 @@ const Contact = lazy(()=> wait(5000).then(()=> import('./React/ReactRouting/page
 const Products = lazy(()=> wait(5000).then(()=> import('./React/ReactRouting/pages/Products')));
 
 
-const LifeCycleMethodOfComponent = lazy(()=> wait(5000).then(()=> import('./React/LifeCycleOfComponent/LifeCycleOfComponent')));
+const LifeCycleMethodOfComponent = lazy(()=> wait(5000).then(()=> import('./React/LifecycleMethod/LifeCycleOfComponent')));
+
+
 
 const UseState = lazy(()=> wait(5000).then(()=> import('./React/WhatIsReactHooks/useState/UseState')));
 const UseEffect  = lazy(()=> wait(5000).then(()=> import('./React/WhatIsReactHooks/useEffect/UseEffect')));
@@ -50,7 +52,8 @@ const State = lazy(()=> wait(5000).then(()=> import('./React/State/State')));
 const Event = lazy(()=> wait(5000).then(()=> import('./React/EventHandling/Event')));
 const HOC = lazy(()=> wait(5000).then(()=> import('./React/HOC/utils/HOC')));
 const SyntheticEvent = lazy(()=> wait(5000).then(()=> import('./React/SyntheticEvent/SyntheticEvent')));
-
+const SSR = lazy(()=> wait(5000).then(()=> import('./React/SSR&CSR/SSR')));
+const CSR = lazy(()=> wait(5000).then(()=> import('./React/SSR&CSR/CSR')));
 
 
 
@@ -158,7 +161,9 @@ const App = () => {
             <Route path='/event' element={<Event />} />
             <Route path='/hoc' element={<HOC />} />
             <Route path='/syntheticEvent' element={<SyntheticEvent />} />
-          
+            <Route path='/SSR' element={<SSR />} />
+            <Route path='/CSR' element={<CSR />} />
+
 
         
           
