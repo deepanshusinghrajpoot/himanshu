@@ -2,8 +2,9 @@
 
 
 
+
 ✅ React Props (Properties)
-When React renders a user-defined component, it passes JSX attributes to this component as a single object called props.
+lll When React renders a user-defined component, it passes JSX attributes to this component as a single object called props.
 
 
 

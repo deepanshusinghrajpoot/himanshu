@@ -1,6 +1,6 @@
 import React from 'react'
-import StudentEvent from '../../ConceptRect/EventHandling/Student'
-import TeacherEvent from '../../ConceptRect/EventHandling/Teacher'
+import StudentEvent from './Student'
+import TeacherEvent from './Teacher'
 
 
 

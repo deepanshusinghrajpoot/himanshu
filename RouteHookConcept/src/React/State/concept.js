@@ -1,17 +1,24 @@
 /*
 
 
-✅ State in React
-State is similar to props, but:
-State is private and controlled by the component itself.
-Props are passed from parent to child and are read-only.
-State can be updated, props cannot (directly).
+lll ✅ State in React
+
+lll State is data that changes over time and affects what you see on the UI.
+
+lll State is similar to props, but:
+
+1. State is private and controlled by the component itself.
+   Props are passed from parent to child and they are read-only.
+
+2. can be updated, props cannot (directly).
+
+
 
 
 
 ✅ Where Can You Use State?
 Component Type	State Support
-Class Component	                                        ✅ Yes
+Class Component	                                           ✅ Yes
 Functional Component	                                     ✅ Yes (using Hooks, e.g., useState)
 Older versions (< React 16.8)	Only class components
 

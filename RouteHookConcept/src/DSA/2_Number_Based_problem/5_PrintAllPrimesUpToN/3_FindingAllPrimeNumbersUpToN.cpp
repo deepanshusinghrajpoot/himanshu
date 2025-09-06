@@ -166,4 +166,16 @@ Start with √n optimized approach.
 If they ask about multiple queries, explain Sieve.
 
 
+
+
+
+
+
+
+✅ Interview Strategy
+
+👉 If they ask "check if a single number is prime" → Explain √n method.
+👉 If they ask "many queries like prime up to 10⁶" → Explain Sieve of Eratosthenes.
+👉 Bonus: Mention Segmented Sieve for very large N (like 10¹² with queries).
+
 */
