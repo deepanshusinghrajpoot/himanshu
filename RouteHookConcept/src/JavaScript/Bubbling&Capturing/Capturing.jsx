@@ -32,10 +32,12 @@ export default function CapturingExample() {
         </div>
     );
 }
+
 ✔ Click on Child Div
 
 
 Output:
+
     Grandparent Capturing
     Parent Capturing
     Child Clicked (Bubbling Phase)

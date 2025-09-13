@@ -17,6 +17,7 @@ Hierarchical Inheritance
             |                | 
           child-1          child-2
 
+          
 Hierarchical Inheritance → When multiple child classes inherit from a single parent class. ✅
 
 

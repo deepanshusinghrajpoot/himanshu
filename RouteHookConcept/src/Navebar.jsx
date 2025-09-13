@@ -158,7 +158,7 @@ const Navebar = () => {
                 <Link to='/useState' ><li>(1). 1. useState</li></Link>
                 <Link to='/useEffect' ><li>2. useEffect</li></Link>
                 <Link to='/useRef' ><li>3. useRef</li></Link>
-                <Link to='/useMemo' ><li>4. useMemo</li></Link>
+                <Link to='/useMemo' ><li>4. useMemo & memo</li></Link>
                 <Link to='/useCallback' ><li>5. useCallback</li></Link>
                 <Link to='/useContext' ><li>6. useContext</li></Link>
                 <Link to='/useReducer' ><li>7. useReducer</li></Link>
@@ -166,7 +166,7 @@ const Navebar = () => {
                 <Link to='/customHook' ><li>9. customHook</li></Link>    
             </ul>
             <ul>
-                <Link to='/lazyComponent' ><li>(2). 1. LazyLoding</li></Link>
+                <Link to='/lazyComponent' ><li>(2). 1. LazyLoding (suspance, fallback)</li></Link>
             </ul>
             <ul>
                 <Link to='/props' ><li>(3). Props</li></Link>
@@ -188,6 +188,22 @@ const Navebar = () => {
                 <Link to='/CSR'><li>(8). CSR</li></Link>
             </ul>
         </div>
+
+
+
+        <div className='navbar'>
+            <ul>
+                <li><h1>Redux redux toolkit</h1></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='RTK'><li>redux toolkit</li></Link>
+            </ul>
+        </div>
+
+
+
 
 
 
@@ -346,7 +362,7 @@ const Navebar = () => {
                 <Link to='' ><li>5. Print all primes up to N (Sieve of Eratosthenes – bonus)</li></Link>
                 <Link to='' ><li>6. GCD & LCM (Euclidean Algorithm):- pending</li></Link>
                 <Link to='' ><li>7. Reverse a Number (optimal)</li></Link>
-                <Link to='' ><li>8. Palindrome Number (1. using reverse)(2. diviser & reverse :- Optimal)</li></Link>
+                <Link to='' ><li>8. Palindrome Number (1. using reverse)(2. half reverse :- Optimal)</li></Link>
                 <Link to='' ><li>9. Armstrong Number (Optimal)</li></Link>
                 <Link to='' ><li>10. Strong Number (sum of factorial of digits = number)</li></Link>
                 <Link to='' ><li>11. Perfect Number (sum of divisors = number) (iterative + divisor)</li></Link>
@@ -373,6 +389,81 @@ const Navebar = () => {
                 <Link to='' ><li>6. Floyd’s Triangle</li></Link>        
                 <Link to='' ><li>7. Pascal’s Triangle</li></Link>        
                 <Link to='' ><li>8. Butterfly pattern</li></Link>        
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <li><h4>Array Based Question</h4></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='' ><li>1. Largest Element</li></Link>
+                <Link to='' ><li>2. Second Largest Element(brute + better + optimal)</li></Link>
+                <Link to='' ><li>3. Second Minimum Element(brute + optimal)</li></Link>  
+                <Link to='' ><li>4. Check Array Is Sorted or Not</li></Link>     
+                <Link to='' ><li>5. Remove Dublicate From Sorted Array (brute + optimal)</li></Link>   
+                <Link to='' ><li>6. Left or Right Rotate Array by One Place</li></Link>        
+                <Link to='' ><li>7. Rotate D Place to Left or Right (brute + optimal)</li></Link>        
+                <Link to='' ><li>8. Move Zero to the end(brute + optimal)</li></Link>        
+                <Link to='' ><li>9. Union of Two Array(brute + optimal)</li></Link>        
+                <Link to='' ><li>10. Intersection of Two Array(optimal)</li></Link>  
+                <Link to='' ><li>11. Find Missing Element In Array(n = arr.size(), N = n+1 , better, optimal)</li></Link>   
+                <Link to='' ><li>12. Find Unique Element (brute +  optimal)</li></Link>    
+                <Link to='' ><li>13. Find Maximum Consicutive 1's (optimal)</li></Link> 
+                <Link to='' ><li>14. Longest SubArray With Sum k (brute + optimal)</li></Link>       
+                <Link to='' ><li>15. Two Sum Problem </li></Link>
+     
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <li><h4>4. String-based Questions</h4></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='' ><li>1. Reverse a String</li></Link>
+                <Link to='' ><li>2. String Palindrome check</li></Link>
+                <Link to='' ><li>3. Full pyramid</li></Link>  
+                <Link to='' ><li>4. Diamond</li></Link>        
+                <Link to='' ><li>5. Number pyramid</li></Link>        
+                <Link to='' ><li>6. Floyd’s Triangle</li></Link>        
+                <Link to='' ><li>7. Pascal’s Triangle</li></Link>        
+                <Link to='' ><li>8. Butterfly pattern</li></Link>        
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+        
+        
+        <div className='navbar'>
+            <ul>
+                <li><h1>TCS NQT</h1></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <li><h4>Numerical Ability</h4></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='' ><li>1. Simplification</li></Link>
+                <Link to='' ><li>(ii). VBODMAS</li></Link>        
+                <Link to='' ><li>(iii). Rationalization & Basic formula of alphabet</li></Link>  
+                <Link to='' ><li>(iv). Break Down Power into Square & Cube</li></Link>        
+                <Link to='' ><li>(v). learn square upto 30  and cube 10</li></Link>        
+                <Link to='' ><li>(vi). find square 11 t0 99</li></Link>        
+                <Link to='' ><li>(vii). find square root and cube </li></Link>
+                <Link to='' ><li>(viii). find decimal point after square & cube </li></Link>
+                <Link to='' ><li>(ix). trick to solve nested root</li></Link>
             </ul>
         </div>
 
@@ -406,6 +497,210 @@ Most common:
 6. Floyd’s Triangle
 7. Pascal’s Triangle
 8. Butterfly pattern
+
+
+
+
+🔹 4. String-based Questions
+-----------------------------
+
+1. Reverse a String
+2. String Palindrome check
+3. Count vowels, consonants, digits, spaces
+4. Remove spaces from string
+5. Remove duplicates from string
+6. Anagram check
+7. Frequency of characters in string
+8. Find first non-repeating character
+9. Convert string to uppercase / lowercase
+10. Longest word in sentence
+11. Check if string is rotation of another string
+12. Check balanced parentheses (Stack problem)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Apptitute
+---------
+
+Simplification
+Percentage
+Average
+Ratio & Proportion
+Ages
+Profit & loss
+Statistics
+Time & Work, Pipe & Cisterns
+Time, Speed & Distance
+Probability, Permutation & Combination
+Number System, HCF & LCM
+SI & CI
+Data Interpretation
+
+
+
+*/
+
+
+
+/*
+
+
+for TCS and service based company
+Write similar question which ask interviewer in interview to code to connect mongoDB. 
+Because I have MERN Skill all MERN related project.
+
+And One of my project in chat app where we use soikit.io which question ask interviewer
+
+
+
+
+
+
+
+Since you’re preparing for TCS and other service-based companies, interviewers usually don’t go very deep into MERN advanced stuff (unless it’s a product-based company). Instead, they will test you on basics of MongoDB connection, Express setup, APIs, and socket.io concepts.
+
+Here’s a list of possible coding-style questions you may face:
+
+
+
+🔹 MongoDB Related (MERN Stack Basics)
+
+Basic Connection
+
+
+
+
+Question:
+"Write a Node.js program to connect with MongoDB using Mongoose."
+
+Follow-up:
+
+What is the difference between mongoose.connect() and MongoClient.connect()?
+
+What happens if the connection fails?
+
+CRUD Operations
+
+
+
+
+
+Question:
+"Write code to create a schema for a User (name, email, password) and insert one record into MongoDB."
+
+Follow-up:
+
+How do you update a document?
+
+How do you delete a document?
+
+What is the difference between findOne() and findById()?
+
+REST API with MongoDB
+
+
+
+
+
+
+
+Question:
+"Write an Express API route to fetch all users from MongoDB and return JSON."
+
+Follow-up:
+
+What is the difference between app.get() and app.post()?
+
+How do you handle errors in API?
+
+Environment Variables
+
+Question:
+"Write code to connect MongoDB using connection string from .env file."
+
+Follow-up:
+
+Why should we not hardcode DB credentials in code?
+
+🔹 Socket.io Related (Your Chat App Project)
+
+Basic Setup
+
+
+
+
+
+
+
+
+Question:
+"Write Node.js code to create a simple socket.io server that listens for a message event and sends back a reply."
+
+Follow-up:
+
+What is the difference between WebSockets and HTTP?
+
+What is the difference between io.on('connection') and socket.on()?
+
+Broadcasting
+
+Question:
+"Write code to broadcast a message to all connected clients except the sender."
+
+Follow-up:
+
+What is the difference between socket.emit, io.emit, and socket.broadcast.emit?
+
+Room Feature
+
+
+
+
+
+
+
+
+Question:
+"Implement socket.io rooms where users can join a room and chat only inside that room."
+
+Follow-up:
+
+When would you use socket.join() and socket.leave()?
+
+Integration with MongoDB
+
+
+
+
+
+
+
+Question:
+"Messages in chat app should be stored in MongoDB. Write code for saving chat messages and fetching chat history for a room."
+
+Follow-up:
+
+How do you design schema for storing chat messages?
+
+How do you ensure messages are delivered in the correct order?
+
+👉 In service-based companies (like TCS, Wipro, Infosys), they usually stop after basic DB connection + simple API + maybe CRUD.
+👉 In product-based interviews, they may go deeper into scaling socket.io, indexing in MongoDB, authentication (JWT/Clerk), etc.
+
 
 
 

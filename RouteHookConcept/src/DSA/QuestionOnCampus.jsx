@@ -198,3 +198,80 @@ const QuestionOnCampus = () => {
 
 
 export default QuestionOnCampus
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+hash array size
+---------------
+
+in case of integer
+-----------------
+
+hash[10^6] -------> int main()
+hash[10^7] -------> globally
+
+
+in case of bool
+---------------
+
+hash[10^7] -------> int main()
+hash[10^8] -------> globally
+
+
+
+So, come another data structure in picture
+------------------------------------------
+
+first
+-----
+
+map<key, value>map;
+
+
+T.C = O(logn) ----> worst, avg, best senario
+S.C = O(1)
+
+Note :- In map sorting is based on key
+
+second 
+------
+
+unordered_map<key, value>map;
+
+T.C = O(1) ---->  avg, best senario
+T.C = O(n) ----> worst
+
+S.C = O(n)
+
+Note:- In map sorting is based on the key
+
+gpt give how to iterate 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

@@ -1,7 +1,9 @@
 /*
 
 ✅ React Components Overview
-Components are the building blocks of any React App.
+
+lll Components are the building blocks of any React App.
+
 They help you split the UI into independent, reusable pieces and think about each piece in isolation.
 Components are JavaScript functions (or classes) that:
 Accept props (inputs)
@@ -19,9 +21,10 @@ Lowercase names (e.g., <div />) → Treated as HTML tags.
 
 ✅ Types of Components
 
-1️⃣ Functional Components
-Simple JavaScript functions.
-Accept props and return React elements.
+lll 1️⃣ Functional Components
+Simple JavaScript functions is called functional component.
+it Accept props and return React elements.
+
 Easier to write and understand.
 
 Example:
@@ -32,9 +35,11 @@ function Student(props) {
 // OR
 const Student = (props) => <h1>Hello {props.name}</h1>;
 
-2️⃣ Class Components
-ES6 classes extending React.Component.
-Must implement a render() method.
+
+lll 2️⃣ Class Components
+
+when ES6 classes extending React.Component is called class component.
+In class component render() method is required.
 Use this.props to access props.
 
 Example:

@@ -53,6 +53,14 @@ Mode of Inheritance
 | Public                    | Private                             | Protected                             | Public                             |
 
 
+
+
+Sir, Inheritance is depend on the access modifire
+-------------------------------------------------
+
+That mean
+
+
 📖 Explanation Line by Line
 1. Base Class → Private Members
 

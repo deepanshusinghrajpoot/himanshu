@@ -7,16 +7,29 @@ import React from 'react'
 ✅ Event Propagation in JavaScript
 Three Phases of Event Propagation:
 
-Capturing Phase (Trickling Down)
+lll Capturing Phase (Trickling Down)
+------------------------------------
+
 Event moves from the top (document) down to the target element.
-Triggered by setting useCapture = true in addEventListener.
+Event Capturing triggered by setting useCapture = true in addEventListener.
+
+
+
+
 
 Target Phase
 Event reaches the target element — always fires at the element itself.
 
-Bubbling Phase (Bottom-Up)
+
+
+
+
+lll Bubbling Phase (Bottom-Up)
+--------------------------
+
 Event bubbles up from the target element to the top (document).
-Default phase for addEventListener (useCapture = false).
+Event Bubbling is a Default phase of the addEventListener (useCapture = false).
+
 
 
 
@@ -44,6 +57,7 @@ Default phase for addEventListener (useCapture = false).
 
 
 ✅ Bubbling Example (Default Behavior)
+---------------------------------------
 
 document.querySelector("#grandparent").addEventListener('click', () => {
     console.log("Grandparent Clicked!");
@@ -69,6 +83,7 @@ Output:
 
 
 ✅ Capturing Example
+---------------------
 
 document.querySelector("#grandparent").addEventListener('click', () => {
     console.log("Grandparent Clicked!");
@@ -93,6 +108,7 @@ Output:
 
 
 ✅ Mixed Example (Capturing + Bubbling)  first perform capturing then bubbling
+-------------------------------------------------------------------------------
 
 document.querySelector("#grandparent").addEventListener('click', () => {
     console.log("Grandparent Clicked!");
@@ -159,8 +175,9 @@ stopPropagation() halts further propagation to improve performance or control be
 
 ✅ Event Bubbling & Capturing in React
 ✔ React uses a Synthetic Event System, which wraps native events for better cross-browser compatibility.
-✔ By default, all React events bubble up to the root, similar to plain JavaScript.
-✔ React supports capturing phase by adding Capture suffix to event handlers.
+
+✔lll By default, all React events bubble up to the root, similar to plain JavaScript.
+✔lll React supports capturing phase by adding Capture suffix to event handlers.
 
 
 ✅ React Event Bubbling Example

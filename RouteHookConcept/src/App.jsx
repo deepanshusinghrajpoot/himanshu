@@ -23,10 +23,10 @@ import { Route, Routes } from 'react-router-dom'
 
 
 // Lazy loading
-const Home = lazy(()=> wait(5000).then(()=> import('./React/ReactRouting/pages/Home')));
-const About = lazy(()=> wait(5000).then(()=> import('./React/ReactRouting/pages/About').then((module)=>{return {default:module.About}})));
-const Contact = lazy(()=> wait(5000).then(()=> import('./React/ReactRouting/pages/Contact')));
-const Products = lazy(()=> wait(5000).then(()=> import('./React/ReactRouting/pages/Products')));
+const Home = lazy(()=> wait(5000).then(()=> import('./pages/Home')));
+const About = lazy(()=> wait(5000).then(()=> import('./pages/About').then((module)=>{return {default:module.About}})));
+const Contact = lazy(()=> wait(5000).then(()=> import('./pages/Contact')));
+const Products = lazy(()=> wait(5000).then(()=> import('./pages/Products')));
 
 
 const LifeCycleMethodOfComponent = lazy(()=> wait(5000).then(()=> import('./React/LifecycleMethod/LifeCycleOfComponent')));
@@ -54,6 +54,16 @@ const HOC = lazy(()=> wait(5000).then(()=> import('./React/HOC/utils/HOC')));
 const SyntheticEvent = lazy(()=> wait(5000).then(()=> import('./React/SyntheticEvent/SyntheticEvent')));
 const SSR = lazy(()=> wait(5000).then(()=> import('./React/SSR&CSR/SSR')));
 const CSR = lazy(()=> wait(5000).then(()=> import('./React/SSR&CSR/CSR')));
+
+
+
+
+
+
+
+const RTK = lazy(()=> wait(5000).then(()=> import('./redux/HowToUse/HowToUse')));
+
+
 
 
 
@@ -167,6 +177,24 @@ const App = () => {
 
         
           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <Route path='/RTK' element={<RTK />} />
+
+
 
 
 

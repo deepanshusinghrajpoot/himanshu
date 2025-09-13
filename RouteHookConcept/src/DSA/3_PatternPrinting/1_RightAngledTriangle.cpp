@@ -27,13 +27,15 @@ using namespace std;
 
 
 void rightAngleTringle(int n){
-    int col = 1;
+  
+    int stars = 1;
     for(int i=1; i<=n; i++){
-        for(int j=1; j<=col; j++){
+        for(int j=1; j<=stars; j++){
             cout<<"*";
         }
-        col +=1;
+
         cout<<endl;
+        stars +=1;
     }
 }
 

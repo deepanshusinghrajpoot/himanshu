@@ -76,7 +76,7 @@ class Teacher {
          salary = sal;
     }
 
-     Teacher( Teacher &orgObj){
+    Teacher( Teacher &orgObj){
          this->name = orgObj.name;
          this->dept = orgObj.dept;
          this->subject = orgObj.subject;

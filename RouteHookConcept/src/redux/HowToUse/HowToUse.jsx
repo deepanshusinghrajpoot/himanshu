@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { setIsNewGroup, setIsNotification } from "./miscSlice";
+import { setIsNewGroup, setIsNotification } from "../reducers/misc";
 
 
 function MiscComponent() {

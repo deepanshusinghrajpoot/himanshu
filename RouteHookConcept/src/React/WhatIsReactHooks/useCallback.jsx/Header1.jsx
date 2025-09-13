@@ -12,7 +12,8 @@ const Header1 = () => {
 }
 
 
-// React.memo is a higher-order component that prevents unnecessary re-renders.
-// It re-renders the component only when its props change, not when parent re-renders.
+//lll   React.memo is a higher-order component that prevents unnecessary re-renders.
+//lll   It re-renders the component only when its props change, not when parent re-renders.
+
 
 export default React.memo(Header1)

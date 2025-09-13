@@ -11,7 +11,7 @@ import React from 'react'
 
 
 
-🔹 What is Hydration?
+lll🔹 What is Hydration?
 -----------------------
 
 In Server-Side Rendering (SSR), React generates an HTML string on the server using renderToString(component) and sends it to the client.

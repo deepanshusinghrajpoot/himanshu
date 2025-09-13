@@ -49,6 +49,7 @@ export default App;
 
 
 npm create vite@latest
+----------------------
 
 📦 Vite and Lazy Loading (React)  
 🧪lll Development Mode – npm run dev

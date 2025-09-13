@@ -10,4 +10,4 @@ const Header3 = () => {
     )
 }
 
-export default Header3
+export default React.memo(Header3)
