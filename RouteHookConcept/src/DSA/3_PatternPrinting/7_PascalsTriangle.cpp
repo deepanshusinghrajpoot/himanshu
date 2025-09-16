@@ -95,7 +95,7 @@ void pascalsTriangle(int n){
             cout<<ncr(i, k)<<" ";
         }
 
-        cout<<endl;
+        cout<<endl;  
 
         space -= 1;
         stars += 1;

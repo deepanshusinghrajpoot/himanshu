@@ -174,7 +174,7 @@ const Navebar = () => {
                         <li>(ii). updating</li>
                         <li>(iii). unmounting</li>
                 </Link>
-            </ul>
+            </ul>   
             <ul>
                 <Link to='/useState' ><li>(1). 1. useState</li></Link>
                 <Link to='/useEffect' ><li>2. useEffect</li></Link>
