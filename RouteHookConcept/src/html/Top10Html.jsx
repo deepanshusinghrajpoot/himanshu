@@ -7,6 +7,7 @@ import React from 'react'
 
 
 ✅ Q1. What is the role of DOCTYPE in HTML?
+
 ✔ <!DOCTYPE html> tells the browser which version of HTML to use.
 ✔ It ensures the browser renders the page in standards-compliant mode rather than quirks mode.
 ✔ Prevents inconsistent behavior across browsers.

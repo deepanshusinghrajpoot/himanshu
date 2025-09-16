@@ -3,7 +3,7 @@
 
 lll ✅ State in React
 
-lll State is data that changes over time and affects what you see on the UI.
+lll State is data that changes over time and affects what you/we see on the UI.
 
 lll State is similar to props, but:
 

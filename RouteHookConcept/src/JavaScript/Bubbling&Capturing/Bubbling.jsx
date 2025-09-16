@@ -10,7 +10,7 @@ Three Phases of Event Propagation:
 lll Capturing Phase (Trickling Down)
 ------------------------------------
 
-Event moves from the top (document) down to the target element.
+In capturing pahse Event moves from the top (document) down to the target element.
 Event Capturing triggered by setting useCapture = true in addEventListener.
 
 
@@ -27,7 +27,7 @@ Event reaches the target element — always fires at the element itself.
 lll Bubbling Phase (Bottom-Up)
 --------------------------
 
-Event bubbles up from the target element to the top (document).
+In Bubbling phase Event bubbles up from the target element to the top (document).
 Event Bubbling is a Default phase of the addEventListener (useCapture = false).
 
 

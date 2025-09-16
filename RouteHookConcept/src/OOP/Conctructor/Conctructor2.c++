@@ -81,7 +81,7 @@ class Teacher {
     }
     
 
-     Teacher(string name, string dept, string subject, double salary){
+    Teacher(string name, string dept, string subject, double salary){
          this->name = name;
          this->dept = dept;
          this->subject = subject;

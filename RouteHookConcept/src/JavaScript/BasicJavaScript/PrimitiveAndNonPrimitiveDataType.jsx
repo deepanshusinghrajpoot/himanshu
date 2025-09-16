@@ -24,7 +24,9 @@ Copy creates a new independent value
 
 
 🔥 List of Primitive Types:
+
 Data Type                                    Example
+
 String	                                     "Hello World"
 Number	                                     42, 3.14, -7
 Boolean	                                     true, false
@@ -33,7 +35,11 @@ Null	                                       let y = null;
 Symbol	                                     Symbol("id")
 BigInt	                                     123456789n
 
-nnnssbb
+
+
+
+
+
 
 
 ✅ Example:

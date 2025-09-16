@@ -124,6 +124,27 @@ const Navebar = () => {
                 <Link to='/operator'><li>(1) 1. Operator</li></Link>
                 <Link to='/spradAndRest'><li>2. Imp Sprad and Rest Operator</li></Link>
             </ul>
+             <ul>
+                <Link to=''><li>(2). Array Method</li></Link>
+                <Link to=''><li>1. Add , remove element from last position</li></Link>
+                <Link to=''><li>2. (i) slice(not modify parent array) (ii) splice(modify parent array) </li></Link>
+                <Link to=''><li>3. modify parent array using forEach method</li></Link>
+                <Link to=''><li>4. search element :- indexOf(), includes(), </li></Link>
+                <Link to=''><li>5. search element using higher order function :- find() , findIndex() </li></Link>
+                <Link to=''><li>6. split(), join(), concat(), reverse()</li></Link><Link to='/operator'><li>5. search element using higher order function :- find() , findIndex() </li></Link>
+             </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <li><h4>OOP in javaScript</h4></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to=''><li>1. (i) What is object. (ii) Way of creating obj :- (1). Direct way creating obj. (2). Using classes </li></Link>
+                <Link to=''><li>2. Inheritance, Prototype, Prototype Inheritance</li></Link>
+                <Link to=''><li>3. extends, constructor , super key</li></Link>
+            </ul>
         </div>
 
 
@@ -198,7 +219,9 @@ const Navebar = () => {
         </div>
         <div className='navbar'>
             <ul>
-                <Link to='RTK'><li>redux toolkit</li></Link>
+                <Link to='RTK'><li>1. How To Create Store & How To Provide Store To App Component</li></Link>
+                <Link to=''><li>2. How To Create Reducer</li></Link>
+                <Link to=''><li>3. How To Use useSelector() & useDispatch()</li></Link>
             </ul>
         </div>
 
@@ -222,7 +245,20 @@ const Navebar = () => {
 
 
 
-
+     
+        <div className='navbar'>
+            <ul>
+                <li><h1>Practical Backend Question</h1></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='RTK'><li>1. Write program to connect MongoDB using Mongoose.</li></Link>
+                <Link to=''><li>2. How to use env Variaval.</li></Link>
+                <Link to=''><li>3. How To Create Schema</li></Link>
+                <Link to=''><li>4. setup :- app.js , routes, models, controllers(tryCatch)</li></Link>
+            </ul>
+        </div>
 
 
 
@@ -425,12 +461,23 @@ const Navebar = () => {
             <ul>
                 <Link to='' ><li>1. Reverse a String</li></Link>
                 <Link to='' ><li>2. String Palindrome check</li></Link>
-                <Link to='' ><li>3. Full pyramid</li></Link>  
-                <Link to='' ><li>4. Diamond</li></Link>        
-                <Link to='' ><li>5. Number pyramid</li></Link>        
-                <Link to='' ><li>6. Floyd’s Triangle</li></Link>        
-                <Link to='' ><li>7. Pascal’s Triangle</li></Link>        
-                <Link to='' ><li>8. Butterfly pattern</li></Link>        
+                <Link to='' ><li>3. Count vowels, consonants, digits, spaces</li></Link>  
+                <Link to='' ><li>4. Remove spaces from string</li></Link>        
+                <Link to='' ><li>5. Remove duplicates from string</li></Link>        
+                <Link to='' ><li>6. Anagram check</li></Link>        
+                <Link to='' ><li>7. Frequency of characters in string</li></Link>        
+                <Link to='' ><li>8. Find first non-repeating character</li></Link> 
+                <Link to='' ><li>9. Convert string to uppercase / lowercase</li></Link>    
+                <Link to='' ><li>10. Longest word in sentence</li></Link>        
+                <Link to='' ><li>11. Check if string is rotation of another string</li></Link>        
+                <Link to='' ><li>12. Check balanced parentheses (Stack problem)</li></Link>        
+            </ul>
+        </div>
+         <div className='navbar'>
+            <ul>
+                <Link to='' ><li>6. Check If Sentence Is Panagram Or Not</li></Link>
+                <Link to='' ><li>7. Sort Lower Case Alphabet Or Any Charactor</li></Link>
+                <Link to='' ><li>3. Count vowels, consonants, digits, spaces</li></Link>       
             </ul>
         </div>
 
@@ -629,6 +676,11 @@ How do you handle errors in API?
 
 Environment Variables
 
+
+
+
+
+
 Question:
 "Write code to connect MongoDB using connection string from .env file."
 
@@ -636,13 +688,13 @@ Follow-up:
 
 Why should we not hardcode DB credentials in code?
 
+
+
+
+
 🔹 Socket.io Related (Your Chat App Project)
 
 Basic Setup
-
-
-
-
 
 
 
@@ -657,6 +709,11 @@ What is the difference between WebSockets and HTTP?
 What is the difference between io.on('connection') and socket.on()?
 
 Broadcasting
+
+
+
+
+
 
 Question:
 "Write code to broadcast a message to all connected clients except the sender."

@@ -41,7 +41,7 @@ middleware: (defaultMiddleware) => [
 
 ✅ Interview One-liner:
 
-"In RTK, the store is created using configureStore, where we provide reducers for state management, middleware for side effects, and RTK automatically wires up DevTools support."
+lll :- "In RTK, the store is created using configureStore, where we provide reducers for state management, middleware for side effects, and RTK automatically wires up DevTools support."
 
 
 
