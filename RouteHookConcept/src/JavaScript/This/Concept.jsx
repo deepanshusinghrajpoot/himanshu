@@ -7,7 +7,7 @@ lll✅ this in Global Space – Interview Notes
    
    The value of this in global space depend on the inviornment where javaScript is running.
    
-lll  when javasScript code is execute in global space the value of this depend on the global object.
+lll  when javasScript code is execute in global space the value of this refer to the global object.
 
    The global object depends on the environment where the JavaScript is running:
    In browsers, the global object is window, so this === window.
@@ -307,7 +307,7 @@ lll 🧠 What is Lexical Context?
       "Where the function is physically written in the code."
 
 
-Arrow functions capture this from the nearest non-arrow function or global context.
+lll Arrow functions capture this from the nearest non-arrow function or global context.
 
 📌 Example:
 

@@ -62,6 +62,7 @@ User ID: 101
 
 <Route path="order/:orderId/item/:itemId" element={<OrderItem />} />
 
+const { orderId, itemId } = useParams();
 
 
 

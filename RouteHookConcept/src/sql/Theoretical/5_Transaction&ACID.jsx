@@ -22,31 +22,33 @@ Step 2: Add ₹1000 to Account B
 Both must succeed together → otherwise rollback.
 
 
+2️⃣ Why are ACID properties important in transactions?
 
+Answer:
+
+“ACID properties are important because they prevent data inconsistency, ensure correctness of transactions, and protect 
+the database from partial updates, system crashes, and concurrent access issues.”
 
 
 🔹 ACID Properties of Transactions
 -----------------------------------
 
-Atomicity → All operations of a transaction are completed or none are applied.
-Example: If money is deducted from A but not added to B → rollback.
+A transaction in DBMS is a single logical unit of work.
+To make transactions reliable, DBMS follows ACID properties — Atomicity, Consistency, Isolation, and Durability.
 
+lll Atomicity means either all operations happen or none happen.
+    For example: if money is deducted from Account A but not added to Account B, the whole transaction is rolled back.
 
-Consistency → Transaction takes the database from one valid state to another valid state.
-Example: Total money before and after transfer remains the same.
+lll Consistency means the database remains in a valid state before and after the transaction.
+    For example: the total money in both accounts remains the same before and after transfer.
 
+lll Isolation means transactions run independently without interfering with each other.
+    For example: if two people transfer money at the same time, one transaction doesn’t affect the other’s result.
 
-Isolation → Transactions are executed independently without interference.
-Example: Two people transferring money at the same time won’t affect each other’s result.
+lll Durability means once a transaction is committed, the changes are permanent.
+    For example: after a successful transfer, even if the server crashes, the updated balances stay saved.
 
-
-Durability → Once a transaction is committed, the changes are permanent even after system failure.
-Example: After transfer is successful, the updated balances remain even if server crashes.
-
-
-👉 Interview Short Answer:
-“A transaction is a unit of work in DBMS. ACID properties ensure it is reliable: Atomicity (all or none), Consistency (valid state), Isolation (no interference), and Durability (permanent changes).”
-
+So, in short — ACID properties ensure every transaction is reliable, consistent, and safe.
 
 
 

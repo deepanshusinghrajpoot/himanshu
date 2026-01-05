@@ -235,6 +235,10 @@ const Concept = () => {
                });
                
 
+
+
+// lll How to create our won promise
+//------------------------------------
 // Create Order function
 function createOrder(cart) {
   return new Promise(function (resolve, reject) {

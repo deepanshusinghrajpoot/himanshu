@@ -42,7 +42,9 @@ when ES6 classes extending React.Component is called class component.
 In class component render() method is required.
 Use this.props to access props.
 
+
 Example:
+
 
 class Student extends React.Component {
   render() {

@@ -11,7 +11,7 @@ lll Capturing Phase (Trickling Down)
 ------------------------------------
 
 In capturing pahse Event moves from the top (document) down to the target element.
-Event Capturing triggered by setting useCapture = true in addEventListener.
+Event Capturing phase triggered by setting useCapture = true in addEventListener.
 
 
 
@@ -174,13 +174,19 @@ stopPropagation() halts further propagation to improve performance or control be
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ✅ Event Bubbling & Capturing in React
+
 ✔ React uses a Synthetic Event System, which wraps native events for better cross-browser compatibility.
 
 ✔lll By default, all React events bubble up to the root, similar to plain JavaScript.
 ✔lll React supports capturing phase by adding Capture suffix to event handlers.
 
 
+
+
 ✅ React Event Bubbling Example
+
+
+
 
 export default function BubblingExample() {
 

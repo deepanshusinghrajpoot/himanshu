@@ -80,21 +80,10 @@ import React from 'react'
 
 
 
-6. String Operators (depends on DB)
 
-| Operator                   | Example                            | Result                      |           |   |            |               |
-| -------------------------- | ---------------------------------- | --------------------------- | --------- | - | ---------- | ------------- |
-| \`                         |                                    | \` (concat in Oracle/PGSQL) | \`'Hello' |   | ' World'\` | `Hello World` |
-| `+` (concat in SQL Server) | `'Hi' + ' John'`                   | `Hi John`                   |           |   |            |               |
-| `CONCAT()` (MySQL)         | `CONCAT(first_name,' ',last_name)` | `Deepanshu Singh`           |           |   |            |               |
+6. Joins (special operators between tables)
 
-
-
-
-
-
-8. Joins (special operators between tables)
-
+lll
 
 | Operator          | Meaning                                   |
 | ----------------- | ----------------------------------------- |
@@ -109,6 +98,15 @@ import React from 'react'
 
 
 
+
+
+7. String Operators (depends on DB)
+
+| Operator                   | Example                            | Result                      |           |   |            |               |
+| -------------------------- | ---------------------------------- | --------------------------- | --------- | - | ---------- | ------------- |
+| \`                         |                                    | \` (concat in Oracle/PGSQL) | \`'Hello' |   | ' World'\` | `Hello World` |
+| `+` (concat in SQL Server) | `'Hi' + ' John'`                   | `Hi John`                   |           |   |            |               |
+| `CONCAT()` (MySQL)         | `CONCAT(first_name,' ',last_name)` | `Deepanshu Singh`           |           |   |            |               |
 
 
 

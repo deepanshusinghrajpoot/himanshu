@@ -23,7 +23,7 @@ using namespace std;
     -----------------
 
     👉 “A class is like a blueprint, and an object is a real-world instance of it.
-        For example, consider a Teacher class. It has properties like name, dept, subject, and salary.
+    lll For example, consider a Teacher class. It has properties like name, dept, subject, and salary.
         From this class, I can create objects like Teacher t1 (Deepanshu Singh, Computer Science, C++ teacher) or
         Teacher t2 (Rahul Sharma, Mathematics, Algebra teacher).
 
@@ -65,6 +65,7 @@ class Teacher {
 
 
  public:
+ 
     // properties or attribute
     string name;
     string dept;

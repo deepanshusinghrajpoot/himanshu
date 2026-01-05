@@ -43,9 +43,10 @@
 
 
        lll 👉 “In inheritance, the base class constructor is called first, then the derived class constructor. 
-       For destruction, it’s the opposite — derived class destructor first, then base class destructor.”
+                For destruction, it’s the opposite — derived class destructor first, then base class destructor.”
 
 
+                
 */
 
 
@@ -61,13 +62,17 @@ class Person {
        string name;
        int age;
 
+
    Person(){
         cout<< "Parent constructor ..." <<endl;
    }
+   
 
    ~Person(){
         cout<< "Parent destructor ..." <<endl;
    }
+
+
 };
 
 
@@ -91,6 +96,7 @@ class Student : public Person {
         cout<<"Student Age: "<< age <<endl;
         cout<<"Student Rollno: "<< rollno << endl;
        }
+
 };
 
 

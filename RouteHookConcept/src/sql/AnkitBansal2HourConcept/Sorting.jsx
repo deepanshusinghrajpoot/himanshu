@@ -86,7 +86,7 @@ FROM orders_data
 ORDER BY order_date DESC, profit ASC;
 
 
-📌 Result Table
+📌lll Result Table
 
 👉 First, rows are sorted by order_date descending (latest orders first).
 👉 If two rows have the same order_date, then they are sorted by profit ascending.

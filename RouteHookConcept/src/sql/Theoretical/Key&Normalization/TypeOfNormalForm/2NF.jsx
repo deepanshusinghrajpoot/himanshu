@@ -28,6 +28,7 @@ if (r1.x == r2.x) then (r1.y == r2.y)
 
 ➡️ Meaning: If two rows have the same value for attribute X, they must also have the same value for attribute Y.
 
+
 Example:
 If two rows have the same TeacherID = 25, then their TeacherSalary must also be the same (30,000).
 

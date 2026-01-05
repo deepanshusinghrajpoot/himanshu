@@ -5,7 +5,8 @@ import React from 'react'
 ✅ What is a Synthetic Event in React?
 ✔ Synthetic Event is a wrapper around the native browser event system, provided by React.
 ✔ It normalizes events across different browsers to ensure they behave consistently, avoiding browser-specific bugs.
-✔ Synthetic events wrap around the native events and provide the same interface, making event handling predictable and consistent.
+
+✔ lll Synthetic events wrap around the native events and provide the same interface, making event handling predictable and consistent.
 
 
 ✅ Difference: Native DOM Events vs. React Synthetic Events
@@ -16,6 +17,7 @@ onmouseover	                           onMouseOver
 onmouseenter	                       onMouseEnter
 
 ✔ Native events are lowercase, React events use camelCase.
+
 ✔ React Synthetic Events work the same way for all browsers, ensuring compatibility.
 
 ✅ Example of Synthetic Event in React

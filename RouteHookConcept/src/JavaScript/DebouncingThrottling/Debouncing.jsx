@@ -13,7 +13,7 @@ import React from 'react'
 Search inputs (auto-suggestions)
 
 
-trottling example
+trottling examplex
 -----------------
 
 Window resizing

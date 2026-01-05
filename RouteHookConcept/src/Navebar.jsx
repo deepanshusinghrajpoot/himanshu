@@ -67,7 +67,7 @@ const Navebar = () => {
             <ul>
                 <Link to='/callBackHell'><li>(4).  1. CallbackHell , Inversion of control</li></Link>
                 <Link to='/promis' >
-                       <li>2. Promise</li>
+                       <li>2. Promise :- How to Implement Our Won Promise</li>
                        <li>(i). Promise have some API to handle multiple promise:- (1). Promise.all([p1,p2,p3,...])  (2). Promise.allSettled([p1,p2,p3,...]) (3). Promise.Race([p1,p2,p3,...]) (4). Promise.any([p1,p2,p3,...])</li>
                        <li>(ii). There are two way handling promise in JS (1). using dot_then dot_catch  (2). using async & await</li>
                 </Link>
@@ -176,7 +176,8 @@ const Navebar = () => {
                 </Link>
             </ul>   
             <ul>
-                <Link to='/useState' ><li>(1). 1. useState</li></Link>
+                <Link to='/useState' ><li>(1) Hooks </li></Link>
+                <Link to='/useState' ><li>1. useState</li></Link>
                 <Link to='/useEffect' ><li>2. useEffect</li></Link>
                 <Link to='/useRef' ><li>3. useRef</li></Link>
                 <Link to='/useMemo' ><li>4. useMemo & memo</li></Link>
@@ -209,6 +210,27 @@ const Navebar = () => {
                 <Link to='/CSR'><li>(8). CSR</li></Link>
             </ul>
         </div>
+        <div className='navbar'>
+            <ul>
+                <li><h4>React Router</h4></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to=''><li>1. Old Method To Implement Routing </li></Link>
+                <Link to=''><li>(i). Nested Routing </li></Link>
+                <Link to=''><li>(ii). Dynamic Routing </li></Link>
+            </ul>
+            <ul>
+                <Link to=''><li>1. New Method To Implement Routing </li></Link>
+                <Link to=''><li>(i). Nested Routing </li></Link>
+                <Link to=''><li>(ii). Dynamic Routing </li></Link>
+            </ul>
+        </div>
+
+
+
+
 
 
 
@@ -242,6 +264,11 @@ const Navebar = () => {
                 <li><h1>NodeJs all interview question</h1></li>
             </ul>
         </div>
+         <div className='navbar'>
+            <ul>
+                <Link to=''><li>1. REST API Concept</li></Link>
+            </ul>
+        </div>
 
 
 
@@ -270,6 +297,9 @@ const Navebar = () => {
 
 
 
+
+
+
         <div className='navbar'>
             <ul>
                 <li><h1>SQL</h1></li>
@@ -282,10 +312,19 @@ const Navebar = () => {
         </div>
         <div className='navbar'>
             <ul>
+                <Link to='' >
+                       <li>(1). 1. What is DataBase </li> 
+                       <li>2. What is DBMS</li>
+                       <li>3. DBMS v/s RDMS</li>
+                       <li>4. when we use RDBMS and Document Database</li>
+                       <li>5. ACID  Properties</li>
+                </Link>
+            </ul>
+            <ul>
                 <Link to='' ><li>(1). keys (Super key, Candidate key, Alternative key, Primary key, Foriegn key, Composite key)</li></Link>
             </ul>
             <ul>
-                <Link to='' ><li>(2). 1. Normal Form </li></Link>
+                <Link to='' ><li>(2). 1. Normal Form (Normalization) </li></Link>
                 <Link to='' ><li>2. Type of Normal Form :- (i) 1NF , (ii) 2NF , (iii) 3NF , (iV) BCNF </li></Link>
             </ul>
         </div>
@@ -297,22 +336,37 @@ const Navebar = () => {
         <div className='navbar'>
             <ul>
                 <Link to='' ><li>(1). Core Concept </li></Link>
-                <Link to='' ><li>1. Engine executes in logical order</li></Link>
+                <Link to='' ><li>1. logical execution order(or DB execution order)</li></Link>
                 <Link to='' ><li>2. SQL syntax order</li></Link>
 
             </ul>
             <ul>
+                <Link to='' >
+                       <li>(2). Aggregate function :- 1. SUM(), 2. COUNT(), 3. AVG(), 4. MIN(), 5. MAX(), 6. DISTINCT, </li>
+                       <li>7. GROUP BY</li>
+                </Link>
+            </ul>
+            <ul>
                 <Link to='' ><li>(2). Operator :- </li></Link>
-                <Link to='' ><li>1. Comparison, 2. Logical, 3. Set&Range, 4. Patter match, 5. Arithmatic, 6. String, 7. join  </li></Link>
+                <Link to='' >
+                      <li>1. Comparison, 2. Logical, 3. Set&Range, 4. Patter match, 5. Arithmatic,  6. join  </li>
+                      <li>1. INNER JOIN, 2. LEFT JOIN, 3. RIGHT JOIN, 4. FULL OUTER JOIN</li>
+                </Link>
             </ul>
             <ul>
                 <Link to='' ><li>(3). Functionality of key ward :- </li></Link>
                 <Link to='' ><li>1. SELECT, 2. FROM, 3. WHERE, 4. GROUP BY, 5. HAVING, 6. ORDER BY, 7. LIMIT </li></Link>
             </ul>
             <ul>
-                <Link to='' ><li>(4).1 CASE Statement </li></Link>
+                <Link to='' ><li>(4).1 CASE keyword </li></Link>
                 <Link to='' ><li>2. String Functions </li></Link>
                 <Link to='' ><li>3. Date Functions </li></Link>
+            </ul>
+              <ul>
+                <Link to='' ><li>(4). Window Function</li></Link>
+                <Link to='' ><li>1. (i) ROW_NUMBER()</li><li>(ii) RANK()</li><li>(iii) DENSE_RANK()</li></Link>
+                <Link to='' ><li>2. (i) NTH_VALUE(which col, which row)</li><li>(ii) NTILE(no of bucket)</li><li>(iii) CUME_DIST()</li><li>(iv) PERCENT_RANK()</li></Link>
+                <Link to='' ><li>3. (i) FIRST_VALUE(col)</li><li>(ii) LAST_VALUE(col)</li></Link>
             </ul>
         </div>
 
@@ -382,6 +436,20 @@ const Navebar = () => {
         <div className='navbar'>
             <ul>
                 <li><h1>DSA C++</h1></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <li><h4>Sorting Algorithum</h4></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='' ><li>1. Selection Sort</li></Link>
+                <Link to='' ><li>2. Bubble Sort</li></Link>
+                <Link to='' ><li>3. Insertion Sort</li></Link>  
+                <Link to='' ><li>4. Merge Sort</li></Link>        
+                <Link to='' ><li>5. Quick Sort</li></Link>   
             </ul>
         </div>
          <div className='navbar'>
@@ -459,7 +527,9 @@ const Navebar = () => {
         </div>
         <div className='navbar'>
             <ul>
+                <Link to='' ><li>0. find word from a sentence</li></Link>
                 <Link to='' ><li>1. Reverse a String</li></Link>
+                <Link to='' ><li>1. Reverse a vowel from words</li></Link>
                 <Link to='' ><li>2. String Palindrome check</li></Link>
                 <Link to='' ><li>3. Count vowels, consonants, digits, spaces</li></Link>  
                 <Link to='' ><li>4. Remove spaces from string</li></Link>        
@@ -480,7 +550,53 @@ const Navebar = () => {
                 <Link to='' ><li>3. Count vowels, consonants, digits, spaces</li></Link>       
             </ul>
         </div>
-
+        <div className='navbar'>
+            <ul>
+                <li><h4>5. Linked List</h4></li>
+            </ul>
+        </div>
+        <div className='navbar'>
+            <ul>
+                <Link to='' >
+                     <li>SINGLY LINKEDLIST</li>
+                     <li>How to create self define data type in Singly LinkedList</li>
+                </Link>
+                <Link to='' >
+                     <li>(1). Insert Element :-</li>
+                     <li>(i). Head</li>
+                     <li>(ii). Last</li>
+                     <li>(iii). Position</li>
+                     <li>(iv).Befoure the Value</li>
+                </Link>
+                <Link to='' >
+                     <li>(2). Delete Element :-</li>
+                     <li>(i). Head</li>
+                     <li>(ii). Last</li>
+                     <li>(iii). Position</li>
+                     <li>(iv). Value</li>
+                </Link>    
+            </ul>
+             <ul>
+                <Link to='' >
+                     <li>DOUBLY LINKEDLIST</li>
+                     <li>How to create self define data type in Doubly LinkedList</li>
+                </Link>
+                <Link to='' >
+                     <li>(1). Insert Element :-</li>
+                     <li>(i). Head</li>
+                     <li>(ii). Last</li>
+                     <li>(iii). Position</li>
+                     <li>(iv). Value</li>
+                </Link>
+                <Link to='' >
+                     <li>(2). Delete Element :-</li>
+                     <li>(i). Head</li>
+                     <li>(ii). Last</li>
+                     <li>(iii). Position</li>
+                     <li>(iv). Node Accept Head</li>
+                 </Link>    
+               </ul>
+        </div>
 
 
 

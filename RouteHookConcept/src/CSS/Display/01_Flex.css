@@ -1,0 +1,260 @@
+
+
+
+
+/*
+
+✅ FLEX CONTAINER PROPERTIES — All Values
+
+
+
+📘 Understanding Main Axis vs Cross Axis
+
+✔ Main Axis = set by flex-direction
+
+If row → main axis is horizontal
+
+If column → main axis is vertical
+
+✔ Cross Axis = perpendicular to main axis
+
+
+
+                           Main Axis (justify-content)
+                     ......................................
+                     .                                    .
+                     .                                    .
+                     .                                    .
+                     .                                    .
+Cross Axis           .          .............             .
+(align-items)        .          .           .             .
+                     .          .   Item    .             .
+                     .          .............             .
+                     .                                    .
+                     .                                    .
+                     .                                    .
+                     ......................................
+
+
+
+🔶 1. flex-direction
+
+Controls main axis direction.
+
+Value	                            Meaning
+row	                                Left → Right (default)
+row-reverse	                        Right → Left
+column	                            Top → Bottom
+column-reverse	                    Bottom → Top
+
+
+
+
+
+
+🔶 2. flex-wrap
+
+Controls wrapping of items.
+
+Value	                         Meaning
+nowrap	                         No wrap (default)
+wrap	                         Wrap to next line
+wrap-reverse	                 Wrap in reverse direction
+
+
+
+
+
+
+🔶 3. flex-flow
+
+Shorthand of:
+flex-direction + flex-wrap
+
+Examples:
+
+flex-flow: row nowrap
+flex-flow: column wrap;
+
+No new values—uses values of flex-direction & flex-wrap.
+
+
+
+
+
+
+
+
+
+
+
+🔶 4. justify-content
+
+Aligns items along the main axis.
+
+Value	                       Meaning
+flex-start	                   Align items at start (default)
+flex-end	                   Align items at end
+center	                   Center items
+space-between	             Items at ends, equal space between
+space-around	             Equal space around each item
+space-evenly	             Equal space between all items
+start	                         Based on writing mode
+end	                         Based on writing mode
+left	                         Align to left
+right	                         Align to right
+
+
+
+
+
+
+
+
+🔶 5. align-items
+
+Aligns items along cross axis (single line).
+
+Value	                         Meaning
+stretch	                   Fill container height (default)
+flex-start	                   Align at start of cross axis
+flex-end	                   Align at end of cross axis
+center	                   Align center
+baseline	                   Align based on text baseline
+start                          Writing-mode based start
+end	                         Writing-mode based end
+
+
+
+
+
+
+
+
+🔶 6. align-content
+
+Aligns multiple lines of flex items.
+
+(Works only when flex-wrap: wrap)
+
+Value	                                   Meaning
+stretch	                             Lines stretch to fill space (default)
+flex-start	                             Pack lines at start
+flex-end	                             Pack lines at end
+center	                             Lines in center
+space-between	                       Equal space between lines
+space-around	                       Equal space around lines
+space-evenly	                       Equal spacing
+start	                                   Writing-mode start
+end	                                   Writing-mode end
+
+
+
+
+
+
+
+
+
+✅ FLEX CHILD (ITEM) PROPERTIES — All Values
+🔷 1. order
+
+Reorders items.
+
+Value	Meaning
+Any number (positive/negative)	Lower number appears first
+
+Example:
+order: -1 (comes first)
+
+🔷 2. flex-grow
+
+Controls how item grows.
+
+Value	               Meaning
+0	                   No grow (default)
+1 or more	           Grows to fill space
+
+Example:
+flex-grow: 2
+
+
+
+
+
+
+
+
+🔷 3. flex-shrink
+
+Controls how item shrinks.
+
+Value	                Meaning
+1	                    Shrinks if needed (default)
+0	                    Do not shrink
+>1	                    Shrinks more aggressively
+
+
+
+
+
+
+
+
+
+🔷 4. flex-basis
+
+Sets initial size of an item.
+
+Value	                   Meaning
+auto	                   Size depends on content (default)
+px, rem, %	               Custom size
+0	                       Ignores content size
+
+Examples:
+flex-basis: 100px;
+flex-basis: 30%;
+
+
+
+
+
+
+
+
+
+
+🔷 5. flex
+
+Shorthand of:
+flex-grow flex-shrink flex-basis
+
+Example	                        Meaning
+flex: 1;	                    = 1 1 0
+flex: auto;	                    = 1 1 auto
+flex: none;	                    = 0 0 auto
+flex: 0 0 100px;	            Fixed size
+
+
+
+
+
+
+
+
+
+🔷 6. align-self
+
+Overrides align-items for one item.
+
+Value	                        Meaning
+auto	                        Uses align-items (default)
+flex-start                  	Start of cross axis
+flex-end	                    End of cross axis
+center	                        Center
+baseline	                    Baseline alignment
+stretch	                        Fill height
+
+
+
+*/

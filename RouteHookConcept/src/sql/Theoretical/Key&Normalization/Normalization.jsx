@@ -6,13 +6,13 @@
 🔹 Normalization
 -----------------
 
-Definition: Normalization is the process of organizing data in a database.
+lll Definition: Normalization is the process of organizing data in a database.
 
-Purpose:
+Purpose: The main purpose of normalization is
 
-Minimizes redundancy (duplicate data).
-Eliminates anomalies: Insertion, Update, Deletion.
-Divides large tables into smaller related tables and links them using relationships (keys).
+lll Eliminates anomalies: Insertion, Update, Deletion.
+lll Minimizes redundancy (duplicate data).
+lll Divides large tables into smaller related tables and links them using relationships (keys).
 
 Goal: To make the database consistent, efficient, and easy to maintain.
 

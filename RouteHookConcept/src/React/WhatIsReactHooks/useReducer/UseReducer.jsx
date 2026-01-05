@@ -7,7 +7,7 @@ const UseReducer = () => {
 
      =================== useReducer ===================
      
-     useReducer is similar to useState, But instead of providing state & setter function.
+     useReducer react hook is similar to useState, But instead of providing state & setter function.
      It provides state and dispatch function.
 
      

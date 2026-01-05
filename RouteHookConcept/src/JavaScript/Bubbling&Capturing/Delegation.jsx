@@ -6,7 +6,7 @@ import React from 'react'
 
 
 ✅ Event Delegation in JavaScript
-✔ Event Delegation is a technique where you attach a single event listener to a parent element, and handle events for its current or future child elements using event bubbling.
+✔lll  Event Delegation is a technique where you/we attach a single event listener to a parent element, and handle events for its current or future child elements using event bubbling.
 
 
 ✅ Why Event Delegation?

@@ -1,4 +1,6 @@
 import express from "express";
+import "dotenv/config";
+import cookieParser from "cookie-parser";
 import { connectDB } from "../MongoDB/ConnectDB.js";
 
 
@@ -8,10 +10,16 @@ import chatRouter from "./routes/chat.js";
 
 
 
+const app = express();
+
+
+
 
 dotenv.config({
     path: "./.env",
 });
+
+
 
 
 

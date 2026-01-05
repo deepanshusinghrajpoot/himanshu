@@ -9,7 +9,7 @@
 Run Time Polymorphism
 ---------------------
 
-(1). Virtual Function
+lll (1). Virtual Function
 
     A virtual function is a member function in the base class that can be 
     redefined (overridden) in a derived class. 

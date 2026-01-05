@@ -191,7 +191,7 @@ Once the update is complete, the WIP tree is committed and becomes the current t
 
 
 
-🧵 2. Fiber as a Linked List Tree
+🧵 2. Fiber as a Linked List Tree Structure
 
    Each Fiber node is connected to:
    child → first child

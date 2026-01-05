@@ -45,13 +45,12 @@ Overall, HealthHub is scalable, secure, and built to reflect real hospital work
 
 
 
+What to Ask the recruiter (Before You Leave)
+--------------------------------------------
 
-
-
-
-
-
-
+Could you please share a bit about the work environment and team culture? 
+Also, I’d love to know whether the tasks or projects assigned will align with my technical skills and interests, 
+and what kind of learning or mentorship support is provided during the training period.
 
 
 

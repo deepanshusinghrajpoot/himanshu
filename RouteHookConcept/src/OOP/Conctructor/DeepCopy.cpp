@@ -8,7 +8,7 @@ Deep Copy
 ---------
 
 A deep copy, on other hand,
-not only copies the member values but also makes copies of
+not only copies the member values but makes copies of
 any dynamically allocated memory on heap that the members point to.
 
 

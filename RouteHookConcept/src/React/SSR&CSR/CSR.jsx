@@ -8,7 +8,7 @@ import React from 'react'
 ----------------------------------------
 
 
-🔹 What is Client-Side Rendering?
+lll 🔹 What is Client-Side Rendering?
 ----------------------------------
 
 In CSR, the server only sends a minimal index.html file and JavaScript bundles.

@@ -4,6 +4,7 @@ import React from 'react'
 
 /*
 
+
 ✅ What is Inheritance?
 ✔ lll  Inheritance means one object can access the properties or methods of another object.
 ✔ lll  In JavaScript, all inheritance works via prototypes, not classical class-based inheritance like Java or C++.

@@ -12,10 +12,19 @@ public:
     }
 };
 
+
+
+
+
 // static variable must be defined outside the class
 int A::x = 0;
 
+
+
+
+
 int main() {
+
     A obj1;
     A obj2;
 
@@ -26,4 +35,5 @@ int main() {
     cout << obj2.x << endl;  // Output: 200
 
     return 0;
+
 }

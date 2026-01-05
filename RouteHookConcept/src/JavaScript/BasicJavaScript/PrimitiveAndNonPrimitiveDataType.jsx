@@ -104,19 +104,44 @@ console.log(obj2.name);  // Himanshu
 ⚡️ Quick Interview Summary
 
 
-✅ Primitive Data Types
+lll ✅ Primitive Data Types
 
-        Stored in stack
-        Immutable
-        Compared by value
+      They are stored in stack
+      They are immutable
+      They are compared by value
+
+        
+🔥 List of Primitive Types:
+
+Data Type                                    Example
+
+String	                                     "Hello World"
+Number	                                     42, 3.14, -7
+Boolean	                                     true, false
+Undefined	                                   let x; → x is undefined
+Null	                                       let y = null;
+Symbol	                                     Symbol("id")
+BigInt	                                     123456789n
 
 
 
-✅ Non-Primitive (Reference) Types
+lll ✅ Non-Primitive (Reference) Types
 
-        Stored in heap
-        Mutable
-        Compared by reference
+      They are stored in heap
+      They are mutable
+      They are compared by reference
+
+
+
+🔥 Examples of Non-Primitive Types:
+
+Data Type	                            Example
+Object	                                { name: "Deepanshu" }
+Array	                                [1, 2, 3]
+Function	                            function() {}
+Date	                                new Date()
+RegExp	                                /abc/
+
 
 
 

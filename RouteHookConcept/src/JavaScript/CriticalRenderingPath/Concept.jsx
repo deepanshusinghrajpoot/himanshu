@@ -29,6 +29,8 @@
 
    It downloads and runs the script immediately (it might change DOM)
 
+
+
   ✅ Use defer to avoid blocking:
 
   Scripts load in parallel but execute after DOM is ready
@@ -56,14 +58,19 @@
 
 
 ✅ Polished Explanation: async vs defer in JavaScript
+
  In HTML, the <script> tag can use two optional boolean attributes — async and defer — to load JavaScript files more efficiently without blocking HTML parsing.
 
+
  🧠 Default Behavior (No Attribute):
+ 
+ 
  When the browser encounters a <script> tag without async or defer:
          1. It pauses HTML parsing
          2. Fetches the script from the network
          3. Executes the script immediately
          4. Then resumes HTML parsing
+
 
  ⚡ async Attribute:
          1. Scripts are fetched asynchronously, in parallel with HTML parsing.
@@ -72,12 +79,14 @@
          ✅ Good for scripts that don’t depend on or manipulate DOM, like analytics.
          🔸 Order of script execution is not guaranteed with async.
 
+
  ⏳ defer Attribute:
          1. Scripts are fetched in parallel with HTML parsing.
          2. But they are not executed immediately.
          3. Execution happens only after the entire HTML is parsed (i.e., when DOM is fully built).
          ✅ Best for scripts that need access to the full DOM.
         🔹 defer maintains script order, making it ideal for dependent scripts.
+
 
  📊 Summary Table:
            Attribute	    Download	    Execution	            Blocks HTML Parsing?	  Maintains Order?

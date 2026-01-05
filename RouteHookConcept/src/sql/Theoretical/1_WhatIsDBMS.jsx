@@ -7,7 +7,7 @@
 What is Database?
 -----------------
 
-The Database is a collection of inter-related data which is use to retrieve, insert and and delete the data efficiently.
+lll The Database is a collection of inter-related data which is use to retrieve, insert and delete the data efficiently.
 
 It is also used to organize the data in the form of table, schema, riews, and report, etc.
 
@@ -18,11 +18,14 @@ It is also used to organize the data in the form of table, schema, riews, and re
 What is DBMS?
 -------------
 
-👉 DBMS is software that stores, organizes, and manages data efficiently, providing data security, consistency, and easy access compared to traditional file systems.
+lll 👉 DBMS is software that use to stores, organizes, and manages data efficiently, 
+       providing data security, consistency, and easy access compared to traditional file systems.
+
 
 
 
 Characteristics of DBMS
+
 
 It uses a digital repository established on server to store and manage the information.
 It can provide a clear and logical view of the process that manipulates data.

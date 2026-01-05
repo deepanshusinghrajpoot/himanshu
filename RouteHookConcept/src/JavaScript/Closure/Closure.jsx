@@ -24,11 +24,13 @@ x();
 ✅ Closure with Return
 
 function x() {
+
     var a = 7;
     function y() {
         console.log(a);
     }
     return y;  // returns the closure (function y along with its lexical scope)
+    
 }
 
 var z = x();   // `z` now holds function `y` with access to `a`

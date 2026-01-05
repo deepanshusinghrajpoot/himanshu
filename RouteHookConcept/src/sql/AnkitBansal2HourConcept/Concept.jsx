@@ -50,15 +50,30 @@ We write in SQL syntax order (SELECT → FROM → WHERE → GROUP BY → HAVING 
 
 
 
-🔹 SQL Logical Execution Order
+🔹 SQL Syntax Order (Query Writing Order)
+
+Correct Order:
+
+SELECT – choose columns or expressions
+DISTINCT – remove duplicate rows
+FROM – specify source table(s)
+JOIN / ON – combine tables using conditions
+WHERE – filter rows
+GROUP BY – group rows
+HAVING – filter grouped data
+ORDER BY – sort the final result.
+LIMIT / TOP / OFFSET – restrict number of rows
+
+
+🔹 SQL Logical Execution Order(How DB Executes)
 
 Correct Order:
 
 FROM – pick the source table(s).
 JOIN / ON – apply joins between tables.
-WHERE – filter rows (before grouping).
+lll WHERE – filter rows (before grouping).
 GROUP BY – group the filtered rows.
-HAVING – filter groups (after grouping).
+lll HAVING – filter groups (after grouping).
 SELECT – choose the columns/expressions.
 DISTINCT – remove duplicates from result set.
 Aggregate Functions – SUM(), COUNT(), MIN(), MAX(), AVG(), GROUP_CONCAT() are applied here (inside SELECT).
@@ -66,6 +81,30 @@ ORDER BY – sort the final result.
 LIMIT / TOP / OFFSET – return only required rows.
 
 
+
+
+
+
+🧠 What is the use of WITH in SQL?
+=======================================
+WITH is used to create a Common Table Expression (CTE).
+A CTE is a temporary named result set that exists only for the duration of the query.
+
+
+📌 Why do we use WITH?
+--------------------------
+1️⃣ Improves Readability & Structure
+
+Breaks complex queries into logical, readable blocks
+Makes SQL easier to understand and maintain
+
+WITH dept_salary AS (
+    SELECT dept, MAX(salary) AS max_salary
+    FROM employees
+    GROUP BY dept
+)
+SELECT *
+FROM dept_salary;
 
 
 */

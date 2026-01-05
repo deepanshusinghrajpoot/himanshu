@@ -43,7 +43,7 @@ import React from 'react'
 
 | Function                         | Use                | Example                | Result      |
 | -------------------------------- | ------------------ | ---------------------- | ----------- |
-| `REVERSE(str)`                   | Reverse string     | `REVERSE('SQL')`       | `LQS`       |
+lll| `REVERSE(str)`                   | Reverse string     | `REVERSE('SQL')`       | `LQS`       |
 | `ASCII(char)`                    | ASCII code of char | `ASCII('A')`           | `65`        |
 | `CHAR(code)`                     | Char from ASCII    | `CHAR(65)`             | `A`         |
 | `INITCAP(str)` (Oracle/Postgres) | Capitalize words   | `INITCAP('sql world')` | `Sql World` |

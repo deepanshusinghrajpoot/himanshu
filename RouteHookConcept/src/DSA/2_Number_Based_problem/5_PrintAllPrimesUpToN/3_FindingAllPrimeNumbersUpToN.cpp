@@ -147,10 +147,13 @@ void sieveOfEratosthenes(int n) {
         if (prime[i]) cout << i << " ";
     }
 }
+
 int main() {
+
     int n;
     cin >> n;
     sieveOfEratosthenes(n);
+    
 }
 
 

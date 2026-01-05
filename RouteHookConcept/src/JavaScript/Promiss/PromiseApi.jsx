@@ -93,6 +93,7 @@ Promise.any([p1, p2, p3])
   .catch(err => {
     console.error("All failed:", err.errors); // err.errors is an array of all errors
   });
+  
 
 🔎 Behavior:
    First successful promise wins ✅.

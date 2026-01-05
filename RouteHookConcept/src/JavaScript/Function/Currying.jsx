@@ -5,6 +5,7 @@ import React from 'react'
 
 
 ✅ Function Currying - Interview-Ready Notes
+
 ✔ lll Function Currying transforms a function with multiple arguments into a sequence of functions, each taking one argument at a time.
 ✔ lll Currying improves reusability, modularity, and helps in function customization.
 

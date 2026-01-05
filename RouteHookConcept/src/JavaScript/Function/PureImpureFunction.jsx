@@ -103,6 +103,8 @@ API Calls	                           Depends on server response
 
 
 🎯 Summary: Pure vs Impure
+---------------------------
+
 lll ✅ Pure Function:
         Same output for same input
         No side effects

@@ -19,8 +19,8 @@ of Constructor and Destructor.
 
 --------------------------------------------------------------------------------
 
-But when we allocate memory dynamically using :- new keyword  
-then this memory is deallocated using :- delete keyword  
+lll we allocate memory dynamically using :- new keyword  
+lll then this memory is deallocated using :- delete keyword  
 
 
 

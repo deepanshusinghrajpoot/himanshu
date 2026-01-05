@@ -17,6 +17,8 @@ import React from 'react'
 
 
 lll INNER JOIN returns only rows where the join condition matches in both tables.
+lll    | `INNER JOIN`      | Matches records in both tables            |
+
 
 Syntax:
 
@@ -95,6 +97,8 @@ All rows from the left table
 Matching rows from the right table (if available)
 If no match is found in the right table, it will return NULL values for the right table’s columns.
 
+| `LEFT JOIN`       | All rows from left + matched from right   |
+
 
 Syntax:
 
@@ -162,6 +166,7 @@ All rows from the right table
 Matching rows from the left table (if available)
 If no match is found in the left table, it will return NULL values for the left table’s columns.
 
+| `RIGHT JOIN`      | All rows from right + matched from left   |
 
 
 ✅ Syntax:
@@ -221,9 +226,7 @@ Otherwise, left table columns are NULL.
 
 👉 FULL OUTER JOIN returns all records from both tables,
 
-The matched rows from both sides.
-If there is no match, it returns NULL for the missing side.
-It’s basically the combination of LEFT JOIN + RIGHT JOIN.
+lll It’s basically the combination of LEFT JOIN + RIGHT JOIN.
 
 
 ✅ Syntax:

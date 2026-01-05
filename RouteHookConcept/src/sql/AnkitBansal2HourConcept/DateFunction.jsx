@@ -61,7 +61,7 @@ import React from 'react'
 | Function                        | Use                         | Example                                | Result       |
 | ------------------------------- | --------------------------- | -------------------------------------- | ------------ |
 | `STR_TO_DATE(str, format)`      | Convert string → date       | `STR_TO_DATE('29-08-2025','%d-%m-%Y')` | `2025-08-29` |
-| `DATE_FORMAT(date, format)`     | Format date output          | `DATE_FORMAT('2025-08-29','%d/%m/%Y')` | `29/08/2025` |
+lll | `DATE_FORMAT(date, format)`     | Format date output          | `DATE_FORMAT('2025-08-29','%d/%m/%Y')` | `29/08/2025` |
 | `EXTRACT(unit FROM date)`       | Extract part (standard SQL) | `EXTRACT(MONTH FROM '2025-08-29')`     | `8`          |
 | `LAST_DAY(date)` (MySQL/Oracle) | Last day of month           | `LAST_DAY('2025-08-29')`               | `2025-08-31` |
 

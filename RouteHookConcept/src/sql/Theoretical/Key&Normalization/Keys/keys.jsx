@@ -149,7 +149,7 @@ Alternate Key
 
 Definition:
 An Alternate Key is any Candidate Key that is not chosen as the Primary Key.
-    In other words, all Candidate Keys except the Primary Key are Alternate Keys.
+  lll  In other words, all Candidate Keys except the Primary Key are Alternate Keys.
 
 Example Table: Employee
 

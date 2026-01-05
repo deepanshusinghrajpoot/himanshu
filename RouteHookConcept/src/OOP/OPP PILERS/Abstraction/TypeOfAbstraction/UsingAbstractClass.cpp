@@ -19,6 +19,14 @@ Abstraction
 . They are meant to be inherited by derived classes 
   which provide the actual implementation.
 
+
+  Pure vertual function :- A vertual function which does not have body is called pure vertual function
+  ----------------------
+
+
+  Pure Abstract class (Interface) :- It contain only pure vertual function
+  -------------------------------
+
 */
 
 

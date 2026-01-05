@@ -13,7 +13,7 @@ import React from 'react'
 1. What is CASE?
 ----------------
 
-CASE allows you to add conditional logic inside SQL queries.
+lll CASE keyword allows you to add conditional logic inside SQL queries.
 Works like if … else if … else.
 
 
@@ -49,7 +49,7 @@ END
 
 
 
-
+lll
 
 ✅ Example:
 

@@ -16,6 +16,8 @@ A relation will be in 3NF if:
 
 
 
+       
+
 Transitive Dependency
       When a non-prime attribute determines another non-prime attribute, it is called transitive dependency.
       Non-prime Attribute = An attribute that is not part of any candidate key.
