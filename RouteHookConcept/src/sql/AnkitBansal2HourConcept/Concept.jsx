@@ -55,6 +55,7 @@ We write in SQL syntax order (SELECT → FROM → WHERE → GROUP BY → HAVING 
 Correct Order:
 
 SELECT – choose columns or expressions
+
 DISTINCT – remove duplicate rows
 FROM – specify source table(s)
 JOIN / ON – combine tables using conditions
@@ -74,6 +75,7 @@ JOIN / ON – apply joins between tables.
 lll WHERE – filter rows (before grouping).
 GROUP BY – group the filtered rows.
 lll HAVING – filter groups (after grouping).
+WINDOW FUNCTION
 SELECT – choose the columns/expressions.
 DISTINCT – remove duplicates from result set.
 Aggregate Functions – SUM(), COUNT(), MIN(), MAX(), AVG(), GROUP_CONCAT() are applied here (inside SELECT).

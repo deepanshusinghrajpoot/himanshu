@@ -12,7 +12,7 @@ const UseEffect = () => {
          Some example of side effects are:
            - Fetching data from API
            - Directly updating the DOM
-           - Timers like SetTimeOut  and SetInterval
+          
 
 
          useEffect(callBackFunction, dependenciesArray);

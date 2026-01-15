@@ -21,6 +21,8 @@ const throttle = (fn, limit) => {
     };
 };
 
+
+
 // "We store this to ensure the throttled function maintains the correct reference to the event target,
 //  preserving context across delayed or wrapped function calls."
 

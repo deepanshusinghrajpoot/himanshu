@@ -131,8 +131,8 @@ const Navebar = () => {
                 <Link to=''><li>3. modify parent array using forEach method</li></Link>
                 <Link to=''><li>4. search element :- indexOf(), includes(), </li></Link>
                 <Link to=''><li>5. search element using higher order function :- find() , findIndex() </li></Link>
-                <Link to=''><li>6. split(), join(), concat(), reverse()</li></Link><Link to='/operator'><li>5. search element using higher order function :- find() , findIndex() </li></Link>
-             </ul>
+                <Link to=''><li>6. split(), join(), concat(), reverse()</li></Link>
+              </ul>
         </div>
         <div className='navbar'>
             <ul>
@@ -204,10 +204,14 @@ const Navebar = () => {
             </ul>
             <ul>
                 <Link to='/syntheticEvent'><li>(7). Synthetic Event</li></Link>
+                <Link to='/syntheticEvent'><li>(8). What is JSX</li></Link>
+                <Link to='/syntheticEvent'><li>(9). What is bable</li></Link>
+                <Link to='/syntheticEvent'><li>(10). (i). Controlled Component</li><li>(ii). Uncontrolled Component</li></Link>
+                
             </ul>
             <ul>
-                <Link to='/SSR'><li>(8). SSR:- Hydration</li></Link>
-                <Link to='/CSR'><li>(8). CSR</li></Link>
+                <Link to='/SSR'><li>(11). (i). SSR:- Hydration</li><li>(ii). CSR</li></Link>
+                <Link to='/CSR'></Link>
             </ul>
         </div>
         <div className='navbar'>
@@ -281,7 +285,7 @@ const Navebar = () => {
         <div className='navbar'>
             <ul>
                 <Link to='RTK'><li>1. Write program to connect MongoDB using Mongoose.</li></Link>
-                <Link to=''><li>2. How to use env Variaval.</li></Link>
+                <Link to=''><li>2. How to use env variable.</li></Link>
                 <Link to=''><li>3. How To Create Schema</li></Link>
                 <Link to=''><li>4. setup :- app.js , routes, models, controllers(tryCatch)</li></Link>
             </ul>

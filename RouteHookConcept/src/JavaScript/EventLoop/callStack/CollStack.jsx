@@ -177,7 +177,7 @@ lll      ✅ Microtask Queue vs Callback Queue – Explained
          🔄 How They Work with the Event Loop:
     lll    ✔️ Microtask Queue has higher priority than the Callback Queue (Macrotask Queue).
 
-            That means after each task from the Call Stack is completed, the Event Loop will first:
+                That means after each task from the Call Stack is completed, the Event Loop will first:
 
                 Check and empty the Microtask Queue, before moving on to the Callback Queue (Macrotask Queue).
 

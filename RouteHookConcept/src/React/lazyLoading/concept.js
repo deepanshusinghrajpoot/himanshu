@@ -40,7 +40,7 @@ export default App;
 
 
 ✅ lll  Suspense handles the loading UI while the component is being fetched.
-✅ lll  fallback prop defines what to render during the load delay.
+✅ lll  fallback prop defines what to render when load delay.
 
 
 
@@ -72,7 +72,7 @@ Vite uses Rollup under the hood to:
 
 ✅ Creates a dist/ folder containing:
 
-Asset Type	Description
+Asset Type             	Description
 *.js	                  Optimized JavaScript chunks (split if lazy)
 *.css	                  Minified CSS files
 *.png / *.svg	          Assets with hashed names for caching

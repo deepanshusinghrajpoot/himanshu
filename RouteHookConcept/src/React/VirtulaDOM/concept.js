@@ -120,19 +120,23 @@ Browser Paints UI
 
 
 lll 🔍 Diffing Algorithm
-     When something changes (state/props) of component, 
+     When (state/props) changes of component, 
      React: Creates a new Virtual DOM.
      Compares it with the old one (using diffing algorithum).
      And Finds minimal changes.
+
      Updates only changed nodes in the Real DOM.
-
-
+                  |
+                  |
+                  |
+                  >
 lll 🔁 Reconciliation
     After identifying the differences through diffing, React proceeds to the reconciliation phase. 
     Here, it updates only the parts of the actual DOM that have changed, rather than re-rendering the entire page.
     ​
 
 
+lll Sir, react improve the reconciliation process by using react fiber
 
 
 🧵 React Fiber (introduced in React 16)

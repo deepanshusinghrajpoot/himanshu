@@ -50,6 +50,81 @@ Say it slowly, with confidence. If needed, pause after “component-based archit
 
 
 
+Performace optimisation techniques
+====================================
+
+Sir we can improve the performance of react application
+
+Parent Topics Only:
+
+                         Memoization
+                         Code Splitting
+                         State Management
+                         Rendering Optimization
+                         List Rendering Optimization
+
+
+1. Memoization
+
+          React.memo
+          useCallback
+          useMemo
+
+2. Code Splitting
+
+          React.lazy
+          Suspense
+          Route-based splitting
+
+3. State Management
+
+          Local state optimization
+          Context API optimization
+          Avoid prop drilling
+          Batch state updates
+
+4. Rendering Optimization
+
+          Avoid unnecessary re-renders
+          Proper key usage
+          Avoid inline functions
+          Avoid inline objects/styles
+
+5. List Rendering Optimization
+
+          Virtualization
+          react-window
+          react-virtualized
+
+
+
+
+
+
+React.memo
+useCallback
+useMemo
+Avoid unnecessary re-renders
+Proper key usage in lists
+Code splitting
+Lazy loading
+Virtualization (react-window / react-virtualized)
+Debouncing
+Throttling
+Efficient state management
+Context API optimization
+Production build optimization
+useTransition (React 18)
+useDeferredValue
+Avoid anonymous functions in JSX
+Avoid inline objects/styles
+Memoized selectors (Reselect)
+Batch state updates
+Avoid prop drilling
+
+
+
+
 
 
 

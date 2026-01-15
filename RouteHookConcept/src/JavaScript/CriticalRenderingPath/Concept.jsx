@@ -65,7 +65,7 @@
  🧠 Default Behavior (No Attribute):
  
  
- When the browser encounters a <script> tag without async or defer:
+lll When the browser encounters a <script> tag without async or defer:
          1. It pauses HTML parsing
          2. Fetches the script from the network
          3. Executes the script immediately
@@ -76,8 +76,15 @@
          1. Scripts are fetched asynchronously, in parallel with HTML parsing.
          2. As soon as the script is ready, HTML parsing pauses, and the script runs.
          3. Parsing resumes only after the script finishes executing.
-         ✅ Good for scripts that don’t depend on or manipulate DOM, like analytics.
-         🔸 Order of script execution is not guaranteed with async.
+         Async scripts load in parallel and execute immediately when ready, so order is not guaranteed.
+
+
+lll  When the browser encounters a <script> tag with async attribute:
+lll  script is downloaded in parallel while the HTML is being parsed.
+     As soon as the script finishes downloading, the browser pauses HTML parsing, executes the script,
+     and then continues parsing the HTML after execution.
+
+
 
 
  ⏳ defer Attribute:
@@ -86,6 +93,11 @@
          3. Execution happens only after the entire HTML is parsed (i.e., when DOM is fully built).
          ✅ Best for scripts that need access to the full DOM.
         🔹 defer maintains script order, making it ideal for dependent scripts.
+
+lll When the browser encounters a <script> tag with defer attribute: 
+lll The script is downloaded in parallel while the HTML is being parsed, but it is not executed immediately.
+    The script runs only after the entire HTML is parsed and the DOM is fully built.
+
 
 
  📊 Summary Table:

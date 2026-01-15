@@ -8,7 +8,7 @@ What is Babel?
 
 Babel is a JavaScript compiler (or transpiler) that converts modern JavaScript or JSX code into a form that browsers can understand.
 
-In React, Babel is mainly used to convert JSX into plain JavaScript so browsers can execute it.
+lll In React, Babel is mainly used to convert JSX into plain JavaScript so browsers can execute it.
 
 
 

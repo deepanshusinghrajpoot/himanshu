@@ -100,6 +100,7 @@ React Design Patterns (Render Props, Custom Hooks, Container-Presentational).
 Redux Toolkit vs Redux.
 Alternatives to Redux (Zustand, Recoil, Jotai).
 
+
 👉 Tip: These appear in product-based companies (FAANG, startups) where deep React knowledge is tested.
 
 

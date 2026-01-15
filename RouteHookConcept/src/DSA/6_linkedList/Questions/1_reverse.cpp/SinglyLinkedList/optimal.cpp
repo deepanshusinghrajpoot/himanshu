@@ -1,4 +1,6 @@
 
+
+
 /*
 
 206. Reverse Linked List
@@ -6,7 +8,10 @@
 Given the head of a singly linked list, reverse the list, and return the reversed list.
 
 
-BRUTE FORCE APPROACH
+T.C = O(N);
+S.C = O(1)
+
+OPTIMAL APPROACH
 
 */
 
@@ -39,31 +44,22 @@ class Node{
 
 
 Node* reverseList(Node* head){
-
+   
+    
     Node* temp = head;
-
-    stack<int>st;
+    Node* prev = NULL;
 
     while(temp){
 
-        st.push(temp->data);
-        temp = temp->next;
+        Node* front = temp->next;
+        temp->next = prev;
+        prev = temp;
+        temp = front;
 
     }
 
+    return prev;
 
-    temp = head;
-
-    while(temp){
-         
-        temp->data = st.top();
-        st.pop();
-
-        temp = temp->next;
-    }
-
-
-    return head;
 }
 
 

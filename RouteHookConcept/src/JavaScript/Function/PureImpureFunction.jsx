@@ -109,13 +109,13 @@ lll ✅ Pure Function:
         Same output for same input
         No side effects
 
-        lll output does not depend on external state
+        llllllllllllllllllll output does not depend on external state
 
 ❌ Impure Function:
         Output depends on external state
         Creates side effects
 
-        lll A pure function does modify external state
+        lll output does depend on external state
 
         
 

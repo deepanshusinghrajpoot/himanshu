@@ -91,8 +91,8 @@ Question:- What is value of this inside a function? (Depends on How a Function i
 In JavaScript, the value of this is determined at the time the function is called, not where it is defined.
 
 lll Simple Rule:
-        If a function is called without any object reference, this will be undefined (in strict mode) or window (in non-strict mode).
-        If a function is called with an object reference, this points to that object.
+        If a function is called without any object reference, the value this will be undefined (in strict mode) or window (in non-strict mode).
+        If a function is called with an object reference, the value this points to that object.
 
 🧠 Example 1 — Function Call (without reference)
 

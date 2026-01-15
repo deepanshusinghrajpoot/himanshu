@@ -20,6 +20,9 @@ Example:
 Input Linked List:
 1--------->2--------->3--------->4--------->5--------->6
 
+
+
+
 Odd positions first, then Even positions
 ----------------------------------------
 Output Linked List:

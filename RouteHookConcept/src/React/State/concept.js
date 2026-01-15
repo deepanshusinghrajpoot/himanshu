@@ -7,7 +7,7 @@ lll State is data that changes over time and affects what you/we see on the UI.
 
 lll State is similar to props, but:
 
-1. State is private and controlled by the component itself.
+1. State is private member and controlled by the component itself.
    Props are passed from parent to child and they are read-only.
 
 2. can be updated, props cannot (directly).

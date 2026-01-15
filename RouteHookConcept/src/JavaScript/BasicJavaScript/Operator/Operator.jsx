@@ -93,11 +93,11 @@ Operate on binary representations of numbers.
 
 Operator	                      Description	                       Example
 &	                              AND	                               5 & 1 → 1
-`	                              `	                                   OR
+`	                              `	                                 OR
 ^	                              XOR	                               5 ^ 1 → 4
-~	                              NOT (bitwise)                        ~5 → -6
-<<	                              Left shift	                       5 << 1 → 10
->>	                              Right shift	                       5 >> 1 → 2
+~	                              NOT (bitwise)                      ~5 → -6
+<<	                            Left shift	                       5 << 1 → 10
+>>	                            Right shift	                       5 >> 1 → 2
 
 
 

@@ -3,6 +3,7 @@ import Header1 from './Header1';
 import Header2 from './Header2';
 import Header3 from './Header3';
 import { AppContext } from '../../../context/AppContext';
+import Header4 from './Header4';
 
 const UseCallbackExapmle1 = () => {
 
@@ -25,22 +26,26 @@ const UseCallbackExapmle1 = () => {
   const newFunction1 = () => {} // when change the count then render component then create new instance of this function 
                          // So header1 render  when change the count
 
+  
+  
+  const newFunction2 = useCallback(()=>{})
 
   // If we not provided dependecies variable then useCallback function not create new intence of function
   // So, header2 not render when chage the state in the UseCallbackExapmle1(component) 
-  const newFunction2 = useCallback(()=> {}, [])
+  const newFunction3 = useCallback(()=> {}, [])
 
 
 
   // If we provided dependecies variable then useCallback function create new intence of function when change the dependecie variable
   // So, header3 render when chage the count
-  const newFunction3 = useCallback(()=> {}, [count])
+  const newFunction4 = useCallback(()=> {}, [count])
 
   return (
     <div>
          <Header1 newFunction={newFunction1} />
          <Header2 newFunction={newFunction2} />
          <Header3 newFunction={newFunction3} />
+         <Header4 newFunction={newFunction4}/>
          <button onClick={()=>setCount(prev=>prev+1)} >Increase +1</button>
          <p>Counter:{count}</p>
          <h4>Phone:{data.phone}</h4>

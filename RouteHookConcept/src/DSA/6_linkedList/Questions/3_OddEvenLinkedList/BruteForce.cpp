@@ -18,7 +18,12 @@ You must solve the problem in O(1) extra space complexity and O(n) time complexi
 Example:
 
 Input Linked List:
-1--------->2--------->3--------->4--------->5--------->6
+1--------->2--------->3--------->4--------->5--------->6  
+
+Every time traverse odd number of node in both case 
+=== When start from head 
+OR
+=== When start from head->next
 
 Odd positions first, then Even positions
 ----------------------------------------

@@ -93,7 +93,7 @@ Resource-Based → Everything is a resource accessed via a URI.
 
 
 
-🟦 REST HTTP Methods – With Clean Examples
+lll 🟦 REST HTTP Methods – With Clean Examples
 -------------------------------------------            
 
 ..... is use to 
@@ -105,6 +105,8 @@ Resource-Based → Everything is a resource accessed via a URI.
 | **PUT**    | Fully update a resource     | `PUT /users/1`    |
 | **PATCH**  | Partially update a resource | `PATCH /users/1`  |
 | **DELETE** | Remove a resource           | `DELETE /users/1` |
+
+
 
 
 
