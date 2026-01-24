@@ -2,12 +2,76 @@
 
 
 
-3. Insertion Sort
------------------
+=========== INSERTION SORT (ONE-FRAME EXPLANATION) ===========
 
+Definition:
+Insertion Sort places each element
+into its correct position in the sorted part of the array.
 
-Insert a element at the right position for each element.
+-----------------------------------------------------------
+Core Idea:
+-----------------------------------------------------------
+• Left part is assumed sorted
+• Pick one element from unsorted part
+• Shift larger elements to the right
+• Insert element at correct position
 
+-----------------------------------------------------------
+Example:
+-----------------------------------------------------------
+Initial Array:
+[5, 3, 4, 1, 2]
+
+-----------------------------------------------------------
+Step-by-Step:
+-----------------------------------------------------------
+i = 0 → [5 | 3, 4, 1, 2]
+i = 1 → [3, 5 | 4, 1, 2]
+i = 2 → [3, 4, 5 | 1, 2]
+i = 3 → [1, 3, 4, 5 | 2]
+i = 4 → [1, 2, 3, 4, 5]
+
+-----------------------------------------------------------
+Final Output:
+-----------------------------------------------------------
+[1, 2, 3, 4, 5]
+
+-----------------------------------------------------------
+Why This Works:
+-----------------------------------------------------------
+Each element is inserted into its correct position
+in the already sorted left portion.
+
+-----------------------------------------------------------
+Time Complexity:
+-----------------------------------------------------------
+Best Case  : O(N)
+Worst Case : O(N²)
+
+-----------------------------------------------------------
+Why O(N²)?
+-----------------------------------------------------------
+• Outer loop runs N times
+• Inner loop can run up to N times
+• Nested loops → N × N
+
+-----------------------------------------------------------
+Space Complexity:
+-----------------------------------------------------------
+O(1) (In-place sorting)
+
+-----------------------------------------------------------
+Stability:
+-----------------------------------------------------------
+Stable Sort
+
+-----------------------------------------------------------
+One-Line Interview Answer:
+-----------------------------------------------------------
+"Insertion sort builds the sorted array by inserting
+each element into its correct position."
+
+===========================================================
 
 
 

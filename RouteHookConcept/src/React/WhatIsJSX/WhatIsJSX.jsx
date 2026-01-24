@@ -25,7 +25,7 @@ lll JSX stands for JavaScript XML.
 
 lll JSX allows developers to write HTML-like code inside JavaScript, which makes the code easier to read and understand.
 
-lll The main purpose of JSX is to combine JavaScript logic and HTML structure in the same file for building user interfaces efficiently.
+The main purpose of JSX is to combine JavaScript logic and HTML structure in the same file for building user interfaces efficiently.
 
 
 

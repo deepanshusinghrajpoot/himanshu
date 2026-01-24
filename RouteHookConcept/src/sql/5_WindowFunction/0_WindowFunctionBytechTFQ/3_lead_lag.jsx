@@ -1,0 +1,232 @@
+
+/*
+
+
+
+
+🔹 LAG & LEAD Window Functions (SQL)
+======================================
+
+
+🔹 Definition of LAG
+--------------------------
+LAG() Window Function returns the value from a previous row within the same partition, based on order by clause.
+
+👉 LAG window function Used when you/we want to compare the current row with the previous row.
+
+
+
+
+LAG(column, offset, default) OVER (
+    PARTITION BY partition_column
+    ORDER BY order_column
+)
+
+
+
+🔹 LAG / LEAD Arguments (Easy Words)
+------------------------------------------
+  first_arg:- 👉 Which column’s value you/we want
+              (example: salary)
+
+  second_arg:- 👉 How many rows to move
+               1 → just previous / next row (default)
+               2 → two rows back / ahead
+
+  third_arg :- 👉 What value to show if that row doesn’t exist
+               (example: 0, NULL, -1)
+
+
+
+
+🔹 Parent Table: employee
+
+| emp_id | emp_name | dept_name | salary |
+| -----: | -------- | --------- | -----: |
+|      1 | Amit     | IT        |  50000 |
+|      2 | Rohit    | IT        |  55000 |
+|      3 | Neha     | IT        |  55000 |
+|      4 | Ankit    | HR        |  40000 |
+|      5 | Priya    | HR        |  45000 |
+
+
+
+
+🔹 Example 1
+Fetch previous employee salary (department-wise)
+....................................................
+
+SELECT e.*,
+       LAG(salary) OVER (
+           PARTITION BY dept_name
+           ORDER BY emp_id
+       ) AS prev_emp_salary
+FROM employee e;
+
+
+🔹 Output
+
+| emp_id | emp_name | dept_name | salary | prev_emp_salary |
+| -----: | -------- | --------- | -----: | --------------: |
+|      1 | Amit     | IT        |  50000 |            NULL |
+|      2 | Rohit    | IT        |  55000 |           50000 |
+|      3 | Neha     | IT        |  55000 |           55000 |
+|      4 | Ankit    | HR        |  40000 |            NULL |
+|      5 | Priya    | HR        |  45000 |           40000 |
+
+
+
+
+
+🔹 Example 2
+LAG with offset and default value
+..........................................
+
+SELECT e.*,
+       LAG(salary, 2, 0) OVER (
+           PARTITION BY dept_name
+           ORDER BY emp_id
+       ) AS prev_emp_salary
+FROM employee e;
+
+🔹 Output
+
+| emp_id | emp_name | dept_name | salary | prev_emp_salary |
+| -----: | -------- | --------- | -----: | --------------: |
+|      1 | Amit     | IT        |  50000 |               0 |
+|      2 | Rohit    | IT        |  55000 |               0 |
+|      3 | Neha     | IT        |  55000 |           50000 |
+|      4 | Ankit    | HR        |  40000 |               0 |
+|      5 | Priya    | HR        |  45000 |               0 |
+
+
+🔹 Example 3
+Compare salary with previous employee
+.........................................
+
+SELECT e.*,
+       LAG(salary) OVER(PARTITION BY dept_name ORDER BY emp_id) AS prev_emp_salary,
+       CASE
+           WHEN salary > LAG(salary) OVER(PARTITION BY dept_name ORDER BY emp_id)
+                THEN 'Higher than previous employee'
+           WHEN salary = LAG(salary) OVER(PARTITION BY dept_name ORDER BY emp_id)
+                THEN 'Same as previous employee salary'
+           WHEN salary < LAG(salary) OVER(PARTITION BY dept_name ORDER BY emp_id)
+                THEN 'Lower than previous employee salary'
+           ELSE 'Previous employee not exist'
+       END AS salary_comparison
+FROM employee e;
+
+🔹 Output
+
+| emp_id | emp_name | dept_name | salary | prev_emp_salary | salary_comparison                |
+| -----: | -------- | --------- | -----: | --------------: | -------------------------------- |
+|      1 | Amit     | IT        |  50000 |            NULL | Previous employee not exist      |
+|      2 | Rohit    | IT        |  55000 |           50000 | Higher than previous employee    |
+|      3 | Neha     | IT        |  55000 |           55000 | Same as previous employee salary |
+|      4 | Ankit    | HR        |  40000 |            NULL | Previous employee not exist      |
+|      5 | Priya    | HR        |  45000 |           40000 | Higher than previous employee    |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔹 Definition of LEAD
+------------------------
+
+lll LEAD() Window Function returns the value from the next row within the same partition based on oder by clause.
+
+👉LEAD window function Used when you want to compare the current row with the next row.
+
+
+LEAD(column, offset, default) OVER (
+    PARTITION BY partition_column
+    ORDER BY order_column
+)
+
+
+
+
+
+
+
+🔹 Parent Table: employee
+
+| emp_id | emp_name | dept_name | salary |
+| -----: | -------- | --------- | -----: |
+|      1 | Amit     | IT        |  50000 |
+|      2 | Rohit    | IT        |  55000 |
+|      3 | Neha     | IT        |  55000 |
+|      4 | Ankit    | HR        |  40000 |
+|      5 | Priya    | HR        |  45000 |
+
+
+
+
+
+🔹 Example 4
+Fetch next employee salary (department-wise)
+-----------------------------------------------
+
+SELECT e.*,
+       LEAD(salary) OVER (
+           PARTITION BY dept_name
+           ORDER BY emp_id
+       ) AS next_emp_salary
+FROM employee e;
+
+output
+
+| emp_id | emp_name | dept_name | salary | next_emp_salary |
+| -----: | -------- | --------- | -----: | --------------: |
+|      1 | Amit     | IT        |  50000 |           55000 |
+|      2 | Rohit    | IT        |  55000 |           55000 |
+|      3 | Neha     | IT        |  55000 |            NULL |
+|      4 | Ankit    | HR        |  40000 |           45000 |
+|      5 | Priya    | HR        |  45000 |            NULL |
+
+
+
+🔹 Example 5
+Compare salary with next employee
+.....................................
+
+SELECT e.*,
+       LEAD(salary) OVER(PARTITION BY dept_name ORDER BY emp_id) AS next_emp_salary,
+       CASE
+           WHEN salary > LEAD(salary) OVER(PARTITION BY dept_name ORDER BY emp_id)
+                THEN 'Higher than next employee'
+           WHEN salary = LEAD(salary) OVER(PARTITION BY dept_name ORDER BY emp_id)
+                THEN 'Same as next employee salary'
+           WHEN salary < LEAD(salary) OVER(PARTITION BY dept_name ORDER BY emp_id)
+                THEN 'Lower than next employee salary'
+           ELSE 'Next employee not exist'
+       END AS salary_comparison
+FROM employee e;
+
+
+output
+
+| emp_id | emp_name | dept_name | salary | next_emp_salary | salary_comparison            |
+| -----: | -------- | --------- | -----: | --------------: | ---------------------------- |
+|      1 | Amit     | IT        |  50000 |           55000 | Lower than next employee     |
+|      2 | Rohit    | IT        |  55000 |           55000 | Same as next employee salary |
+|      3 | Neha     | IT        |  55000 |            NULL | Next employee not exist      |
+|      4 | Ankit    | HR        |  40000 |           45000 | Lower than next employee     |
+|      5 | Priya    | HR        |  45000 |            NULL | Next employee not exist      |
+
+
+
+
+
+*/

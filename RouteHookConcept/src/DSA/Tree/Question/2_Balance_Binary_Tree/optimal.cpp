@@ -143,9 +143,11 @@ int Check_Balance_Binary_Tree(Node* root){
 
 
     int lh = Check_Balance_Binary_Tree(root->left);
+    if(lh == -1) return -1;
+    
     int rh = Check_Balance_Binary_Tree(root->right);
+    if(rh == -1) return -1;
 
-    if(lh == -1 && rh == -1) return -1;
     if(abs(lh-rh) > 1) return -1;
 
     return 1 + max(lh, rh);

@@ -62,7 +62,7 @@ No matter which resource it is: users, products, orders, anything.
 ✅ 3. Resource-Based Operations (Very Simple Explanation)
 ..........................................................
 
-lll “Everything is treated as a resource, and each resource has its own URI.”
+lll “Resource-Based operation mean Everything is treated as a resource, and each resource has its own URI.”
 
 🟦 Example:
 
@@ -93,7 +93,7 @@ Resource-Based → Everything is a resource accessed via a URI.
 
 
 
-lll 🟦 REST HTTP Methods – With Clean Examples
+lll 🟦 REST HTTP Methods are – With Clean Examples
 -------------------------------------------            
 
 ..... is use to 

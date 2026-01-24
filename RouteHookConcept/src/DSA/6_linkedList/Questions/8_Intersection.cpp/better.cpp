@@ -112,48 +112,41 @@ public:
 
 
 
-// Find Intersection Node using map
+    Node* findIntersection(Node* shortList, Node* longList, int d) {
 
-Node* interSectionPoint(Node* temp1, Node* temp2, int d){
+        // move longer list ahead by d nodes
+        while(d--) {
+            longList = longList->next;
+        }
 
-    while(d){
-        d--;
-        temp2 = temp2->next;
+        // move both pointers together
+        while(shortList && longList) {
+            if(shortList == longList)
+                return shortList;
+
+            shortList = shortList->next;
+            longList = longList->next;
+        }
+
+        return NULL;
     }
 
-    while(temp1 != temp2){
-        temp1 = temp1->next;
-        temp2 = temp2->next;
+    Node* getIntersectionNode(Node *headA, Node *headB) {
+
+        int lenA = 0, lenB = 0;
+        Node* tempA = headA;
+        Node* tempB = headB;
+
+        while(tempA) { lenA++; tempA = tempA->next; }
+        while(tempB) { lenB++; tempB = tempB->next; }
+
+        if(lenA > lenB)
+            return findIntersection(headB, headA, lenA - lenB);
+        else
+            return findIntersection(headA, headB, lenB - lenA);
     }
 
-    return temp1;
-}
 
-Node* IntersectionNode(Node* head1, Node* head2){
-     
-     Node* temp1 = head1;
-     int n1 = 0;
-
-     while(temp1){
-        n1++;
-        temp1 = temp1->next;
-     }
-
-     Node* temp2 = head2;
-     int n2 = 0;
-
-     while(temp2){
-        n2++;
-        temp2 = temp2->next;
-     }
-
-     if(n1 < n2){
-        return interSectionPoint(head1, head2, n2-n1);
-     }
-     else{
-        return interSectionPoint(head2, head1, n1-n2);
-     }
-}
 
 // Convert array to linked list
 Node* convertArrIntoLinkedList(vector<int>& arr){
@@ -205,7 +198,7 @@ int main(){
     traverseLinkedList(headB);
     cout << endl;
 
-    Node* intersection = IntersectionNode(headA, headB);
+    Node* intersection = getIntersectionNode(headA, headB);
 
     if(intersection)
         cout << "Intersection Node: " << intersection->data << endl;
