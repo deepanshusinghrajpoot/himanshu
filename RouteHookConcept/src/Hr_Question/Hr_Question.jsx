@@ -5,20 +5,6 @@ import React from 'react'
 /*
 
 
-Can you introduce yourself?
-------------------------------
-
-
-Sir, My name Deepanshu Singh, currently pursuing a B.Tech in Information Technology from Dr. Ambedkar Institute of Technology for Handicapped, Kanpur.
-
-I have a strong foundation in Full Stack Software Development, particularly with the MERN stack — MongoDB, Express.js, React.js, and Node.js. Along with this, 
-I have strong programming skills in JavaScript and C++, which form the core of my problem-solving and development approach.
-
-During my academic journey, I gained hands-on experience through projects and internships, where I worked on real-life applications such as a Chat Application, 
-Hospital Management System, and a Learning Management System (LMS). One of my key accomplishments was building and deploying these full-stack projects from scratch,
-which helped me develop strong problem-solving skills, teamwork, and practical coding expertise.
-
-
 
 
 Why Should I Hire You?

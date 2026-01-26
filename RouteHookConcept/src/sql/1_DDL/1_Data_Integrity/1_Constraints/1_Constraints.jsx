@@ -241,12 +241,14 @@ CREATE TABLE orders (
 
 
 
+
+
 Benefit of FOREIGN KEY
 ----------------------
 
 Referential Action
 ------------------
-Defines what happens when parent table data is updated or deleted.
+lll Defines what happens when parent table data is updated or deleted.
 
 There are four types of referential actions:
 
@@ -315,5 +317,7 @@ CREATE TABLE orders (
      ON DELETE SET DEFAULT
      ON UPDATE SET DEFAULT
 );
+
+
 
 */

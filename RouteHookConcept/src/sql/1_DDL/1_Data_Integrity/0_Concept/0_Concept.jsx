@@ -2,13 +2,15 @@
 /*
 
 
+Data Integrity is important factor in DDL
+
 Data Integrity
 ===============
 
 Definition
 ----------
-Data Integrity means maintaining the accuracy, consistency, and reliability of data
-throughout its lifecycle in a database.
+lll Data Integrity means maintaining the accuracy, consistency, and reliability of data
+    throughout its lifecycle in a database.
 
 In simple words, data stored in the database should be correct, valid, and unchanged
 unless updated intentionally.
@@ -17,9 +19,11 @@ unless updated intentionally.
 
 There are various methods used to ensure data integrity, including:
 
-(1). Constraints  
-Constraints are rules applied on table columns to ensure valid, accurate,
-and consistent data in the database.
+(1). Constraints 
+-----------------
+
+lll Constraints are rules applied on table columns to ensure valid, accurate,
+    and consistent data in the database.
 
 
 Examples of constraints:
@@ -29,6 +33,7 @@ Examples of constraints:
 - FOREIGN KEY
 - CHECK
 - DEFAULT
+
 
 
 

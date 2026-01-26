@@ -6,17 +6,34 @@ import React from 'react'
 
 
 
+
+
 Can you introduce yourself?
-------------------------------
+---------------------------            
 
-Sir, My name Deepanshu Singh, currently pursuing a B.Tech in Information Technology from Dr. Ambedkar Institute of Technology for Handicapped, Kanpur.
+Sir, my name is Deepanshu Singh, and I am currently pursuing a B.Tech in Information Technology 
+from Dr. Ambedkar Institute of Technology for Handicapped, Kanpur.
 
-I have a strong foundation in Full Stack Software Development, particularly with the MERN stack — MongoDB, Express.js, React.js, and Node.js. Along with this, 
-I have strong programming skills in JavaScript and C++, which form the core of my problem-solving and development approach.
+I have strong programming knowledge in SQL, JavaScript, and C++, along with basic proficiency in Python. 
+I also have hands-on experience with React.js and Node.js for building full-stack web applications.
 
-During my academic journey, I gained hands-on experience through projects and internships, where I worked on real-life applications such as a Chat Application, 
-Hospital Management System, and a Learning Management System (LMS). One of my key accomplishments was building and deploying these full-stack projects from scratch,
-which helped me develop strong problem-solving skills, teamwork, and practical coding expertise.
+My strong command of MySQL and SQL concepts, including relational schema design, normalization, joins, indexing, and data analysis, 
+forms the foundation of my data-driven and problem-solving approach.
+
+During my academic journey, I worked on real-life applications such as a Hospital Management System, a Learning Management System (LMS), 
+and a Chat Application. In the Hospital Management System, I focused on frontend and backend logic using React.js and Node.js, and 
+I am confident in designing healthcare workflows using MySQL for structured data management and reporting.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -45,13 +62,28 @@ Overall, HealthHub is scalable, secure, and built to reflect real hospital work
 
 
 
+
+
+
+
+Sir, I didn’t catch that properly.
+Could you please repeat it once again?
+
+
+
+
+
+
+
+
+
+
 What to Ask the recruiter (Before You Leave)
 --------------------------------------------
 
 Could you please share a bit about the work environment and team culture? 
 Also, I’d love to know whether the tasks or projects assigned will align with my technical skills and interests, 
 and what kind of learning or mentorship support is provided during the training period.
-
 
 
 

@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 
 /*
@@ -50,13 +50,3 @@ Commonly used with Webpack in React projects
 */
 
 
-
-
-
-const WhatIsBable = () => {
-  return (
-    <div>What Is Bable</div>
-  )
-}
-
-export default WhatIsBable

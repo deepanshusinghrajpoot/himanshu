@@ -13,8 +13,8 @@ CREATE DATABASE CampusX;
 
 
 
-DDL Commands for Database
-========================
+lll DDL Commands for Database
+=============================
 
 DDL = Data Definition Language  
 Used to define and manage database structure.
@@ -63,12 +63,12 @@ DROP DATABASE IF EXISTS campusx;
 
 
 
-DDL Commands for Tables
-======================
+lll DDL Commands for Tables
+=========================== 
 
 1. CREATE   :- used to create a new table in a database  
 2. DROP     :- used to permanently delete a table  
-3. TRUNCATE :- used to delete all rows from a table, structure remains  
+3. TRUNCATE :- used to delete all rows from a table but Table structure, columns, indexes, and constraints remain unchanged. 
 4. ALTER    :- used to modify table structure  
 
 

@@ -46,9 +46,9 @@ const CustomHook = lazy(()=> wait(5000).then(()=> import('./React/WhatIsReactHoo
 
 
 const LazyComponent = lazy(()=> wait(5000).then(()=> import('./React/lazyLoading/LazyComponent')));
-const Props = lazy(()=> wait(5000).then(()=> import('./React/Props/Props')));
-const ReactComponent = lazy(()=> wait(5000).then(()=> import('./React/ClsaaAndFunctionalComponent/ReactComponent')));
-const State = lazy(()=> wait(5000).then(()=> import('./React/State/State')));
+const Props = lazy(()=> wait(5000).then(()=> import('./React/5_Props/Props')));
+const ReactComponent = lazy(()=> wait(5000).then(()=> import('./React/6_Clsaa_And_Functional_Component/ReactComponent')));
+const State = lazy(()=> wait(5000).then(()=> import('./React/4_State/State')));
 const Event = lazy(()=> wait(5000).then(()=> import('./React/EventHandling/Event')));
 const HOC = lazy(()=> wait(5000).then(()=> import('./React/HOC/utils/HOC')));
 const SyntheticEvent = lazy(()=> wait(5000).then(()=> import('./React/SyntheticEvent/SyntheticEvent')));
