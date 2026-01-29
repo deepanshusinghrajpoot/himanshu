@@ -7,7 +7,7 @@ Independent Subquery - Row Subquery(One Column With Multiple Rows)
 ==================================================================
 
 Ques(1):- Find all users who never ordered
-Ques(2):- Find all movies made by top directors(in terms of total gross income)
+Ques(2):- Find all movies made by top three directors(in terms of total gross income)
 Ques(3):- Find all movies of all those actors whose filmography's avg rating > 8.5(take 25000 vots as cutoff)
 
 
@@ -248,7 +248,7 @@ Movies Table (Sample Data – 20 Rows)
 
 
 
-Ques(2):- Find all movies made by top directors(in terms of total gross income)
+Ques(2):- Find all movies made by top three directors(in terms of total gross income)
 -------------------------------------------------------------------------------
 
 Logic:

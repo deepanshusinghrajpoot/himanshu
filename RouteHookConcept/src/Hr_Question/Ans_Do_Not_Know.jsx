@@ -12,10 +12,9 @@ There are two cases.
 1. NEVER READ ABOUT THAT TOPIC
 ..............................
 
-Sorry, ma'am/sir,  
-but I have not studied this topic yet.  
-May I please request you to tell me more about this topic?
-
+Sorry, ma’am/sir,
+I have not studied this topic yet,
+but I am eager to learn and working on it.
 
 
 2. Know but not remembering at this time

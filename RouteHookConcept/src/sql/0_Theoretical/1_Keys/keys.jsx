@@ -185,9 +185,9 @@ Foreign Key
 
 Definition:
 
-A Foreign Key is an attribute (or set of attributes) in one table that refers to the Primary Key of another table.
-Foreign Key is used to link two tables together.
-Foreign Keys help in maintaining Referential Integrity.
+lll A Foreign Key is an attribute (or set of attributes) in one table that refers to the Primary Key of another table.
+lll Foreign Key is used to link two tables together.
+lll Foreign Keys help in maintaining Referential Integrity.
 
 
 

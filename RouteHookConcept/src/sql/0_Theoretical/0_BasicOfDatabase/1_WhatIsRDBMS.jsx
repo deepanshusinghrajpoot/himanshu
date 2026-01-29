@@ -46,7 +46,7 @@ For example — in banking systems,  school management systems
 
 lll 📄 When Document DBMS is More Useful:
 
-Document DBMS  use when data is semi-structured or unstructured, or the structure changes frequently.
+Document DBMS  use when data is semi-structured or unstructured, and has not clear relationships between entities.
 For example — social media apps, e-learning systems
 
 DBMS - MongoDB 

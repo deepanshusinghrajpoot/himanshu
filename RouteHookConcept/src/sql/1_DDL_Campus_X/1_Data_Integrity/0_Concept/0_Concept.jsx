@@ -17,7 +17,7 @@ unless updated intentionally.
 
 
 
-There are various methods used to ensure data integrity, including:
+lll There are various methods used to ensure data integrity, including:
 
 (1). Constraints 
 -----------------
@@ -39,14 +39,16 @@ Examples of constraints:
 
 
 (2). Transactions  
-
+-----------------
 lll “ACID properties are important because they prevent data inconsistency, ensure correctness of transactions, and protect 
      the database from partial updates, system crashes, and concurrent access issues.”
 
 
 
 
+
 (3). Normalization  
+--------------------
 
 lll Definition: Normalization is the process of organizing data in a database.
 

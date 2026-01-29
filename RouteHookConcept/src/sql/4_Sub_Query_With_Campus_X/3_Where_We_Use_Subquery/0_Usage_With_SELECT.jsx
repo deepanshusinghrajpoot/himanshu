@@ -10,7 +10,7 @@ Usage with SELECT
 
 ⭐ MOST IMPORTANT (One-Line)
 ********************************
-A subquery in the SELECT clause must be a scalar subquery 
+Imp:- A subquery in the SELECT clause must be a scalar subquery 
 that mean it should return exactly one value (one row, one column), otherwise SQL throws an error.
 
 
