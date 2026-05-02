@@ -3,7 +3,7 @@
   Compile Time Polymorphism
   -------------------------
 
-  (2):- Function Overloading
+  (2):- Function Overloading(method overloading)
 
   When two or more functions in the same class (or scope) have the same name but different number or type of parameters, 
   it is called function overloading.

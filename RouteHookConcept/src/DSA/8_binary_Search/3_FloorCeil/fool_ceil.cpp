@@ -139,7 +139,7 @@ Floor = last target
 #include <bits/stdc++.h>
 using namespace std;
 
-int floor(vector<int> &arr, int target)
+int ceil(vector<int> &arr, int target)
 { // floor <= target
 
     int low = 0;
@@ -166,10 +166,10 @@ int floor(vector<int> &arr, int target)
 int main()
 {
 
-    vector<int> arr{4, 5, 7, 9, 12, 34, 78, 90, 123, 456, 789, 12345};
+    vector<int> arr{4, 5, 7, 9, 12, 34, 35, 35, 35, 35, 35, 78, 90, 123, 456, 789, 12345};
 
-    int fl = floor(arr, 35);
-    int cl = lower_bound(arr.begin(), arr.end(),35) - arr.begin();
+    int cl = ceil(arr, 35);
+    int fl = lower_bound(arr.begin(), arr.end(),35) - arr.begin();
 
     cout<<"floor index:- "<<fl<<endl;
     cout<<"ciel index:- "<<cl<<endl;

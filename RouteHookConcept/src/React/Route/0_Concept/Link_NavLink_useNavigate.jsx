@@ -4,8 +4,8 @@
 
 ************************** Difference between Link & NavLink **************************
 
-When we use the Link tag, it renders as an anchor (<a>) tag in the DOM
-and it does NOT add any extra class after clicking.
+lll When we use the Link tag, it renders as an anchor (<a>) tag in the DOM
+    but it does NOT add any extra class after clicking.
 
 <Link to='/'><li>Home</li></Link>
 
@@ -13,8 +13,9 @@ Console Output:
 <a href="/" data-discover="true"><li>Home</li></a>
 
 
-When we use the NavLink tag, it also renders as an anchor (<a>) tag
-but it automatically adds an "active" class when the route is active.
+lll When we use the NavLink tag, it also renders as an anchor (<a>) tag
+    but it add an "active" extra class after clicking.
+
 
 <NavLink to='/'><li>Home</li></NavLink>
 
@@ -38,8 +39,9 @@ Console Output:
 
 ************************** Routing with useNavigate Hook **************************
 
-When we use Link or NavLink, navigation happens in a forward way
-by clicking on elements.
+lll When we use Link or NavLink, navigation happens in a forward direction.
+lll When we use useNavigate React Hook, navigation happens in both direction forword and backword.
+
 
 But sometimes we need to navigate programmatically, such as:
 - Redirecting after form submission

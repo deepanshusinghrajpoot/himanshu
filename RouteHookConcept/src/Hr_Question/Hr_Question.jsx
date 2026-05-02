@@ -6,30 +6,24 @@ import React from 'react'
 
 
 
-
-Why Should I Hire You?
-----------------------
-
-You should hire me because I’m a quick learner, hardworking, and eager to grow. While I may be a fresher, 
-I bring strong technical skills, a solid academic background, and a 3-month web development internship experience.
-
-During my B.Tech in Computer Science, I worked on multiple projects that demonstrate my problem-solving ability, programming knowledge, 
-and practical implementation of concepts. I’m confident that my adaptability and dedication will allow me to contribute effectively to your team’s success.
+Why should we hire you?
+Tell me about yourself.
+What are your strengths?
+What skills do you bring to this role?
+How do you handle learning new technologies or challenges?
 
 
 
 
 
-❓ What are your strengths and weaknesses?
-------------------------------------------
-✅ Answer:
+Why Should I Hire You? / What Are Your Strengths?
+-------------------------------------------------
 
-Strengths: "My strengths are quick learning, adaptability, and problem-solving. I quickly grasp new technologies and apply them in real projects. 
-            For example, in my projects I integrated payment gateways like Stripe and Razorpay, and also worked with tools like Clerk for authentication. 
-            I am dedicated and ensure quality in every task I take up."
+Ma’am, Because I am a quick learner, hardworking, and eager to grow. Although I am a fresher, I bring strong technical skills. 
+During my B.Tech in Information Technology, I worked on multiple projects that strengthened my problem-solving abilities, 
+programming knowledge, and practical implementation of concepts. I am confident that my adaptability and dedication 
+will allow me to contribute effectively to your team’s success.
 
-Weakness: "Sometimes I overthink different approaches before starting a task, which can delay my initial progress. 
-          But I’m improving this by breaking tasks into smaller steps and setting clear priorities to stay efficient."
 
 
 
@@ -42,6 +36,32 @@ As a fresher, I’m looking for a strong platform to showcase and enhance my ski
 I admire your company’s reputation, culture, and growth opportunities, and 
 I believe starting my career here will allow me to learn, contribute, 
 and grow along with the organization.
+
+
+
+
+
+
+
+
+
+
+
+❓ What are your strengths and weaknesses?
+------------------------------------------
+
+
+✅ Answer:
+
+Strengths: "My strengths are quick learning, adaptability, and problem-solving. I quickly grasp new technologies and apply them in real projects. 
+            For example, in my projects I integrated payment gateways like Stripe and Razorpay, and also worked with tools like Clerk for authentication. 
+            I am dedicated and ensure quality in every task I take up."
+
+Weakness: "Sometimes I overthink different approaches before starting a task, which can delay my initial progress. 
+          But I’m improving this by breaking tasks into smaller steps and setting clear priorities to stay efficient."
+
+
+
 
 
 

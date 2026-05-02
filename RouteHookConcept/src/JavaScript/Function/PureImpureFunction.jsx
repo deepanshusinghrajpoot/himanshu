@@ -115,7 +115,7 @@ lll ✅ Pure Function:
         Output depends on external state
         Creates side effects
 
-        lll output does depend on external state
+        llllllllllllllllllll output does depend on external state
 
         
 

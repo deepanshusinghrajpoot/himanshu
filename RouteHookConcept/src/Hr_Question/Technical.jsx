@@ -11,17 +11,19 @@ import React from 'react'
 Can you introduce yourself?
 ---------------------------            
 
-Sir, my name is Deepanshu Singh, and I am currently pursuing a B.Tech in Information Technology 
+Good morning Ma’am/Sir. Thank you for giving me this opportunity. I’m glad to be here.
+
+my name is Deepanshu Singh, and I am currently pursuing a B.Tech in Information Technology 
 from Dr. Ambedkar Institute of Technology for Handicapped, Kanpur.
 
-I have strong programming knowledge in SQL, JavaScript, and C++, along with basic proficiency in Python. 
+I have strong programming knowledge in SQL, JavaScript, and C++, along with proficiency in Python. 
 I also have hands-on experience with React.js and Node.js for building full-stack web applications.
 
 My strong command of MySQL and SQL concepts, including relational schema design, normalization, joins, indexing, and data analysis, 
 forms the foundation of my data-driven and problem-solving approach.
 
 During my academic journey, I worked on real-life applications such as a Hospital Management System, a Learning Management System (LMS), 
-and a Chat Application. In the Hospital Management System, I focused on frontend and backend logic using React.js and Node.js, and 
+and a Chat Application. In the Hospital Management System, I focused on frontend and backend and 
 I am confident in designing healthcare workflows using MySQL for structured data management and reporting.
 
 
@@ -47,7 +49,7 @@ simplify hospital operations like managing users, appointments, billing, and med
 
 On the frontend, I used React.js with Tailwind CSS to build a responsive UI, and managed global state like
 user roles and auth tokens using Context API. 
-For the backend, I built REST APIs using Node.js andExpress.js, and used MongoDB for all the dynamic data.
+For the backend, I built REST APIs using Node.js and Express.js, and used MongoDB for all the dynamic data.
 
 I implemented role-based access control so that admins, doctors, and patients each see different
 dashboards. I also integrated Razorpay for secure appointment and billing payments.

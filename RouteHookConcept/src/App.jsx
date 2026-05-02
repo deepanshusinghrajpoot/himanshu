@@ -71,7 +71,7 @@ const RTK = lazy(()=> wait(5000).then(()=> import('./redux/HowToUse/HowToUse')))
 
 
 
-const CollStack = lazy(()=> wait(2000).then(()=> import('./JavaScript/EventLoop/callStack/CollStack')));
+const CollStack = lazy(()=> wait(2000).then(()=> import('./JavaScript/0_EventLoop/callStack/CollStack')));
 const This = lazy(()=> wait(2000).then(()=> import('./JavaScript/This/This')));
 const Prototype = lazy(()=> wait(2000).then(()=> import('./JavaScript/Prototype/Prototype')));
 const PolyfilMapFilterReduce = lazy(()=> wait(2000).then(()=> import('./JavaScript/Prototype/PolyfillOfMapFillterReduce')));
