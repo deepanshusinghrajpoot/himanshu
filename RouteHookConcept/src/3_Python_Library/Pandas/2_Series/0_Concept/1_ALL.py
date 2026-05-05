@@ -31,6 +31,12 @@ import numpy as np
 # - lll squeeze() converts a single-column DataFrame into a Series.
 
 
+# Pandas DataFrame
+#==================
+# lll A DataFrame is a 2-dimensional labeled data structure.
+
+
+
 
 # lll In Pandas, there are two ways to create a custom index.
 
@@ -55,10 +61,12 @@ import numpy as np
 # is_unique :- is_unique is a pandas attribute returns True if all the values in the Series are unique; otherwise False."
 
 
-# DataFrame has attributes.
+
+# DataFrame has attributes
 #==========================
 # dtypes :- dtypes is a pandas attribute Shows the data type of the values of each column in a DataFrame.
 # columns :-  columns is a pandas attribute returns the name of all columns of the DataFrame.
+
 
 
 # Common attributes of Series or DataFrame
@@ -115,7 +123,7 @@ import numpy as np
 # describe(series and dataframe)
 # ------------------------------
 #            describe() is a pandas method used to generate
-#            summary statistics of a Series or DataFrame.
+#            statistics summary of a Series or DataFrame.
 #            It quickly gives measures like count, mean,
 #            standard deviation, minimum, maximum, and quartiles.
 #       It has Parameters
@@ -211,6 +219,7 @@ import numpy as np
 #            nsmallest() is a pandas method used to return the
 #            top 'n' smallest (lowest) values from a Series or
 #            rows from a DataFrame based on a specified column.
+
 
 
 
