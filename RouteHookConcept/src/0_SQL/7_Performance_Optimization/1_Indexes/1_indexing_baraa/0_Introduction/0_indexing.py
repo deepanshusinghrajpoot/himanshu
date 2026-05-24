@@ -24,6 +24,7 @@ Index        Index                    Index        Index                       I
 
 
 
+
 There are three main type of index.
 
 1. Structure Index
@@ -41,6 +42,7 @@ There are three main type of index.
 
 
 
+          
 Trade-off
 .........
 

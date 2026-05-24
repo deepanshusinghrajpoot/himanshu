@@ -12,17 +12,16 @@
 ====================================================
 */
 
--- 🔹 Basic Concept
--- JOIN  → Combine Columns
--- SET   → Combine Rows (Result Sets)
+-- lll🔹 Basic Concept
+--        JOIN Operator  → Combine Columns
+--        SET Operator  → Combine Rows (Result Sets)
 
 
 /* ------------------------------------------------
-🔹 Types of SET Operators in MySQL
+    lll 🔹 Types of SET Operators in MySQL
 ------------------------------------------------ */
-
--- 1. UNION
--- 2. UNION ALL
+--         1. UNION
+--         2. UNION ALL
 
 -- ❌ NOT supported in MySQL:
 -- EXCEPT (use NOT EXISTS / LEFT JOIN)
@@ -39,32 +38,33 @@ SELECT col1, col2 FROM table2;
 
 
 /* ------------------------------------------------
-🔹 RULES (Very Important)
+ 🔹 RULES (Very Important)
 ------------------------------------------------ */
 
-First, both queries must have the same structure — meaning same number of columns, 
-       same data types, and same order.
-Second, the final output is controlled by the first query — so column names come from the first query, 
-        and ORDER BY is applied only once at the end.”
+lll First,  :-  both queries must have the same structure — meaning same number of columns, 
+                same data types, and same order.
+
+Second, :-  the final output is controlled by the first query — so column names come from the first query, 
+            and ORDER BY is applied only once at the end.”
 
 
 /* ------------------------------------------------
-🔹 UNION
------------------------------------------------- */
-
-- Returns all district rows from both queries.
-- Removes duplicate rows from the result.
+    lll🔹 UNION set operator
+---------------------------------------------- */
+-     Returns all district rows from both queries.
+      and
+-     Removes duplicate rows from the result.
 
 SELECT name FROM employees
 UNION
 SELECT name FROM customers;
 
 
-/* ------------------------------------------------
-🔹 UNION ALL
------------------------------------------------- */
 
-- Returns all rows from both queries, including duplicates.
+/* ------------------------------------------------
+   lll🔹 UNION ALL set operator
+------------------------------------------------ */
+-         Returns all rows from both queries, including duplicates.
 
 
 SELECT name FROM employees
@@ -75,7 +75,6 @@ SELECT name FROM customers;
 /* ------------------------------------------------
 🔹 UNION vs UNION ALL
 ------------------------------------------------ */
-
 - UNION ALL is generally faster than UNION
 - If we are confident there are no duplicate, use UNION ALL
 

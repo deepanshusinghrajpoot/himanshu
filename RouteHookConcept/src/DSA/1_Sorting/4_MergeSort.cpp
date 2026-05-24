@@ -10,6 +10,7 @@ void merge(vector<int>&arr, int low, int mid, int high){
 
     int left = low;
     int right = mid+1;
+    
 
     while(left <= mid  && right <= high){
         if(arr[left] <= arr[right]){

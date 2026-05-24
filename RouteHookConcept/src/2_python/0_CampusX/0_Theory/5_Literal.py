@@ -1,7 +1,7 @@
 # Python Literals
 #================
 
-# Literals are fixed values assigned to variables.
+#lll Literals are fixed values assigned to variables.
 
 # Python supports multiple types of literals:
 #............................................

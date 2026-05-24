@@ -9,8 +9,8 @@ A window frame defines which rows are included for a window function relative to
 
 
 
-| DB         | ROWS        | RANGE (with offset) |
-| ---------- | ----------- | ------------------- |
+| DB         | ROWS          | RANGE (with offset) |
+| ---------- | ------------- | ------------------- |
 | MySQL      | ✅ Supported | ❌ Not supported     |
 | PostgreSQL | ✅           | ✅                   |
 | Oracle     | ✅           | ✅                   |

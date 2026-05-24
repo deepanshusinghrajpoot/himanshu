@@ -10,9 +10,8 @@ import React from 'react'
 
 🧠 What is the use of WITH in SQL?
 =======================================
-WITH is used to create a Common Table Expression (CTE).
-A CTE is a temporary named result set that exists only for the duration of the query.
-
+lll A CTE is a temporary named result set that exists only for the duration of the query.
+    In SQL WITH keyword is used to create a Common Table Expression (CTE).
 
 
 
@@ -35,6 +34,8 @@ WITH dept_salary AS (
    
 SELECT *
 FROM dept_salary;
+
+
 
 
 

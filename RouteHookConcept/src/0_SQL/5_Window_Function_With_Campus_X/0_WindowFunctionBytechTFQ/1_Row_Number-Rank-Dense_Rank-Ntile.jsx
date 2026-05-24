@@ -34,47 +34,7 @@ lll A window function performs calculations across a set of rows related to the 
     without merging rows (unlike aggregate functions).
 
 
-🔹 Why OVER()?
 
-Because when you write:
-
-MAX(salary) OVER(PARTITION BY dept_name)
-
-
-SQL treats MAX() as a window function, not an aggregate.
-
-Window functions do NOT collapse rows.
-
-
-
------------------------------------
-🔥 1. MAX() OVER(PARTITION BY)
------------------------------------
-
-Query
-
-SELECT e.*,
-       MAX(salary) OVER(PARTITION BY dept_name) AS max_salary
-FROM employee e;
-
-| emp_id | emp_name | dept    | salary | max_salary |
-| ------ | -------- | ------- | ------ | ---------- |
-| 101    | Aditi    | IT      | 90000  | 90000      |
-| 102    | Rahul    | IT      | 90000  | 90000      |
-| 103    | Sneha    | IT      | 85000  | 90000      |
-| 104    | Karan    | HR      | 70000  | 70000      |
-| 105    | Priya    | HR      | 60000  | 70000      |
-| 106    | Amit     | HR      | 60000  | 70000      |
-| 107    | John     | Finance | 95000  | 95000      |
-| 108    | Riya     | Finance | 90000  | 95000      |
-| 109    | Mohan    | Finance | 85000  | 95000      |
-
-Explanation
-
-OVER() → Creates a window.
-PARTITION BY dept_name → One window per department.
-
-Every row shows the highest salary of its department.
 
 
 
@@ -232,6 +192,119 @@ Summary
 ROW_NUMBER() → Always unique
 RANK() → Ties + gaps
 DENSE_RANK() → Ties + no gaps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+⭐ 4️⃣ NTILE()
+================
+
+✔ Definition (Easy)
+
+lll NTILE(n) Window Function breaks the ordered rows into n equal buckets.
+
+Example:
+NTILE(3):
+
+Bucket 1 → top items
+Bucket 2 → middle items
+Bucket 3 → lowest items
+
+
+✔ PARTITION BY is optional
+If omitted → entire table is considered one group.
+
+
+❓ Question
+
+Segregate phones into expensive, mid-range, and cheaper phones.
+
+✔ Query
+SELECT product_name,
+CASE 
+     WHEN x.buckets = 1 THEN 'Expensive Phones'
+     WHEN x.buckets = 2 THEN 'Mid Range Phones'
+     WHEN x.buckets = 3 THEN 'Cheaper Phones'
+END AS phone_category
+FROM (
+     SELECT *,
+     NTILE(3) OVER (ORDER BY price DESC) AS buckets
+     FROM product
+     WHERE product_category = 'phone'
+) x;
+
+
+✔ Bucket 1 = Expensive
+✔ Bucket 2 = Mid-range
+✔ Bucket 3 = Cheaper
+
+
+
+
+
+
+
+SELECT 
+    product_name,
+    price,
+    NTILE(3) OVER (ORDER BY price DESC) AS buckets
+FROM product
+WHERE product_category = 'phone';
+
+
+
+Parent Table (Phones Only)
+
++-------------------+-------+
+| product_name      | price |
++-------------------+-------+
+| iPhone 15         | 80000 |
+| Samsung S23       | 75000 |
+| OnePlus 11        | 70000 |
+| Pixel 7           | 60000 |
+| Redmi Note 12     | 25000 |
+| Realme Narzo      | 15000 |
++-------------------+-------+
+
+
+
+
+
+Result Output
+
++-------------------+-------+---------+
+| product_name      | price | buckets |
++-------------------+-------+---------+
+| iPhone 15         | 80000 |   1     |
+| Samsung S23       | 75000 |   1     |
+| OnePlus 11        | 70000 |   2     |
+| Pixel 7           | 60000 |   2     |
+| Redmi Note 12     | 25000 |   3     |
+| Realme Narzo      | 15000 |   3     |
++-------------------+-------+---------+
+
+
+
+
+
+
+
 
 
 

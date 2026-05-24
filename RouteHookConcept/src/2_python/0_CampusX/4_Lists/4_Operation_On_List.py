@@ -2,6 +2,7 @@
 #===================
 
 # Lists support the following operations:
+
 #lll There are three way to perform operation on the list
 #--------------------------------------------------------
 # Arithmetic operations (+, *)

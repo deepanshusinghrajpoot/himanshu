@@ -56,10 +56,10 @@ Every column in SELECT must be:
 
 
 
-lll WHERE RULE ⭐
-=================
-lll WHERE can use ONLY normal columns (no aggregates)
-Aggregates (SUM, COUNT, AVG…) belong in HAVING
+lll RULE ⭐
+============
+lll WHERE clause can use ONLY normal columns (no aggregate functions)
+lll HAVING clause is mainly used with aggregate functions, but it can also contain normal conditions.
 
 
 

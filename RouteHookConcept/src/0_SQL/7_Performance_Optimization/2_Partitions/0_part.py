@@ -11,12 +11,11 @@
 lll SQL Partitioning means dividing a large table into smaller parts (partitions)
     But logically, it is still treated as one single table.
 
-🔹 lll Why we use Partitioning
-          Improves query performance
-          Reduces full table scan
-          Supports parallel processing → faster execution
+🔹 lll We use Partitioning because
+          It Improves query performance
+          It Reduces full table scan
+          It Supports parallel processing → faster execution
     
-
 🔹 Real-World Example
        Suppose a table contains 3 years of data → 2024, 2025, 2026
        Old data is rarely accessed
@@ -58,7 +57,8 @@ Instead of scanning the entire table
  MySQL Partitioning – Step-by-Step (Interview + Practical)
 =========================================================================================================================================
 
-lll “In MySQL, the partition column must always be included in the primary key, otherwise table creation fails.”
+lll “In MySQL, the partition column must always be included in the primary key, 
+     otherwise table creation fails.”
 
 
 -- Instead:
@@ -72,6 +72,80 @@ lll “In MySQL, the partition column must always be included in the primary key
 
 -- "In MySQL, partitioning is defined at table level using RANGE/LIST/HASH,
 -- unlike SQL Server which uses partition function and scheme."
+
+
+
+
+
+Important Rule
+================
+
+Case 1: No PRIMARY KEY
+_______________________
+
+✅ Partitioning works normally.
+
+Example:
+
+CREATE TABLE orders (
+    order_id INT,
+    order_date DATE
+)
+PARTITION BY RANGE (YEAR(order_date));
+
+
+
+No issue because: no PRIMARY KEY
+                  no UNIQUE KEY
+
+
+                  
+Case 2: PRIMARY KEY Exists
+___________________________
+
+Then: Partition column must be included in the PRIMARY KEY.
+
+Wrong Example
+
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    order_date DATE
+)
+PARTITION BY RANGE (YEAR(order_date));
+
+❌ Error because:
+
+partition column = order_date
+PRIMARY KEY missing order_date
+
+
+
+Correct Example
+________________
+
+
+CREATE TABLE orders (
+    order_id INT,
+    order_date DATE,
+    PRIMARY KEY(order_id, order_date)
+)
+PARTITION BY RANGE (YEAR(order_date));
+
+
+✅ Works successfully.
+        Why MySQL Allows Your Current Tables
+
+Because currently:
+
+no uniqueness enforcement
+no primary key indexing issue
+MySQL does not need partition column inside key
+
+So your examples are perfectly fine.
+
+
+
+
 
 
 
@@ -104,6 +178,8 @@ PARTITION BY RANGE (YEAR(order_date)) (
 
 
 ------------------------------------------------ 
+
+
 
 -- 🔹 2. LIST Partitioning
 ---------------------------
@@ -166,7 +242,15 @@ PARTITIONS 4;
 
 
 
+
+
+
+
 '''
+
+
+
+
 
 
 
