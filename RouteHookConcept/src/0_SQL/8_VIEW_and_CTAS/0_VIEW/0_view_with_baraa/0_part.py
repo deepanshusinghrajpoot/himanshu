@@ -29,8 +29,8 @@ lll “In a database system, we can have multiple databases. Each database conta
 
 
 
-Three-Level Architecture (Database Abstraction)
-==============================================
+DataBase system devided into Three-Level Architecture (Database Abstraction)
+============================================================================
 
 lll The database is divided into three levels to reduce complexity:
 
@@ -42,7 +42,7 @@ Logical Level (Conceptual Level) handled by Data Engineers like objects (tables,
                     View Level (External Level) handled by Data Analyst, Business Analyst
                              
 
-b
+
 
                     
 

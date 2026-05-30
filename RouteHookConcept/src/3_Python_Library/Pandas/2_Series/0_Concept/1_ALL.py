@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 
 
+
+
+
 # ==========================================
 # Pandas: Introduction & Series
 # ==========================================
@@ -20,7 +23,7 @@ import numpy as np
 #=================
 # lll A Pandas Series is a 1-dimensional labeled array capable of holding data of any type (integer, float, string, etc.)
 
-# There are two way to create python series.
+# There are two way to create pandas series.
 # 1. Using Python list.
 # 2. Using Python dictionary.
 
@@ -71,7 +74,7 @@ import numpy as np
 
 # Common attributes of Series or DataFrame
 #==========================================
-# shape :- shape is a pandas DataFrame or Series attribute used to get the dimensions of data.
+# shape :- shape is a pandas attribute used to get the dimensions of data.
 #          It returns a tuple in the form:(rows, columns)
 # index :- Represents the labels of the Series or DataFrame. Acts like row identifiers.
 # values :- Returns the underlying data of the Series or DataFrame as a NumPy array.
@@ -115,18 +118,20 @@ import numpy as np
 #           - Index details
 #           - Number of entries
 #           - Column names
-#           - Non-null counts
+#           - Non-null counts  
 #           - Data types (dtype)
 #           - Memory usage
+
 
 
 # describe(series and dataframe)
 # ------------------------------
 #            describe() is a pandas method used to generate
 #            statistics summary of a Series or DataFrame.
-#            It quickly gives measures like count, mean,
+#            It quickly gives information like count, mean,
 #            standard deviation, minimum, maximum, and quartiles.
-#       It has Parameters
+
+#      It has Parameters
 #           include='all'      -> include all columns (numeric + object + category)
 #           exclude=...        -> exclude specific data types
 #           percentiles=[...]  -> custom percentile values
@@ -151,6 +156,7 @@ import numpy as np
 # nsmallest(series and dataframe)
 
 
+
 # value_counts (series and dataframe)
 # -----------------------------------
 #            value_counts is a pandas method used to "Returns frequency 
@@ -168,6 +174,8 @@ import numpy as np
 #                    is equal to  -> False : mean : includes NaN(missing) values
 #            bins -> Used for numeric data to group values into intervals
 
+
+
 # sort_values() (Series + DataFrame)
 # ----------------------------------
 #           sort_values() is a pandas method used to sort the data
@@ -182,10 +190,14 @@ import numpy as np
 #                         is equal to  -> False : mean : returns new object (default)
 #                na_position -> 'first' or 'last' (specify the position of missing value(NaN))
 
+
 # sort_index (series and dataframe) 
 # ---------------------------------
 #            sort_index is a pandas method used to "Sorts Series or DataFrame by its index labels. 
-#            Default is ascending=True. Not permanent unless inplace=True."
+#     It has parameters 
+#            Default is ascending=True. 
+#            Not permanent unless inplace=True."
+
 
 # rank(Series)
 # ------------
@@ -208,11 +220,13 @@ import numpy as np
 #            pct
 #                  True : percentage rank
 
+
 # nlargest() (Series + DataFrame) 
 # -------------------------------
 #            nlargest() is a pandas method used to return the top 'n'
 #            largest values from a Series or rows from a DataFrame
 #            based on a specified column.
+
 
 # nsmallest() (Series + DataFrame)
 # --------------------------------
@@ -250,7 +264,7 @@ import numpy as np
 #            axis
 #               axis = 0 mean : drop rows (default)
 #               axis = 1 mean : drop columns
-#            how 
+#            how : has values
 #               how ='any' mean : drop rows/columns if at least one NaN(missing) value present
 #               how ='all' mean : drop rows/columns only if all values are NaN(missing)
 #            inplace

@@ -26,21 +26,21 @@ print(sorted(d, reverse=True))# ['name', 'age']
 d = {'name':'Deepanshu', 'age':22, 'gender':'male'}
 
 # items :- returns key-value pairs as tuple inside a list
-#-------------------------------------------------------
+#---------------------------------------------------------
 
 print(d.items())  
 # dict_items([('name', 'Deepanshu'), ('age', 22), ('gender', 'male')])
 
 
 # keys :- returns all keys
-#-------------------------
+#--------------------------
 
 print(d.keys())  
 # dict_keys(['name', 'age', 'gender'])
 
 
 # values :- returns all values
-#-----------------------------
+#------------------------------
 
 print(d.values())  
 # dict_values(['Deepanshu', 22, 'male'])
@@ -48,7 +48,7 @@ print(d.values())
 
 
 # update :- adds new key-value pair if not present, updates value if key exists
-#------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 
 d1 = {1:2, 3:4, 4:5}
 d2 = {4:7, 6:9}

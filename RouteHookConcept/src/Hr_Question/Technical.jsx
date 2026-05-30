@@ -46,7 +46,6 @@ Explain Any One Major Project
 HealthHub is a full-stack Hospital Management System I built using the MERN stack. The goal was to
 simplify hospital operations like managing users, appointments, billing, and medical records.
 
-
 On the frontend, I used React.js with Tailwind CSS to build a responsive UI, and managed global state like
 user roles and auth tokens using Context API. 
 For the backend, I built REST APIs using Node.js and Express.js, and used MongoDB for all the dynamic data.
@@ -58,6 +57,33 @@ The admin panel allows us to manage users, departments, and records easily. JWT 
 securely, and I tested all APIs using Postman. The project is deployed on Vercel.
 
 Overall, HealthHub is scalable, secure, and built to reflect real hospital workflows.
+
+
+
+
+
+
+Hello, my name is Deepanshu Singh, and I have completed a B.Tech in Information Technology from 
+Dr. Ambedkar Institute of Technology for Handicapped, Kanpur.
+
+I have strong programming knowledge in SQL, JavaScript, C++, and Python. I also have hands-on 
+experience with React.js and Node.js for building full-stack web applications.
+
+My strong understanding of MySQL and SQL concepts — including relational schema design, normalization, 
+joins, indexing, data modeling, and data analysis — forms the foundation of my data-driven  
+and problem-solving approach.
+
+During my academic journey, I worked on real-world projects such as a Hospital Management System, 
+a Learning Management System (LMS), a Chat Application, and a Data Engineering project based 
+on a Data Warehouse system. In the data warehouse project, I worked on data modeling, structured data storage, 
+ETL processes, SQL-based reporting, and analytical query optimization for efficient data management and business insights.
+
+In the Hospital Management System, I worked on both frontend and backend development, where I focused on designing 
+healthcare workflows using MySQL for structured data management and reporting.
+
+I am passionate about learning new technologies, improving my development skills, and building scalable applications 
+that solve real-world problems.
+
 
 
 
