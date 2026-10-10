@@ -56,10 +56,10 @@ Index is performantion Optimization techniques.
 #      Data Pages are stored inside Data Blocks.
 #      And these Data Blocks are stored on disk (loaded into memory when required).
 
-#      And Data Page is a fixed-size memory structure that
-#      stores multiple table rows.
-#      it has memory size usually around 8KB (8192 bytes)
-#      But it may vary depending on the DBMS.
+#  And Data Page is a fixed-size memory structure that
+#  stores multiple table rows.
+#  it has memory size usually around 8KB (8192 bytes)
+#  But it may vary depending on the DBMS.
 
 
 # =========================================================
@@ -270,6 +270,9 @@ Index is performantion Optimization techniques.
 # ✔ Offset array stores pointers to rows
 # ✔ Data Pages are stored inside Data Blocks
 # ✔ Data Block is the minimum I/O unit on disk
+
+
+
 '''
 
 

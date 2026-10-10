@@ -143,3 +143,8 @@ print({"name": "Deepanshu", "gender": "male", "weight": 70})
 # type() function is used to find the data type of a variable
 
 print(type(2))   # <class 'int'>
+
+
+
+
+

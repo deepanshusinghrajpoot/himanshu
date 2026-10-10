@@ -1,17 +1,18 @@
 # change only important words for Python
 
+
 '''
 
 ✅ Final Correct Interview-Style Answer:
 
 lll Scope in Python
-Scope defines where we can access specific variables or functions in code.
+       Scope defines where we can access specific variables or functions in code.
 
 lll Lexical Environment
-Created whenever an Execution Context is created
+      Created whenever an Execution Context is created
 
 It consists of:
-Lexical Environment = Local Memory + Reference to Parent Lexical Environment
+      Lexical Environment = Local Memory + Reference to Parent Lexical Environment
 
 
 lll Simple Definition:
@@ -43,8 +44,8 @@ Global Lexical Environment’s outer reference is None, so a NameError is raised
 
 
 lll ✅ Scope Chain Definition:
-"The process of searching variables from the current Local Memory,
-moving outward to parent Lexical Environments, is called the Scope Chain."
+        "The process of searching variables from the current Local Memory,
+         moving outward to parent Lexical Environments, is called the Scope Chain."
 
 
 Call Stack and Execution Flow Example:
@@ -117,7 +118,7 @@ print(L)           # [1, 2, 3, 4]
 # 1. Global Scope
 # 2. Local Scope
 
-# Impure function :- When function output depend on external state called impure function
+# lll Impure function :- When function output depend on external state is called impure function
 
 def g(y):
     print(x) # 5
@@ -127,12 +128,12 @@ g(x)
 print(x) # 5
 
 
-# Scope chaining :- The process of searching variable from current local memory and moving outword to parent enviornment
-#                   called scope chaining.
+# lll Scope chaining :- The process of searching variable from current local memory and moving outword to parent enviornment
+#                       called scope chaining.
 
 
 
-# Pure function :- When function output does not depend on external state called pure function
+# lll Pure function :- When function output does not depend on external state is called pure function
 
 
 def p(y):

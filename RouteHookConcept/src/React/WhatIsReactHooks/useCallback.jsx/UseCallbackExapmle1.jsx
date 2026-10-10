@@ -40,6 +40,7 @@ const UseCallbackExapmle1 = () => {
   // So, header3 render when chage the count
   const newFunction4 = useCallback(()=> {}, [count])
 
+  
   return (
     <div>
          <Header1 newFunction={newFunction1} />

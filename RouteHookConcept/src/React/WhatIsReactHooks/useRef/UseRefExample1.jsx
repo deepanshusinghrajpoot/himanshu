@@ -1,3 +1,4 @@
+
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { AppContext } from '../../../context/AppContext';
 
@@ -25,6 +26,7 @@ const UseRefExample1 = () => {
         <h4>Name:{data.owner}</h4>
      </div>
   )
+
 }
 
 export default UseRefExample1

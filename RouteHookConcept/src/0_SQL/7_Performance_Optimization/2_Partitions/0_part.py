@@ -37,19 +37,6 @@ Instead of scanning the entire table
 
 '''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 '''
 
 
@@ -67,7 +54,7 @@ lll “In MySQL, the partition column must always be included in the primary key
 
 
 -------------------------------------------------------------
-🔹 One-Line Summary
+🔹 One-Line Summary                                         
 -------------------------------------------------------------
 
 -- "In MySQL, partitioning is defined at table level using RANGE/LIST/HASH,

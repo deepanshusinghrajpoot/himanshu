@@ -11,7 +11,7 @@ import React from 'react'
 
 What is a Shallow Copy?
 lll A shallow copy copies only the first level of properties. If the object contains nested objects or arrays, 
-they are copied by reference, not as new independent copies.
+    they are copied by reference, not as new independent copies.
 
 
 

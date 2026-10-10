@@ -28,6 +28,7 @@ class Node{
        Node(int data1, Node* prev1, Node* next1){
           data = data1;
           next = next1;
+          prev = prev1;
        }
 
 

@@ -77,6 +77,7 @@ WHERE model_id NOT IN (1, 3, 6);
 -----------------------------------------------
 
 Using ROW_NUMBER()
+
 DELETE
 FROM cars
 WHERE model_id IN(

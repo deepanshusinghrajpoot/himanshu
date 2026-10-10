@@ -1,14 +1,14 @@
 
 
 
-# Funtions are 1st class citizens
-#=================================
+# lll Funtions are 1st class citizens
+#=====================================
 
-# Because
+#     Because
 
-# We can assign a function in a variable
-# We can pass a function as argument to another function
-# A function can hold another as argument or return another function
+#     We can assign a function to a variable
+#     We can pass a function as argument to another function
+#     A function can hold another function as argument or return another function
 
 
 

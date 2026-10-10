@@ -30,6 +30,7 @@ print("Deep Copy 1  :", deep_copy1)     # [1, 2, [99, 4], {'a': 100}]
 
 
 
+
 # 2️⃣ Using list comprehension – only works for 1-level nested lists
 shallow_list = [[1, 2], [3, 4]]
 deep_copy2 = [sublist[:] for sublist in shallow_list]
@@ -66,3 +67,7 @@ print("Deep Copy 3 (JSON) :", deep_copy3)      # [1, 2, [777, 4], {'a': 888}]
 # Use copy.deepcopy() for any nested lists/objects.
 # Use list comprehension for shallow 1-level nested lists (faster).
 # JSON method only for JSON-serializable data.
+
+
+
+

@@ -33,6 +33,7 @@ bool isPalindrome(int n) {
     return (rev == original);
 }
 
+
 int main() {
     int n;
     cout << "Enter number: ";

@@ -8,6 +8,7 @@ ETL - Extract Transform Load
 
 
 ## Data Warehouse Network 
+-------------------------
 
 # (Example: Finance & HR Domain)
   
@@ -44,9 +45,9 @@ lll "So, basically, the data flow works like"
     "In my projects, I build the Data Warehouse Network using Medallion Architecture."  
     This architecture has **three layers:**
 
-1. **Staging Layer (Bronze)**
-2. **ETL Layer (Silver)**
-3. **Core Layer (Gold)**
+    1. **Staging Layer (Bronze)**
+    2. **ETL Layer (Silver)**
+    3. **Core Layer (Gold)**
 
 ---
 
@@ -66,11 +67,12 @@ lll "So, basically, the data flow works like"
 
 ### 🔹 ETL Layer
 
-"The ETL layer is responsible for transforming the data."
+lll "The ETL layer is responsible for transforming the data."
 
-- **Extract** data from staging  
-- **Transform** it (cleaning, filtering, joining)  
-- **Load** it into the core layer  
+    That mean
+        - **Extract** data from staging  
+        - **Transform** it (cleaning, filtering, joining)  
+        - **Load** it into the core layer  
 
 ---
 
@@ -79,7 +81,7 @@ lll "So, basically, the data flow works like"
 "lll The core layer stores fully transformed and curated data."
 
      - This is **analytics-ready data**  
-     - Used by:
+     - Used by:  
           - Data Analysts  
           - Data Scientists  
           - Business Analysts
@@ -93,15 +95,17 @@ lll "So, basically, the data flow works like"
 ---------------
 
 lll "A Data Mart is basically a subset of a Data Warehouse."
+    - It contains data for a **specific domain**
 
-- It contains data for a **specific domain**
-
+    
 **Examples:**
 
 - Finance Data Mart → finance data  
 - HR Data Mart → HR data  
 
+
 ---
+
 
 
 

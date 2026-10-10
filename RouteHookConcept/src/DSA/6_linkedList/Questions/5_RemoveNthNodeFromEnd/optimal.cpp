@@ -144,6 +144,7 @@ Node* RemoveNthNodeFromEndList(Node* head, int n){
       delete deleteNode;
 
       return head;
+      
 }
 
 

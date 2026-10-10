@@ -1,197 +1,222 @@
-
-
 # Static Variable Vs Instance Variable
-#=====================================
+# ====================================
 
 # Instance Variable
-#------------------
-
-# Definition
-#...........
-# Instance variable is unique for every object
-# Instance variable belongs to an object
+# -----------------
+#
 
 
-# Static Variable
-#----------------
-
-# Definition
-#...........
-# Static variable is the same for every object
-# Static variable belongs to the class
+# Definition:
+# lll An instance variable is a variable whose value is unique
+#     to each object of a class.
 
 
-
-# Example: We are designing a banking system
-#-------------------------------------------
-
-# What is instance or static?
-# name        -> Instance
-# balance     -> Instance
-# IFSC code   -> Static
-
-
-# Some important points about static variables
-#---------------------------------------------
-# Static variables are declared outside the constructor
+# Key Points:
+# 1. Belongs to an object.
+# 2. Created using the self keyword.
+# 3. Every object maintains its own separate copy.
+# 4. Values can differ from object to object.
+#
+# Examples:
+# name
+# balance
+# age
+# salary
 
 
 
+# Static Variable (Class Variable)
+# --------------------------------
+#
+# Definition:
+# lll A static variable is a variable whose value is shared
+#     among all objects of a class.
+#
+# Key Points:
+# 1. Belongs to the class, not an object.
+# 2. Only one copy exists in memory.
+# 3. Shared by all objects.
+# 4. Declared directly inside the class and outside methods.
+#
+# Examples:
+# IFSC Code
+# Bank Name
+# Company Name
+# College Name
 
+
+
+# Banking System Example
+# ----------------------
+#
+# name       -> Instance Variable
+# balance    -> Instance Variable
+# account_no -> Instance Variable
+# IFSC Code  -> Static Variable
+#
+# Reason:
+# Every customer has a different name, balance,
+# and account number.
+#
+# But the IFSC code remains the same for all
+# accounts of the same bank branch.
+
+
+
+# Interview One-Liner
+# -------------------
+#
+#  lll Instance Variable:
+#      "Each object has its own separate copy."
+#
+#  lll Static Variable:
+#      "One copy is shared among all objects of the class."
+
+
+
+# ==========================================================
 # Static Method Vs Normal Method
-#===============================
+# ==========================================================
 
 # Normal Method
-#--------------
+# -------------
+#
+# lll Definition:
+#     A normal method belongs to an object.
+#
+# Key Points:
+# 1. First parameter is self.
+# 2. Can access instance variables.
+# 3. Can access static variables.
+# 4. Called using an object.
+#
+# Example:
+#
+# obj.method()
 
-# Definition
-#...........
-# lll Normal method is a method of an object
-# It can access both instance and static variables
 
 
 # Static Method
-#--------------
+# -------------
+#
+# lll Definition:
+#     A static method belongs to the class rather than
+#     an object.
+#
+# Key Points:
+# 1.     lll It create by using @staticmethod decorator.
+# 2. Does not require self.
+# 3. Cannot directly access instance variables.
+# 4. Mainly used for utility/helper methods.
+# 5. Can be called using the class name.
+#
+# Example:
+#
+# ClassName.method()
 
-# Definition
-#...........
-# lll Static method is a method of a class
-# Static method is used to create utility methods (small/common tasks)
-
-# lll Static method is indicated by: @staticmethod
 
 
+# What is a Utility Method?
+# -------------------------
+#
+# A utility method performs a common task and does not
+# depend on object-specific data.
+#
+# Examples:
+# - Calculate Interest
+# - Validate Email
+# - Convert Temperature
+# - Generate OTP
+# - Calculate Tax
+
+
+
+# ATM Example
+# -----------
 
 class Atm:
 
+    # Static Variable
     counter = 1
-    
-    # constructor 
+
     def __init__(self):
-        self.pin = ''
+
+        # Instance Variables
+        self.pin = ""
         self.__balance = 0
+
         self.cid = Atm.counter
-        Atm.counter = Atm.counter + 1
-        #self.__menu()
-    
+        Atm.counter += 1
 
 
-
-
-
-    # utility method
+    # Static Method
     @staticmethod
-    def get_balance():
-        return Atm.__balance
+    def get_counter():
+        return Atm.counter
+
+
+    # Normal Method
+    def show_customer_id(self):
+        print(self.cid)
 
 
 
-
-
-
-
-    
-    def __menu(self):
-        user_input = input("""
-                
-        Hi how can I help you?
-        1. Press 1 to create pin
-        2. Press 2 to change pin
-        3. Press 3 to check balance
-        4. Press 4 to withdraw
-        5. Anything else to exist  
-
-        """)
-
-        if user_input == '1':
-            # create pin
-            self.create_pin()
-        elif user_input == '2':
-            # change pin
-            self.change_pin()
-        elif user_input == '3':
-            # check balance
-            self.check_balance()
-        elif user_input == '4':
-            # withdraw
-            self.withdraw()
-        else:
-            exit()
-
-
-    def create_pin(self):
-        user_pin = input("enter your pin : ")
-        self.pin = user_pin
-
-        user_balance = input("enter balance : ")
-        self.__balance = user_balance
-
-        print("Pin created successfully!")
-
-        self.__menu()
-
-
-    def change_pin(self):
-
-        old_pin = input("enter old pin : ")
-
-        if old_pin == self.pin:
-            # let him change the pin
-            new_pin = input("enter new pin : ")
-            self.pin = new_pin
-
-            print("pin change successfully!")
-        
-        else:
-            print("your pin is wrong!")
-            self.__menu()
-
-
-    def check_balance(self):
-        
-        user_pin = input("enter old pin : ")
-
-        if user_pin == self.pin:
-            print("you balance is : ", self.__balance)
-        
-        else:
-            print("your pin is wrong!")
-            self.menu()
-
-
-
-    def withdraw(self):
-
-        user_pin = input("enter the pin : ")
-
-        if user_pin == self.pin:
-
-            amount = input("enter the account balance : ")
-
-            if type(amount) == int and amount == self.__balance:
-                
-                withdraw_amount = input("enter withraw amount : ")
-                self.__balance = self.__balance - withdraw_amount
-
-                print("Now your balance after withdraw : ", self.__balance)
-            
-            else:
-                print("Enter valid value! OR  your account balance not correct!")
-        else:
-            print("your pin is wrong!")
-        
-
- 
+# Object Creation
 
 c1 = Atm()
-print(c1.cid) # 1
+print(c1.cid)      # 1
 
 c2 = Atm()
-print(c2.cid) # 2
+print(c2.cid)      # 2
 
 c3 = Atm()
-print(c3.cid) # 3
-
+print(c3.cid)      # 3
 
 print(Atm.counter) # 4
 
+
+
+# Quick Interview Comparison
+# ==========================
+
+# Normal Method
+# -------------
+# Belongs To     -> Object
+# First Argument -> self
+# Access Instance Variables -> Yes
+# Access Static Variables   -> Yes
+# Call Using     -> Object
+
+
+# Static Method
+# -------------
+# Belongs To     -> Class
+# First Argument -> No self
+# Access Instance Variables -> No
+# Access Static Variables   -> Yes
+# Call Using     -> Class Name
+
+
+
+# Most Asked Interview Question
+# -----------------------------
+#
+# Q. When should we use a static method?
+#
+# Answer:
+# We use a static method when the method does not need
+# any object-specific data and performs a common utility task.
+
+
+
+# 30-Second Interview Summary
+# ---------------------------
+#
+# Instance Variable -> Unique for every object.
+#
+# Static Variable -> Shared among all objects.
+#
+# Normal Method -> Works with object data and uses self.
+#
+# Static Method -> Utility/helper method that belongs
+#                  to the class and uses @staticmethod.

@@ -35,7 +35,7 @@ const UseEffectExample1 = () => {
  
   
   // Here use useEffect with nonempty dependencies array
-  // So, Whenever use useEffect with nonempty dependencies array then it will execute callback function whenever any change occour in the variable of dependencies array and also when the component loaded(UseEffectExample1)
+  // So, Whenever use useEffect with non empty dependencies array then it will execute callback function whenever any change occour in the variable of dependencies array and also when the component loaded(UseEffectExample1)
   useEffect(()=>{
     setTimeout(()=>{
       setNumCount((prev)=> prev+1)

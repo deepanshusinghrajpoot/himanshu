@@ -15,6 +15,8 @@ lll  when javasScript code is execute in global space the value of this refer to
    So, the value of this in the global space is environment-dependent.
 
 
+  
+
 🔁 Why is it different?
    Because JavaScript is used in multiple environments like browsers, Node.js, Web Workers, Deno, etc.
    Each provides its own version of the global object.
@@ -151,10 +153,10 @@ Question:- What is value of this inside an object method?
 🧠 Example — Method inside an Object
 
 const obj = {
-  a: 10,
-  x: function () {
-    console.log(this);
-  }
+   a: 10,
+   x: function () {
+      console.log(this);
+   }
 };
 
 obj.x();
@@ -191,11 +193,13 @@ this depends on how the method is invoked, not where it is defined."
 
 
 
+
+
 Question:- what is method borrowing? (call, apply, bind)
 --------------------------------------------------------
 
-
 ✅ this with call(), apply(), and bind() — (Interview Notes)
+
 
 lll What is Method Borrowing?
      In JavaScript, you/we can reuse a method of one object for another object by explicitly setting this.
@@ -308,6 +312,8 @@ lll 🧠 What is Lexical Context?
 
 
 lll Arrow functions capture this from the nearest non-arrow function or global context.
+
+
 
 📌 Example:
 

@@ -27,7 +27,7 @@ void printFibonacci(int n) {
     if (n >= 1) cout << a << " ";
     if (n >= 2) cout << b << " ";
 
-    for (int i = 3; i <= n; i++) {
+    for(int i = 3; i <= n; i++) {
         int c = a + b;
         cout << c << " ";
         a = b;

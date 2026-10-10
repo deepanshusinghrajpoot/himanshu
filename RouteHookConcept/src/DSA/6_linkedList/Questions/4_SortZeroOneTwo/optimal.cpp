@@ -131,7 +131,7 @@ Node* SortZeroOneTwo(Node* head){
 
 
     return zeroHead->next;
- 
+
 }
 
 
@@ -158,4 +158,5 @@ int main(){
     traverseLinkedList(head); 
 
     return 0;
+    
 }

@@ -41,6 +41,7 @@ Database → Staging → Transform → Core Layer
 ### Day 2+ (Incremental Load)
 New/Changed Data → Staging → Transform → Core Layer  
 
+
 ---
 
 ## lll Staging Layer for Incremental Loading ✅
@@ -84,6 +85,7 @@ There are two layer exist in staging layer.
 
 ---
 
+
 ## 💡 Pro Tip (Interview)
 --------------------------
 
@@ -92,5 +94,5 @@ There are two layer exist in staging layer.
 
 
 
+'''        
 
-'''

@@ -1,17 +1,24 @@
+
 # How To Make Private Member in Python
-#====================================
+#======================================
 
-# In Python, we make a private member using double underscore:  __
+#lll  In Python, we make a private member using double underscore:
 
-# Note:
-# Python internally creates a private member as:
-# _ClassName__variableName
-# Because of this, the private variable can still be accessed or modified.
+#     Note:
+#         Python internally creates a private member as:
+#         _ClassName__variableName
+#         Because of this, the private variable can still be accessed or modified.
+
+
+
 
 #*****************************************
 # lll In Python, nothing is truly private
 #*****************************************
-# Because Python is a programming language made for adults.
+#     Because Python is a programming language made for adults.
+
+
+
 
 
 
@@ -29,11 +36,13 @@
 
 
 
+
 # Encapsulation
 # -------------
 
 #lll Encapsulation is wrapping up data and the two member functions
 #    (getter and setter) into a single unit called encapsulation.
+
 #    Technically :- for every attribute, we create one getter and one setter.
 
 #           ------------------------------------------------------

@@ -6,7 +6,7 @@
 
 🔹 Definition
 
-A number is called an Armstrong number if the sum of its digits raised to the power of the number of digits equals the number itself.
+lll A number is called an Armstrong number if the sum of its digits raised to the power of the number of digits equals the number itself.
 
 Examples:
       153 → 1³ + 5³ + 3³ = 153 ✅ (Armstrong)
@@ -15,6 +15,7 @@ Examples:
 
 
 
+      
 
 
 

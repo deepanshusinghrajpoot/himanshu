@@ -407,6 +407,15 @@ lll “OLTP systems we use normalization (1NF–3NF) for consistency, and In dat
      
 
 
+
+
+What is Data Modeling?
+----------------------
+
+lll Spoken line: “Data modeling gives proper structure to data before storing it.”
+
+     
+
 4. Dimensional Data Modeling
 ----------------------------
 lll Organizes data into Fact Tables + Dimension Tables
@@ -417,7 +426,6 @@ lll Organizes data into Fact Tables + Dimension Tables
 Fact Table:
 
 lll “A Fact Table stores numeric or measurable values and includes foreign keys that link to dimension tables.
-
      It contains data at a granular level.
 
      A Surrogate Key is a System-generated unique identifire assigned to each record in the table.
@@ -445,6 +453,7 @@ lll “Dimensional modeling uses schemas like star and snowflake to define the l
      fact and dimension tables in a data warehouse.”
 
 
+     
      
 5. Dimensional Models / Schemas
 

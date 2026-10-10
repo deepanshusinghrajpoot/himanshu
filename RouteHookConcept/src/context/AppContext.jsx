@@ -1,10 +1,14 @@
+
 import {createContext} from 'react'
 
 export const AppContext = createContext();
 
 
+
+
 const ContextProvider = (props) => {
     
+
    const phone = "+8400332467"
    const owner = "DEEPANSHU SINGH"
 
@@ -16,6 +20,8 @@ const ContextProvider = (props) => {
             {props.children}
         </AppContext.Provider>
     )
+   
+
 }
 
 

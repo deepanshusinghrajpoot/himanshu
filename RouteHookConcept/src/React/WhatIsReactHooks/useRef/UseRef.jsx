@@ -7,7 +7,8 @@ const UseRef = () => {
   /*
 
 
-       =================== useState ===================
+
+       =================== useRef ===================
        useRef react Hook that allow us to create mutable variable,
        which will not re-render the component.
 
@@ -16,6 +17,7 @@ const UseRef = () => {
        - useRef is also used for accessing DOM elements.
 
 
+       
 
   */  
  

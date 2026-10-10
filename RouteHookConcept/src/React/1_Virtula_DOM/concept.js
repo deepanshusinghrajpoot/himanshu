@@ -30,6 +30,7 @@ Instead of updating the real page directly every time something changes, React f
 This approach allows React to determine the most efficient way to apply changes, enhancing performance.​
 
 
+
 🔄 The Diffing Algorithm
 
 When changes occur, React compares the new Virtual DOM with the previous version using a process called diffing.
@@ -83,6 +84,7 @@ This would look like:
 
 
 ✅ In Interview, If Asked:
+
 lll Q: What is Virtual DOM? Why does React use it?
 
 The Virtual DOM is like a lightweight blueprint of the actual web page.
@@ -94,6 +96,7 @@ This approach allows React to determine the most efficient way to apply changes,
 
 
 ⚛️ Virtual DOM vs Real DOM
+
 Feature	                               Virtual DOM	                               DOM
 Type	                                 Lightweight JavaScript object	             Actual browser DOM
 Speed	                                 Fast – changes computed in memory	         Slower – direct manipulation
@@ -182,6 +185,7 @@ resumed, or aborted, allowing React to handle complex updates more efficiently.
 
 
 🔄 1. Dual Fiber Trees (Current vs Work-in-Progress)
+
 React maintains two copies of the Fiber tree:
 
     Current Tree – The one currently shown on the screen (UI).

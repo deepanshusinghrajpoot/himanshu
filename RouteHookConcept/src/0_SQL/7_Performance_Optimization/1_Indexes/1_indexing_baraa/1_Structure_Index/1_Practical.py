@@ -74,6 +74,7 @@ ON top_50_sql_faang_practice.employees (city(100));
 
 
 
+
 # Drop Index in MySQL
 ----------------------
 

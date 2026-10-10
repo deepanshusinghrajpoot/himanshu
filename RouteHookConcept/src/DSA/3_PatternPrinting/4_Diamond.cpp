@@ -80,7 +80,10 @@ void diamond(int n){
 
         spaces += 1;
         stars -= 2;
+        
     }
+
+
 }
 
 

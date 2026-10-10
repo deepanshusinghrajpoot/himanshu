@@ -18,6 +18,7 @@ Check divisibility from 2 to n-1.
 #include <iostream>
 using namespace std;
 
+
 bool isPrime(int n) {
     if (n <= 1) return false;  // 0 and 1 are not prime
 
@@ -34,6 +35,8 @@ int main() {
     if (isPrime(n)) cout << n << " is Prime";
     else cout << n << " is Not Prime";
 }
+
+
 
 
 /*

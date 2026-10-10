@@ -16,6 +16,7 @@ lll A CTE is a temporary named result set that exists only for the duration of t
 
 
 
+    
 📌 Why do we use WITH?
 --------------------------
 1️⃣ Improves Readability & Structure

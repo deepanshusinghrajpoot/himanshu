@@ -13,10 +13,12 @@ map<key, value> vs unordered_map<key, value>
 
 📌 Definition
 
-map stores data in key–value pairs
-Keys are unique
+lll map stores data in key–value pairs
+    Keys are unique
+    Data is stored in sorted order (ascending by key)
+
 Internally implemented using a Balanced Binary Search Tree (Red–Black Tree)
-Data is stored in sorted order (ascending by key)
+
 
 📌 Syntax
 

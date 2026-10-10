@@ -20,6 +20,10 @@
 # 3. Code Reusability
 
 
+# lll Interview Definition
+# ------------------------
+#     "A function helps divide a large program into smaller, reusable blocks.
+
 
 
 # Components of a function

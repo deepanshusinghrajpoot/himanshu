@@ -7,7 +7,7 @@ import React from 'react'
 
 
 ✅ Debouncing in JavaScript
-✔lll Debouncing is a technique used to improve performance by limiting the rate at which a function executes, especially for high-frequency events like:
+✔lll Debouncing and Throttling are technique used to improve performance by limiting the rate at which a function executes, especially for high-frequency events like:
 
 
 Search inputs (auto-suggestions)

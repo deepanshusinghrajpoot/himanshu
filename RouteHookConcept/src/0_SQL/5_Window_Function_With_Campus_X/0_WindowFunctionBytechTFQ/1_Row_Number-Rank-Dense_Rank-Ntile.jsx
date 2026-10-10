@@ -36,8 +36,6 @@ lll A window function performs calculations across a set of rows related to the 
 
 
 
-
-
 -------------------------
 🔥 2. ROW_NUMBER()
 -------------------------
@@ -45,7 +43,6 @@ Definition
 
 lll ROW_NUMBER() Window Function Assigns a unique sequential number to each row in a window.
     No ties → always 1, 2, 3...
-
 
 Query
 

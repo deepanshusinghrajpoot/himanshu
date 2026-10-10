@@ -18,6 +18,7 @@ string removeSpace(string s){
     }
 
     return temp;
+
 }
 
 
@@ -33,6 +34,7 @@ int main(){
 
     return 0;
 }
+
 
 
 

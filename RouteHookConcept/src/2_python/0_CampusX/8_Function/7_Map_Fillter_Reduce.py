@@ -1,4 +1,9 @@
 
+# lll ✅ What is a Higher-Order Function (HOF)?
+#     ✔ A Higher-Order Function is a function that does at least one of the following:
+# 
+#       ✅ Takes another function as an argument
+#       ✅ Returns another function
 
 
 # map
@@ -147,9 +152,9 @@ print(list(filter(lambda x:x['age']==24, users)))
 # Reduce
 #=======
 
-# Note : reduce function does not available by default
-# first import :- functools
-# In functool has reduce
+# lll Note : reduce function does not available by default
+#     first import :- functools
+#     In functool has reduce
 
 # functools.reduce(function, iterable, initializer)
 

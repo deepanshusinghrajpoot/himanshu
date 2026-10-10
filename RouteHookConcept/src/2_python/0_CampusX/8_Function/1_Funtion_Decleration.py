@@ -30,16 +30,15 @@ is_even(10) # 10  is a even number!
 # Parameter Vs Arguments
 #========================
 
-# paraneter :- is use by function
-# argument :- is pass into function
+# lll  paraneter :- is use by function
+# lll  argument :- is pass into function
 
 
-# Type of Arguments
-#-------------------
-
-# Default Argument
-# Positional Argument
-# Keyword Argument
+# lll Type of Arguments
+#-----------------------
+#     Default Argument
+#     Positional Argument
+#     Keyword Argument
 
 
 # Default Argument

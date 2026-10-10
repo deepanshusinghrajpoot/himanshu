@@ -50,11 +50,18 @@ d = {
 print(d)
 
 
+# {'first_name': 'Deepanshu', 'last_name': 'Singh', 'age': 22, 'qualification': 'B.Tech'}
+
+
+
 # Dictionary with mixed keys
 #----------------------------
 
 d2 = {(1, 2, 3):1, "hellow":"World"}
 print(d2)
+
+# {(1, 2, 3): 1, 'hellow': 'World'}
+
 
 
 # 2D dictionary -> JSON style
@@ -73,6 +80,14 @@ d = {
 }
 
 print(d)
+# {'first_name': 'Deepanshu', 
+#  'last_name': 'Singh', 
+#  'age': 22, 
+#  'qualification': 'B.Tech', 
+#  'family_member': {'father': 'Mr. Vijay Bahadur Singh', 
+#                    'mother': 'Mis. Sanju Singh', 
+#                    'brother': 'Himanshu Singh'}}
+
 
 
 # Using dict sequence and dict() function
@@ -80,6 +95,7 @@ print(d)
 
 d = dict([('name', 'Himanshu Singh'), ('age', 24)])
 print(d)
+# {'name': 'Himanshu Singh', 'age': 24}
 
 
 # Duplicate keys
@@ -87,6 +103,8 @@ print(d)
 
 d = {'name':'Deepanshu', 'name':'Singh'}
 print(d)
+# {'name': 'Singh'}
+
 
 
 # Mutable items as key not allowed
@@ -113,6 +131,9 @@ print(d)
 
 d = {'name':'Deepanshu', 'age':22}
 print(d['name']) 
+# Deepanshu
+
+
 
 
 # Using get()
@@ -120,3 +141,8 @@ print(d['name'])
 
 d = {'name':'Deepanshu', 'age':22}
 print(d.get('name'))
+# Deepanshu
+
+
+
+

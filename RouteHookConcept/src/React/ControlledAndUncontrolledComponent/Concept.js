@@ -8,8 +8,10 @@
 What I’ll say to the interviewer 👇
 
 lll “In React, a controlled component is a form element whose value is fully controlled by React state.
+
 The input value comes from useState, and every change is handled using an onChange handler.
 This gives React complete control over the form data.”
+
 
 
 
@@ -48,7 +50,7 @@ Preferred in real-world React apps
 =================================================
 What I’ll say to the interviewer 👇
 
-“An uncontrolled component is a form element where React does not control the input value.
+lll “An uncontrolled component is a form element where React does not control the input value.
 Instead, the form data is handled by the DOM itself, and we access it using a ref.”
 
 

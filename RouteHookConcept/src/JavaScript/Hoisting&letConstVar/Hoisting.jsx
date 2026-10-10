@@ -5,7 +5,8 @@ import react from 'react';
 Interview-Ready Explanation:
 
 ✅ What is Hoisting?
-lll Hoisting is JavaScript's default behavior where variable and function declarations are moved to the top of their scope during the memory creation phase of the Global Execution Context (GEC).
+lll Hoisting is JavaScript's default behavior where variable and function declarations are moved to the top of their 
+    scope during the memory creation phase of the Global Execution Context (GEC).
 
 
 Step-by-Step Technical Breakdown:

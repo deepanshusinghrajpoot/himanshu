@@ -4,6 +4,8 @@ import { AppContext } from '../../../context/AppContext'
 const UseContextExample1 = () => {
   
   /*
+
+
     ********   1. Creating the context  *************
      Inside the context folder create context using:-  createContext()
 
@@ -12,6 +14,7 @@ const UseContextExample1 = () => {
     
     ********   3. Consuming the context  *************
      Now consuming context in every component useing :-  useContext(file name of context folder);
+
 
   */
 

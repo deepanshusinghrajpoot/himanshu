@@ -1,3 +1,5 @@
+
+
 /*
 
 
@@ -29,10 +31,13 @@ void selectionSort(int arr[], int n){
         arr[min] = arr[i];
         arr[i] = temp;
     }
+
 }
 
 
+
 int main(){
+
     int n;
     cout<<"Enter a the size of arr : ";
     cin>>n;
@@ -51,12 +56,19 @@ int main(){
     }
 
     return 0;
+
 }
 
 
 
 
+
+
+
+
+
 /*
+
 
 T.C = O(n^2)
 S.C = O(1)

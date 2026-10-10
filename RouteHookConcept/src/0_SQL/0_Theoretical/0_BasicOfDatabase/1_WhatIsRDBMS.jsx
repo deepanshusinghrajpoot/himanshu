@@ -39,14 +39,14 @@ Examples — DBMS: file systems, XML; RDBMS: MySQL, PostgreSQL, Oracle.
 lll 🎯 When RDBMS is Useful:
 
 RDBMS is use when data is structured and has clear relationships between entities.
-For example — in banking systems,  school management systems
+For example — in banking systems, school management systems
 
 RDBMS: MySQL, PostgreSQL, Oracle, SQL Server
 
 
 lll 📄 When Document DBMS is More Useful:
 
-Document DBMS  use when data is semi-structured or unstructured, and has not clear relationships between entities.
+Document DBMS use when data is semi-structured or unstructured, and has not clear relationships between entities.
 For example — social media apps, e-learning systems
 
 DBMS - MongoDB,
@@ -56,6 +56,9 @@ In short:
 
 👉 Use RDBMS when you need structured data with strong relationships and consistency.
 👉 Use Document DBMS when you need flexibility, scalability, and handle varying data structures.
+ 
+
+
 
 
 

@@ -10,7 +10,7 @@
 #         👉 frozenset is immutable (cannot be changed)
 #
 #       👉 FrozenSet is unordered (no fixed position)
-#       👉 FrozenSet does not allow duplicate values
+#       👉 FrozenSet does not allow dupl2icate values
 #       👉 FrozenSet is immutable (cannot be changed)
 #       👉 FrozenSet can contain only immutable (hashable) data types
 #

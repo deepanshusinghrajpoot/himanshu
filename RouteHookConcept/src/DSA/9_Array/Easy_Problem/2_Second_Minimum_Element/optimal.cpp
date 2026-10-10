@@ -12,7 +12,7 @@ using namespace std;
 int second_minimum_element_array(vector<int>&arr){
 
     int minimum = arr[0];
-    int secondMinimum = -1;
+    int secondMinimum = INT_MAX;
     for(int i=0; i<arr.size(); i++){
 
         if(arr[i] < minimum){

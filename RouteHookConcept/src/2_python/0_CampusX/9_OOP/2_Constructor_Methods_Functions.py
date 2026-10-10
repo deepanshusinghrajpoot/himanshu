@@ -8,7 +8,7 @@
 
 
 #lll method :- When a function implemented inside the class called method
-#lll function :- When a function not implemented inside the class called function
+#lll function :- When a function doesn't implemented inside the class called function
 
 
 L = [1, 2, 3, 4]
@@ -72,6 +72,9 @@ L.append(5) # method
 
 # 3. Copy Constructor : 👉 A constructor which creates a new object as a copy of an existing object is called a copy constructor.
 #......................
+
+
+
 
 
 class Student:

@@ -6,6 +6,7 @@ Database language
 
 Database languages are used to create, manage, and manipulate databases. They are mainly divided into five types:
 
+
 (1). DDL (Data Definition Language)
 -----------------------------------
 👉 Used to define and manage database structure.

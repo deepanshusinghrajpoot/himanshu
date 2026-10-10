@@ -4,10 +4,10 @@
 Constraints in MySQL
 ====================
 
-Definition
-----------
-Constraints are rules applied on table columns to ensure valid, accurate,
-and consistent data in the database.
+lll Definition
+    ----------
+          Constraints are rules applied on table columns to ensure valid, accurate,
+          and consistent data in the database.
 
 
 
@@ -329,6 +329,9 @@ CREATE TABLE orders (
      ON DELETE SET DEFAULT
      ON UPDATE SET DEFAULT
 );
+
+
+
 
 
 

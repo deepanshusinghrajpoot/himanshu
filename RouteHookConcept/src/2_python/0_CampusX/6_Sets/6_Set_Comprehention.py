@@ -139,3 +139,19 @@ nested_list = [[1, 2], [2, 3], [3, 4]]
 
 S = {i for sublist in nested_list for i in sublist}
 print(S)  # {1, 2, 3, 4}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

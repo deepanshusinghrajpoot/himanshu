@@ -409,7 +409,8 @@ output
 ✔ Definition (Easy to Understand)
 
 lll NTH_VALUE(col, n) Window Function → returns the nth value from the ordered window.
-    But NTH_VALUE window function works only when full frame rows are visible.
+    But NTH_VALUE window function works only when f
+    ull frame rows are visible.
  
 
 NTH_VALUE(col, 1) → first value

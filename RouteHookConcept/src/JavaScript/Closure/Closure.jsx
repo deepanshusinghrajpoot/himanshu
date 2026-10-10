@@ -7,7 +7,7 @@ import React from 'react'
 ✅ Closure — Perfect Definition
 ✔ "A Closure is created when a function remembers its lexical environment even after the outer function has finished executing."
 OR
-✔ lll "Function along with its lexical environment forms a Closure."
+✔   lll "Function along with its lexical environment forms a Closure."
 
 
 ✅ Basic Example of Closure
@@ -141,6 +141,7 @@ Hello Deepanshu
 ✅ Smart Interviewer Challenge — Solve with var using Closure:
 Closure creates a new copy of i for each iteration.
 
+
 function x() {
     for (var i = 1; i <= 5; i++) {
         (function close(x) {
@@ -152,6 +153,8 @@ function x() {
     console.log("Hello Himanshu");
 }
 x();
+
+
 ✅ Why It Works?
 ✔ IIFE (close function) is invoked immediately with i as an argument.
 ✔ Each close(x) creates a new execution context with a separate copy of x.

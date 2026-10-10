@@ -2,8 +2,11 @@
 '''
 
 
-=================================================================================================
+===============================================================================================================
 
+
+
+                                                                 
 INDEX
 ======
 
@@ -41,16 +44,15 @@ There are three main type of index.
           2. Filtered Index
 
 
-
-          
+        
 Trade-off
 .........
 
 # lll Indexes improve READ performance but may impact WRITE performance
 
 # Some indexes:
-# - Faster for SELECT (read-heavy systems)
-# - Slower for INSERT/UPDATE/DELETE (due to maintenance)
+# -    Faster for SELECT (read-heavy systems)
+# -    Slower for INSERT/UPDATE/DELETE (due to maintenance)
 
 
 
@@ -94,9 +96,9 @@ Page 3 → [Row4, Row6]
 SELECT * FROM employees WHERE id = 5;
 
 # Without index:
-- Scan Page 1 → Not found
-- Scan Page 2 → Found
-- Scan continues...
+-  Scan Page 1 → Not found
+-  Scan Page 2 → Found
+-  Scan continues...
 
 # Result → Slow performance
 
@@ -119,6 +121,7 @@ SELECT * FROM employees WHERE id = 5;
 - Heap does NOT use B+ Tree
 - Only raw data pages exist
 - No logical ordering
+
 
 
 

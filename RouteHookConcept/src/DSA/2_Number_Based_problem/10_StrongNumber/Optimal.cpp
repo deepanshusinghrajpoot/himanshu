@@ -2,7 +2,7 @@
 
 ✅ Definition: Strong Number
 
-A number is called a Strong Number if the sum of the factorials of its digits is equal to the number itself.
+lll A number is called a Strong Number if the sum of the factorials of its digits is equal to the number itself.
 
 Examples:
    145 → 1! + 4! + 5! = 1 + 24 + 120 = 145 ✅ (Strong Number)

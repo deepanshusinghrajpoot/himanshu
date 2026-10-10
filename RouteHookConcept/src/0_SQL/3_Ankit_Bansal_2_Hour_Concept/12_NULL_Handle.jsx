@@ -8,7 +8,7 @@
 -- ===============================
 
 -- 🔹 Role:
--- Replaces NULL with a specified value
+--        lll Replaces NULL with a specified value
 
 -- 🔹 Syntax:
 -- IFNULL(expression, replacement_value)
@@ -62,7 +62,7 @@ FROM customers;
 -- ===============================
 
 -- 🔹 Role:
--- Returns the FIRST non-NULL value from a list
+--       lll Returns the FIRST non-NULL value from a list
 
 -- 🔹 Syntax:
 -- COALESCE(value1, value2, value3, ...)
@@ -122,33 +122,6 @@ FROM products;
 
 
 
--- ===============================
--- CAST() Function
--- ===============================
-
--- 🔹 Role:
--- Converts a value from one data type to another
-
--- 🔹 Syntax:
--- CAST(expression AS datatype)
-
--- 🔹 Example:
-SELECT CAST('123' AS INT) AS result;
--- Output: 123 (string → integer)
-
-SELECT CAST(123.45 AS INT) AS result;
--- Output: 123 (decimal → integer)
-
-
--- 🔹 Real Use Case (ETL / Data Cleaning):
-SELECT 
-    CAST(order_date AS DATE) AS clean_date
-FROM orders;
-
-
-
-
-
 
 
 -- ===============================
@@ -156,9 +129,10 @@ FROM orders;
 -- ===============================
 
 -- 🔹 Role:
--- Compares two expressions.
--- If they are equal → returns NULL
--- If not equal → returns first value
+--    lll Compares two expressions.
+--            If they are equal → returns NULL
+--            If not equal → returns first value
+
 
 -- 🔹 Syntax:
 -- NULLIF(value1, value2)
@@ -199,6 +173,36 @@ FROM products;
 
 SELECT NULLIF(TRIM(cst_name), '') AS clean_name
 FROM customers;
+
+
+
+
+
+
+
+
+-- ===============================
+-- CAST() Function
+-- ===============================
+
+-- 🔹 Role:
+-- Converts a value from one data type to another
+
+-- 🔹 Syntax:
+-- CAST(expression AS datatype)
+
+-- 🔹 Example:
+SELECT CAST('123' AS INT) AS result;
+-- Output: 123 (string → integer)
+
+SELECT CAST(123.45 AS INT) AS result;
+-- Output: 123 (decimal → integer)
+
+
+-- 🔹 Real Use Case (ETL / Data Cleaning):
+SELECT 
+    CAST(order_date AS DATE) AS clean_date
+FROM orders;
 
 
 

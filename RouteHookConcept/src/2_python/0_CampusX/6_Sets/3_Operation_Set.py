@@ -12,7 +12,7 @@
 # 3. Set operations
 #    1. union (|)                :- Returns all unique elements from both sets
 #    2. intersection (&)         :- Returns common elements from both sets
-#    3. difference (-)           :- Returns elements present in first set only
+#    3. difference (-)            :- Returns elements present in first set only
 #    4. symmetric_difference (^) :- Returns elements not common to both sets
 
 

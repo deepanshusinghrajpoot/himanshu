@@ -20,6 +20,7 @@ const UseReducer = () => {
         first argument:- The reducer function specifies how the state gets updated.
 
 
+        
   */
 
   return (

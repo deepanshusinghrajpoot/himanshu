@@ -6,18 +6,18 @@ import React from 'react'
 ✅ Final Correct Interview-Style Answer:
 
 lll Scope in JavaScript
-Scope defines where we can access specific variables or functions in code.
+    Scope defines where we can access specific variables or functions in code.
 
 lll Lexical Environment
-Created whenever an Execution Context is created
+    Created whenever an Execution Context is created
 
 It consists of:
-Lexical Environment = Local Memory + Reference to Parent Lexical Environment
+   Lexical Environment = Local Memory + Reference to Parent Lexical Environment
 
 
 lll Simple Definition:
-"Lexical Environment means the local memory along with a reference to the parent Lexical Environment."
-"Lexical Context means where the function is physically present inside the code."
+    "Lexical Environment means the local memory along with a reference to the parent Lexical Environment."
+    "Lexical Context means where the function is physically present inside the code."
 
 
 ✅ Example with Execution Context, Lexical Environment, and Scope Chain:

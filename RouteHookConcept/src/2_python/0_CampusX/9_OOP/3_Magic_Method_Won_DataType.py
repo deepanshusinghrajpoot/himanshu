@@ -67,94 +67,147 @@ print("Divi fraction : ", f1 / f2)  # 6/4
 
 
 
-
-# Magic Methods or A.k.a Dunder Methods 
-#======================================
-
-# magic methods has super power
-
-# syntax :   __name__  
-# eg:  __init__
+# Magic Methods (Dunder Methods)
+# ==============================
 
 
+# Syntax:
+# __method_name__()
 
-# constructor magic method(gpt choose relavent name)
-#--------------------------
 
-# __init__
+# Examples:
+# __init__ , __str__ , __add__ , __sub__ , __mul__ , __truediv__
 
-# example
 
-# def __init__(self, x, y):
-#       self.num = x
-#       self.dev = y
+# Interview One-Liner:
+# Magic methods give special powers to objects by allowing them
+# to work with Python's built-in operators and functions.
 
 
 
+# 1. Constructor Method
+# ---------------------
+# Magic Method: __init__
+#
+# Purpose:
+# Automatically called when an object is created.
+#
+# Interview Answer:
+# __init__ is a constructor method used to initialize
+# object attributes at the time of object creation.
 
-# use to show the object(gpt choose relavent name) 
-#-----------------------
+# Example
 
-#  __str__
-
-# example
-
-# def __str__(self):
-#     return '{}/{}'.format(self.num, seft.den)
-
-
-
-
-# use to add the object(gpt choose relavent name) 
-#-----------------------
-
-#  __add__
-
-# example
-
-# def __add__(self, other):
-#     new_num = self.num*other.den + other.num*self.den
-#     new_den = self.den*other.den
-#     return '{}/{}'.format(new_num, new_den)
+def __init__(self, num, den):
+    self.num = num
+    self.den = den
 
 
 
-# use to sub the object(gpt choose relavent name) 
-#-----------------------
+# 2. Object String Representation
+# -------------------------------
+# Magic Method: __str__
+#
+# Purpose:
+# Controls how an object is displayed when using print().
+#
+# Interview Answer:
+# __str__ returns a human-readable string representation
+# of an object.
 
-#  __sub__
+# Example
 
-# example
-
-# def __sub__(self, other):
-#     new_num = self.num*other.den - other.num*self.den
-#     new_den = self.den*other.den
-#     return '{}/{}'.format(new_num, new_den)
-
-
-
-# use to mul the object(gpt choose relavent name) 
-#-----------------------
-
-#  __mul__
-
-# example
-
-# def __mul__(self, other):
-#     new_num = self.num*other.den * other.num*self.den
-#     new_den = self.den*other.den
-#     return '{}/{}'.format(new_num, new_den)
+def __str__(self):
+    return "{}/{}".format(self.num, self.den)
 
 
 
-# use to truediv the object(gpt choose relavent name) 
-#-----------------------
+# 3. Object Addition Operator Overloading
+# ---------------------------------------
+# Magic Method: __add__
+#
+# Purpose:
+# Defines behavior of the '+' operator for objects.
+#
+# Interview Answer:
+# __add__ is used to perform addition between two objects.
 
-#  __truediv__
+# Example
 
-# example
+def __add__(self, other):
+    new_num = self.num * other.den + other.num * self.den
+    new_den = self.den * other.den
+    return "{}/{}".format(new_num, new_den)
 
-# def __truediv__(self, other):
-#     new_num = self.num*other.den
-#     new_den = self.den*other.num
-#     return '{}/{}'.format(new_num, new_den)
+
+
+# 4. Object Subtraction Operator Overloading
+# ------------------------------------------
+# Magic Method: __sub__
+#
+# Purpose:
+# Defines behavior of the '-' operator for objects.
+#
+# Interview Answer:
+# __sub__ is used to perform subtraction between two objects.
+
+# Example
+
+def __sub__(self, other):
+    new_num = self.num * other.den - other.num * self.den
+    new_den = self.den * other.den
+    return "{}/{}".format(new_num, new_den)
+
+
+
+# 5. Object Multiplication Operator Overloading
+# ---------------------------------------------
+# Magic Method: __mul__
+#
+# Purpose:
+# Defines behavior of the '*' operator for objects.
+#
+# Interview Answer:
+# __mul__ is used to perform multiplication between two objects.
+
+# Example
+
+def __mul__(self, other):
+    new_num = self.num * other.num
+    new_den = self.den * other.den
+    return "{}/{}".format(new_num, new_den)
+
+
+
+# 6. Object Division Operator Overloading
+# ---------------------------------------
+# Magic Method: __truediv__
+#
+# Purpose:
+# Defines behavior of the '/' operator for objects.
+#
+# Interview Answer:
+# __truediv__ is used to perform division between two objects.
+
+# Example
+
+def __truediv__(self, other):
+    new_num = self.num * other.den
+    new_den = self.den * other.num
+    return "{}/{}".format(new_num, new_den)
+
+
+
+# Quick Interview Revision
+# ========================
+#
+# __init__      -> Object Initialization (Constructor)
+# __str__       -> Object String Representation
+# __add__       -> '+' Operator Overloading
+# __sub__       -> '-' Operator Overloading
+# __mul__       -> '*' Operator Overloading
+# __truediv__   -> '/' Operator Overloading
+#
+# Interview One-Liner:
+# Magic methods allow custom objects to behave like
+# built-in Python data types.

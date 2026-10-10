@@ -23,10 +23,10 @@ My strong command of MySQL and SQL concepts, including relational schema design,
 forms the foundation of my data-driven and problem-solving approach.
 
 During my academic journey, I worked on real-life applications such as a Hospital Management System, a Learning Management System (LMS), 
-and a Chat Application. In the Hospital Management System, I focused on frontend and backend and 
-I am confident in designing healthcare workflows using MySQL for structured data management and reporting.
+and a Chat Application. 
 
-
+I am passionate about learning new technologies, improving my technical skills, and building scalable applications 
+that solve real-world problems.
 
 
 
@@ -88,6 +88,26 @@ that solve real-world problems.
 
 
 
+I have hands-on experience with SQL and Python libraries such as Pandas and NumPy for data transformation, analysis, and processing.
+
+
+
+Hello, my name is Deepanshu Singh, and I have completed B.Tech in Information Technology from 
+Dr. Ambedkar Institute of Technology for Handicapped, Kanpur.
+
+I have strong programming knowledge in SQL, JavaScript, C++, and Python. I also have hands-on experience 
+with Python libraries such as Pandas and NumPy for data transformation, analysis, and processing.
+
+My strong commond of MySQL and SQL concepts — including relational schema design, normalization, 
+joins, indexing, data modeling, and data analysis — forms the foundation of my data-driven  
+and problem-solving approach.
+
+During my academic journey, I worked on real-life projects, including a Data Warehouse project.
+In this project, I worked on data ingestion, ETL processes, data transformation, data modeling, 
+and SQL-based analytical reporting.
+
+I am passionate about learning new technologies and improving my technical skills.
+
 
 
 
@@ -112,6 +132,8 @@ What to Ask the recruiter (Before You Leave)
 Could you please share a bit about the work environment and team culture? 
 Also, I’d love to know whether the tasks or projects assigned will align with my technical skills and interests, 
 and what kind of learning or mentorship support is provided during the training period.
+
+
 
 
 

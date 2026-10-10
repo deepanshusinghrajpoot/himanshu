@@ -7,8 +7,7 @@
 
 # Generality to Specificity
 
-# The main power of OOP is that the OOP give a programmer a power to create our won data type.
-
+# lll We know that OOP allows programmers to create their own custom data types using classes.
 
 
 

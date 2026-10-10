@@ -36,11 +36,13 @@ An organization stores:
            - Stores **real-time operational data**
            - Used by applications for daily operations
 
-           
+
+                              
 **Problem:**  
 lll "When we Run heavy queries on a live database can slow down performance."
 
 
+ 
 
 ---
 

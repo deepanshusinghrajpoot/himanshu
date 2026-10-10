@@ -16,4 +16,6 @@ const Header1 = () => {
 //lll   It re-renders the component only when its props change, not when parent re-renders.
 
 
+
 export default React.memo(Header1)
+

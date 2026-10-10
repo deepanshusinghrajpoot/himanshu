@@ -3,7 +3,7 @@
 
 
 
-Independent Subquery - Scalary Subquery
+Independent Subquery - Scalar Subquery
 ---------------------------------------
 
 

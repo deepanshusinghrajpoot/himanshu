@@ -9,9 +9,8 @@ What is Database?
 
 lll The Database is a collection of inter-related data which is use to retrieve, insert and delete the data efficiently.
 
+
 It is also used to organize the data in the form of table, schema, riews, and report, etc.
-
-
 
 
 
@@ -22,10 +21,7 @@ lll 👉 DBMS is software that use to stores, organizes, and manages data effici
        providing data security, consistency, and easy access compared to traditional file systems.
 
 
-
-
 Characteristics of DBMS
-
 
 It uses a digital repository established on server to store and manage the information.
 It can provide a clear and logical view of the process that manipulates data.
@@ -38,8 +34,6 @@ It can view the database from different viewpoints according to the requirements
 
 
 
-
-
 Advantage of DBMS
 -----------------
 
@@ -48,10 +42,6 @@ Advantage of DBMS
 3. Reduce time
 4. Backup
 5. Multiple user interface
-
-
-
-
 
 
 Disadvantages of DBMS

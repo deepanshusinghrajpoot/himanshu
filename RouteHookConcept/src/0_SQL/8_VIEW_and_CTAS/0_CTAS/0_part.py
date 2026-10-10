@@ -9,12 +9,14 @@
 
 What is CTAS?
 =============
-
-Spoken:
-"In CTAS, we do not need to define the table schema manually.
-The schema is automatically created based on the SELECT query result."
+ 
 
 
+Spoken: "In CTAS(Create Table As Select), we do not need to define the table schema manually.
+         The schema is automatically created based on the SELECT query result."
+
+
+           
 ---
 
 CTAS Syntax
@@ -44,6 +46,9 @@ CREATE TABLE table_name AS (
 
 
 
+
+
+
 💡 Simple Memory Trick
 MySQL → No AS ❌
 PostgreSQL/Snowflake → Use AS ✅
@@ -53,21 +58,15 @@ PostgreSQL/Snowflake → Use AS ✅
 
 
 
-
-
-
 Use Case
 ========
 
-Spoken:
-"CTAS is used to quickly create a table from existing data,
-for backup, transformation, or temporary analysis."
+Spoken:   CTAS is used to quickly create a table from existing data,
+          for backup, transformation, or temporary analysis.
 
 
 
+          
 
-
-
-
-
+          
 '''

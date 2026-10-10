@@ -2,6 +2,7 @@
 #======================
 
 
+
 #lll There are three common ways to add elements to a list:
 #----------------------------------------------------------
 # 1. append() :- adds a single element at the end of the list

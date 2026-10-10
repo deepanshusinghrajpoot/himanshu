@@ -5,8 +5,9 @@ import React from 'react'
 /*
 
 ✅ What is a Polyfill?
-✔ lll  Ployfill are basically our won implementation of an inbuild function in javaScript
-✔ lll  A Polyfill is code that adds missing functionality in older browsers by providing your/our own implementation for methods that may not exist natively.
+
+✔ lll  Polyfills are basically our won implementation of an inbuild function in javaScript
+
 ✔ It's often used to replicate modern JavaScript features in environments that don't support them.
 
 

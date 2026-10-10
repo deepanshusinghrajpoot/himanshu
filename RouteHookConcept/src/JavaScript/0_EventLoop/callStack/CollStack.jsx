@@ -5,21 +5,27 @@ const CollStack = () => {
 
 /*     
     lll ✅ Interview-Ready: JavaScript Execution Context & Call Stack
-          🧠 "When any JavaScript code runs, the JavaScript engine first creates a Global Execution Context (GEC). 
+
+           🧠 "When any JavaScript code runs, the JavaScript engine first creates a Global Execution Context (GEC). 
            This GEC is then pushed onto the Call Stack."
 
-          ✨ "The Global Execution Context has two main phases:
+           ✨ "The Global Execution Context has two main phases:
 
            Memory Creation Phase (Hoisting Phase) – All variables and function declarations are stored in memory with initial values (undefined for variables, full definition for functions).
 
            Code Execution Phase – The code is executed line-by-line, and values are assigned or computed."
 
-          🔁 "Every time a function is invoked, a new Execution Context is created for that function and pushed onto the Call Stack. When the function finishes execution, its context is popped off the stack, 
-          returning control to the previous context."
+           🔁 "Every time a function is invoked, a new Execution Context is created for that function and pushed onto the Call Stack. When the function finishes execution, its context is popped off the stack, 
+           returning control to the previous context."
 
 
 
+
+
+           
        🧪 JavaScript Execution Context with Call Stack – Full Example
+
+
           👉 Sample Code:
 
                  var x = 10;
@@ -119,6 +125,8 @@ const CollStack = () => {
 
 
       ✅ Interview-Ready: Event Loop in JavaScript
+
+
  lll      🔄 "The Event Loop is a core mechanism in JavaScript that continuously checks the Call Stack and the Callback Queue."
 
  lll      👉 "Its primary role is to move pending asynchronous callbacks (like from setTimeout, fetch, or event handlers) from the Callback Queue to the Call Stack – but only when the Call Stack is empty."
@@ -127,7 +135,10 @@ const CollStack = () => {
    
         
 
+
+
 lll      ✅ Microtask Queue vs Callback Queue – Explained
+
          🧠 JavaScript uses two main queues to handle asynchronous operations:
 
           Callback Queue (Macrotask Queue) – for setTimeout, setInterval, DOM events, etc.
@@ -175,7 +186,8 @@ lll      ✅ Microtask Queue vs Callback Queue – Explained
 
 
          🔄 How They Work with the Event Loop:
-    lll    ✔️ Microtask Queue has higher priority than the Callback Queue (Macrotask Queue).
+
+    lll        ✔️ Microtask Queue has higher priority than the Callback Queue (Macrotask Queue).
 
                 That means after each task from the Call Stack is completed, the Event Loop will first:
 
@@ -184,6 +196,7 @@ lll      ✅ Microtask Queue vs Callback Queue – Explained
                 Only when the Microtask Queue is empty will it begin processing tasks from the Callback Queue (Macrotask Queue).
          
 
+                
 
           .            .                                 .                          .
           .            .                                 .                          .
@@ -391,6 +404,7 @@ lll     Starvation happens when the Callback Queue (Macrotasks) never get a chan
 
 
     // Example of Call Stack in JavaScript
+    
              var x = 10;
 
              function outer() {

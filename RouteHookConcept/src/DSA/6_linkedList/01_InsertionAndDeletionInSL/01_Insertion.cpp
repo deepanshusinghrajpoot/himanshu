@@ -21,9 +21,9 @@ Insertion of element in linked list
 */
 
 
+
 #include<bits/stdc++.h>
 using namespace std;
-
 
 
 
@@ -32,6 +32,7 @@ class Node{
     public:
       int data;
       Node* next;
+
 
     public:
       Node(int data1, Node* next1){
@@ -48,6 +49,8 @@ class Node{
 
 
 
+
+
 Node* converArrIntoLinkedList(vector<int>&arr){
 
     Node* head = new Node(arr[0]);
@@ -60,6 +63,7 @@ Node* converArrIntoLinkedList(vector<int>&arr){
     }
 
     return head;
+    
 }
 
 

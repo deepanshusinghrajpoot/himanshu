@@ -1,4 +1,5 @@
 
+
 # Sets
 #======
 
@@ -18,11 +19,12 @@
 
 
 
+
 # Characteristics of Set
 #------------------------
 
-# lll Unordered                             -> Items do not have a fixed position
-# lll Mutable                               -> Elements can be added or removed
+# lll Unordered                                 -> Items do not have a fixed position
+# lll Mutable                                   -> Elements can be added or removed
 # lll Does not allow duplicates
 # lll Stores only immutable (hashable) elements
 

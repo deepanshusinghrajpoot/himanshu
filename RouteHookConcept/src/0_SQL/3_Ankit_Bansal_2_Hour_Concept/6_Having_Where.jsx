@@ -3,9 +3,6 @@
 
 
 
-
-
-
 Movies Table (Sample Data – 20 Rows)
 
 | name                 | rating | genre     | year | released | score | votes | director  | writer   | star        | country | budget | gross | company    | runtime |

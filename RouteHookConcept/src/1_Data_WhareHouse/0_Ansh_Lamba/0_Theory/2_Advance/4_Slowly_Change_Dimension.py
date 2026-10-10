@@ -18,8 +18,8 @@ Slowly Changing Dimensions (SCD)
 -- Definition
 -- =========================================
 
--- Slowly Changing Dimension (SCD) is a technique used in data warehousing
--- to manage and track changes in dimension data over time.
+-- lll Slowly Changing Dimension (SCD) is a technique used in data warehousing
+--     to manage and track changes in dimension data over time.
 
 
 -- =========================================
@@ -46,7 +46,7 @@ Slowly Changing Dimensions (SCD)
 
 
 -- =========================================
--- Types of Slowly Changing Dimensions
+-- lll Types of Slowly Changing Dimensions
 -- =========================================
 
 -- Type 0 → No Change
@@ -60,9 +60,9 @@ Slowly Changing Dimensions (SCD)
 -- Type 0 (No Change)
 -- =========================================
 
--- Definition:
--- In Type 0, data never changes.
--- Once inserted, it remains fixed.
+-- lll Definition:
+--       In Type 0, data never changes.
+--       Once inserted, it remains fixed.
 
 -- Example:
 -- Date of Birth should never change
@@ -79,9 +79,9 @@ DimCustomer
 -- Type 1 (UPSERT - Overwrite)
 -- =========================================
 
--- Definition:
--- In Type 1, old data is overwritten with new data.
--- No history is maintained.
+-- lll Definition:
+--        In Type 1, old data is overwritten with new data.
+--        No history is maintained.
 
 ---------------------------------
 -- Before
@@ -109,9 +109,9 @@ Product_ID | Name   | Prod_Cat
 -- Type 2 (History Maintenance)
 -- =========================================
 
--- Definition:
--- In Type 2, a new row is created whenever data changes.
--- Full history is preserved.
+-- lll Definition:
+--          In Type 2, a new row is created whenever data changes.
+--          Full history is preserved.
 
 -- Additional Columns:
 -- effect_start_date, effect_end_date, in_use
@@ -144,9 +144,9 @@ Product_ID | Name  | Prod_Cat | Start_Date | End_Date   | In_Use
 -- Type 3 (Previous Value)
 -- =========================================
 
--- Definition:
--- In Type 3, only the previous value is stored.
--- Limited history is maintained.
+--  lll Definition:
+--         In Type 3, only the previous value is stored.
+--         Limited history is maintained.
 
 -------------------------------------------------
 -- Before

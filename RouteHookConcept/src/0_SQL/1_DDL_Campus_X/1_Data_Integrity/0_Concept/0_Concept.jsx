@@ -9,7 +9,7 @@ Data Integrity
 
 Definition
 ----------
-lll Data Integrity means maintaining the accuracy, consistency, and reliability of data
+lll Data Integrity maintaining the accuracy, consistency, and reliability of data
     throughout its lifecycle in a database.
 
 In simple words, data stored in the database should be correct, valid, and unchanged
@@ -46,7 +46,7 @@ lll “ACID properties are important because they prevent data inconsistency, en
 
 
 
-
+     
 (3). Normalization  
 --------------------
 

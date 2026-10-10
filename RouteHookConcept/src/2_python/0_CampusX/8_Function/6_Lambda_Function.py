@@ -5,7 +5,7 @@
 #================
 
 #lll A lambda function is a small anonymous function.
-#    A lambda function can take any number of arguments, but can only have one expression.
+#    A lambda function can take any number of arguments, but it has only one expression.
 
 
 # syntax
@@ -18,14 +18,18 @@
 #....................................................
 
 a = lambda x : x**2
-print(a(3))# 9
+print(a(3))   # 9
+
+
 
 
 # Ques :- create function to check a is persent in string or not
 #...............................................................
 
 b = lambda x: 'a' in x
-print(b("Deepanshu")) # True
+print(b("Deepanshu"))  # True
+
+
 
 
 # Ques :- create function to check given number is odd or even

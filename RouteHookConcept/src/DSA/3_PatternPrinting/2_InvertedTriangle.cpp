@@ -1,17 +1,21 @@
 
 /*
 
+
+
+
+
 2. Inverted triangle
 --------------------
 
 🔹 Your Code Output (if n = 5)
-
 
 *****
 ****
 ***
 **
 *
+
 
 
 

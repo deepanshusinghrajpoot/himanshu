@@ -13,12 +13,43 @@ In Python, polymorphism is implemented in three ways
 3. Operator overloading
 
 
+
 1. Method Overriding
 ====================
 
  lll Base class & derived class both contain the same method with different implementations.
      The base class method is said to be overridden.
 
+
+"""
+
+
+
+
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
+
+
+class Dog(Animal):
+    def sound(self):          # Overriding the parent method
+        print("Dog barks")
+
+
+obj = Dog()
+obj.sound()
+
+
+
+
+
+
+
+
+
+"""
+
+     
 
 2. Function Overloading (method overloading)
 =============================================
@@ -28,11 +59,11 @@ In Python, polymorphism is implemented in three ways
   
   lll When a class has more than one method with the same name but different numbers of
       parameters, it is called method overloading.
-  
 
-Python doesn't support method overloading.
-We achieve it using default arguments.
+      Python doesn't support method overloading.
+      We achieve it using default arguments.
 
+      
 """
 
 # Example

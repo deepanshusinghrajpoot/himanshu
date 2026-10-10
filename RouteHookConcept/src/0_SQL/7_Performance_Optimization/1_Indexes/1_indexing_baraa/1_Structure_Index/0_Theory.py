@@ -32,7 +32,6 @@ For Example:
 
      Lets make it primary key
 
-
      EMPID        NAME        ADDRESS
        1           A           City1
        4           C           City3

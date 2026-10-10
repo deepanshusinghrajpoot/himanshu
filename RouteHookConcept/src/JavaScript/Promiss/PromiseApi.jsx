@@ -2,6 +2,7 @@
 
 ✅ Promise API Full Notes – Interview Level 🚀
 
+
 1️⃣ Promise.all()
     Use case: Run multiple promises in parallel and wait for all of them to finish successfully.
     If any one fails: It immediately rejects with the error of the first failed promise.

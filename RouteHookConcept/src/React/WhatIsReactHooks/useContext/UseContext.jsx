@@ -2,7 +2,9 @@ import React from 'react'
 import UseContextExample1 from './UseContextExample1'
 
 const UseContext = () => {
+  
   /*
+
      =================== useContext ===================
 
      useContext React Hook that allows you/us access data from any component without
@@ -81,6 +83,7 @@ const UseContext = () => {
     
     that reduce the API call
 
+    
 
   */
 

@@ -1,4 +1,7 @@
 /*
+
+
+
 ✅ Final Answer (clean, corrected, and ready to speak):
 
 Q: What is React, and why is it popular?

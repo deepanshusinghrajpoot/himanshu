@@ -22,6 +22,7 @@ void printNumberofVowelConsonantDigitSpace(string s){
          else if(s[i] == ' '){
             space++;
          }
+         
     }
 
 

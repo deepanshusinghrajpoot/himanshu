@@ -5,15 +5,15 @@
 Abstraction
 -----------
 
-Hiding all unnecessary details & showing only the important parts.
+lll Hiding all unnecessary details & showing only the important parts.
 
 
 
 Abstract Class
 --------------
 
-An abstract class is a class that contains 
-at least one abstract method.
+lll An abstract class is a class that contains 
+    at least one abstract method.
 
 
 
@@ -21,8 +21,8 @@ at least one abstract method.
 Abstract Method
 ---------------
 
-An abstract method is a method that is declared 
-but does not contain any implementation.
+lll An abstract method is a method that is declared 
+    but does not contain any implementation.
 
 
 In Python, an abstract class is created in two steps:

@@ -6,6 +6,7 @@ Question: What is callback and what issues of cllback?
 ✅ what is callback?
 lll when a function is pass as an argument to another function, it is called a callback.
 
+
 ✅ Importance of Callbacks
 Callbacks are a super powerful way of handling asynchronous operations in JavaScript.
 lll Asynchronous programming exists because callbacks exist.

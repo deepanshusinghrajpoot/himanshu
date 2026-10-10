@@ -84,12 +84,9 @@ print(id(c2))      # 2916404230096
 
 
 
-# What is instance variable
-#---------------------------
-# In upper give class :- brand , model, price are instance variable
-
-# Note :- That vriable is qnique for every object
-#      :- har ek object ke liye alag hota(conver into eglish as interview spoken)
-
+# Interview One-Liner:
+# ====================
+# lll An instance variable is a variable whose value is unique
+#     to each object of a class.
 
 

@@ -76,6 +76,7 @@ df = spark.read.format('csv') \
 df.printSchema()   # Role: Verify schema
 
 
+
 # ============================================
 # Objective of Methods
 # ============================================

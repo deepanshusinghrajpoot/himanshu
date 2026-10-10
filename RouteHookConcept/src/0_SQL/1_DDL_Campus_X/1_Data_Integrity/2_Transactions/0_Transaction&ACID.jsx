@@ -26,9 +26,9 @@ Both must succeed together → otherwise rollback.
 
 Answer:
 
-And Sir We know that in transactions
-“ACID properties are important because they prevent data inconsistency, ensure correctness of transactions, and protect 
-the database from partial updates, system crashes, and concurrent access issues.”
+lll And Sir We know that in transactions
+           “ACID properties are important because they prevent data inconsistency, ensure correctness of transactions, and protect 
+            the database from partial updates, system crashes, and concurrent access issues.”
 
 
 🔹 ACID Properties of Transactions
