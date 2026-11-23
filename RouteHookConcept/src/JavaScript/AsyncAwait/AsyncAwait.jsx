@@ -4,6 +4,7 @@ import React from 'react'
 
 
 
+  
 🔥 1. What is async?
 
 lll The async keyword is used to define a function that always returns a Promise.

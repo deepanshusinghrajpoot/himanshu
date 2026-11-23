@@ -1,5 +1,6 @@
 /*
 
+
 Question:- What is value of this in global scope?
 -------------------------------------------------
 

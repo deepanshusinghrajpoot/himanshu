@@ -85,6 +85,7 @@ int reverseNumber(int n) {
     return isNegative ? -rev : rev;
 }
 
+
 int main() {
     int n;
     cout << "Enter a number: ";

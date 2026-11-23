@@ -69,6 +69,7 @@ int main() {
 
 /*
 
+
 🔹 Explanation
 
 We already checked if the number is even (n % 2 == 0) before this loop.
@@ -81,8 +82,6 @@ Hence, we skip even numbers and check only odd divisors.
 
 ⏱ Time Complexity: O(√N) (much faster)
 💾 Space Complexity: O(1)
-
-
 
 
 

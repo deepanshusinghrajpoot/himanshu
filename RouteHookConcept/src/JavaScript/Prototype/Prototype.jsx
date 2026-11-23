@@ -21,8 +21,8 @@ import React from 'react'
 
 
 ✅ Prototype Inheritance in JavaScript - Complete Interview Notes
-✔ lll  Prototype Inheritance is the foundation of inheritance in JavaScript.
-✔ lll  Prototype Inheritance allows one object to access properties or methods of another object through the prototype chain.
+✔  Prototype Inheritance is the foundation of inheritance in JavaScript.
+✔  Prototype Inheritance allows one object to access properties or methods of another object through the prototype chain.
 
 
 
@@ -54,6 +54,7 @@ obj.__proto__.__proto__ === null       // true
 fun.__proto__ === Function.prototype   // true  
 fun.__proto__.__proto__ === Object.prototype  // true  
 fun.__proto__.__proto__.__proto__ === null   // true  
+
 
 ✔ lll Everything in JavaScript (arrays, objects, functions) eventually links to Object.prototype.
 ✔ This forms the Prototype Chain, ending at null.

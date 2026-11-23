@@ -6,6 +6,8 @@ using namespace std;
 
 /*
 
+
+
 Constructor
 -----------
 
@@ -38,7 +40,7 @@ Special method invoked automatically at time of object creation. Used for Initia
 
 
 
-       Non-Parameterized Constructor
+Non-Parameterized Constructor
 
 lll 👉 A constructor which does not take any parameter is called a non-parameterized constructor.
 It assigns default values to the object’s data members.
@@ -49,6 +51,7 @@ lll 👉 A constructor which takes parameters is called a parameterized construc
 It allows us to assign custom values to the object’s data members at the time of creation.
 
        
+
 
 */
 
@@ -61,8 +64,7 @@ class Teacher {
  private:
     double salary;
 
-
-
+    
 
  public:
     // properties or attribute

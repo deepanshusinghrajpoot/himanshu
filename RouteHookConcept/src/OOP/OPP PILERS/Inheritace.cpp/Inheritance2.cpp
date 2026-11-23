@@ -2,10 +2,15 @@
 
 /*
 
+
+
+
+
+
+
         Inheritance
         -----------
-
-        When properties & member functions of base class are passed on to the derived class.
+            When properties & member functions of base class are passed on to the derived class.
 
             
             class A (Parent, Base)
@@ -87,6 +92,8 @@ If derived protectedly, they become protected in derived class.
 If derived publicly, they remain public in derived class.
 
 👉 So public inheritance maintains the same access level, while private/protected inheritance restricts it.
+
+
 
 
 

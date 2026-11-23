@@ -1,6 +1,7 @@
 """
+
 Git Workflow and Four Stages
-=============================
+============================
 
 When we work with Git, we commonly work with four stages:
 
@@ -128,4 +129,5 @@ git pull
 # stage changes, git commit to save them locally, and git push
 # to share our commits with the remote repository.
 # To get the team's latest changes, we use git pull.
+
 """

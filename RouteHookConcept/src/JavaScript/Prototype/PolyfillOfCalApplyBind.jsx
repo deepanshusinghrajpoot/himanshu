@@ -2,7 +2,25 @@ import React from 'react'
 
 
 
+
+
+
+
+
+
+
 /*
+
+
+
+
+
+
+
+
+
+
+
 
 ✅ What is a Polyfill?
 
@@ -27,7 +45,7 @@ Requirement
 
 
 
-
+ 
 ✅ Basic Example
 
 let name = {
@@ -211,7 +229,17 @@ x("3000000000");
 
 
 
+
+
+
+
+
+
+
+
 */
+
+
 
 
 
@@ -266,6 +294,25 @@ const PolyfillOfCallApplyBind = () => {
   return (
     <div><h1>PolyfillOfBindMethod</h1></div>
   )
+
 }
 
 export default PolyfillOfCallApplyBind
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
